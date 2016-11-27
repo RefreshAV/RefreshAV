@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Refresh Annapolis Valley</title>
+    <link>https://refreshannapolisvalley.org/people/john-frost/index.xml</link>
+    <description>Recent content on Refresh Annapolis Valley</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-ca</language>
+    <atom:link href="https://refreshannapolisvalley.org/people/john-frost/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The Startup Life: Feel The Frost Byte</title>
+      <link>https://refreshannapolisvalley.org/event/the-startup-life-feel-the-frost-byte/</link>
+      <pubDate>Tue, 13 Dec 2016 19:00:00 -0300</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/the-startup-life-feel-the-frost-byte/</guid>
+      <description>&lt;p&gt;Business-hypothesis-driven experimentation.  Iterative product releases. Validated learning.  Pivot. Pivot. Pivot.  Welcome to the tech startup world of &lt;a href=&#34;https://refreshannapolisvalley.org/person/john-frost&#34;&gt;John Frost&lt;/a&gt;
+.&lt;/p&gt;
+
+&lt;p&gt;From the early days of Frostbyte Interactive, Aerhyve Aerial Technologies, and now PrecisionHawk, John&amp;rsquo;s pursuit of innovative products and services in the digital tech space runs years long.  Join us for a fireside chat with John where we will explore the inner working of a person committed to the startup life.  We will examine his failures, study lessons learned from the startup trenches, and most importantly celebrate his successes.&lt;/p&gt;
+
+&lt;p&gt;John&amp;rsquo;s story is one also of the Annapolis Valley startup community.  As a tenant of the Rural Innovation Centre at Acadia University from day one, we will also explore how we are fairing in incubating innovative within our community.&lt;/p&gt;
+
+&lt;p&gt;A continuation of their always entertaining profiles of amazing Nova Scotia talent, &lt;a href=&#34;https://refreshannapolisvalley.org/organization/we-are-ns&#34;&gt;
+    
+        We Are NS
+    
+&lt;/a&gt;
+ champions Wes Booth and Jessy Gervais will be our guides for the evening.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PrecisionHawk</title>
+      <link>https://refreshannapolisvalley.org/organization/precisionhawk/</link>
+      <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/organization/precisionhawk/</guid>
+      <description>&lt;p&gt;PrecisionHawk is the leading provider of aerial data and safety platforms for drones. The Lancaster  is PrecisionHawk’s fixed-wing, autonomous drone built to collect the highest quality terrestrial data using a host of integrated sensors including visual, thermal, LiDAR, multispectral and hyperspectral. PrecisionHawk houses three divisions that support its mission: DataMapper aerial mapping and analysis software, TerraServer satellite imagery and LATAS (Low Altitude Traffic and Airspace Safety).&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

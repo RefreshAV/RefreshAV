@@ -6,8 +6,26 @@
     <description>Recent content in Event-rsses on Refresh Annapolis Valley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <lastBuildDate>Tue, 13 Dec 2016 19:00:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 10 Jan 2017 19:00:00 -0300</lastBuildDate>
     <atom:link href="https://refreshannapolisvalley.org/event/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Forecasting: Using Machine Learning Techniques in Energy, Environment and Agriculture</title>
+      <link>https://refreshannapolisvalley.org/event/forecasting-using-machine-learning-techniques-in-energy-environment-and-agriculture/</link>
+      <pubDate>Tue, 10 Jan 2017 19:00:00 -0300</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/forecasting-using-machine-learning-techniques-in-energy-environment-and-agriculture/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://refreshannapolisvalley.org/person/dr-daniel-silver&#34;&gt;Dr Daniel Silver&lt;/a&gt;
+ will review a series of projects undertaken by the &lt;a href=&#34;https://refreshannapolisvalley.org/organization/acadia-institute-for-data-analytics&#34;&gt;
+    
+        Acadia Institute for Data Analytics
+    
+&lt;/a&gt;
+.  These amazing projects can estimate crop yield from smart phone images, do solar energy forecasting, manage building energy, determine stream flow rate and aquifer recharge prediction, sales forecasting, and classifying objects in UAV agriculture field images.&lt;/p&gt;
+
+&lt;p&gt;Many of these problems utilize high resolution observed and forecasted weather, high definition and multi-spectral digital images, and 5 minute through 60 minute data flow rates.  These projects use a variety of machine learning methods.  Come learn about standard neural networks, random forests, more advanced deep and recurrent neural networks, as well as transfer learning.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>The Startup Life: Feel The Frost Byte</title>

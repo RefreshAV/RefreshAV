@@ -9,6 +9,75 @@
     <atom:link href="https://refreshannapolisvalley.org/topics/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Forecasting: Using Machine Learning Techniques in Energy, Environment and Agriculture</title>
+      <link>https://refreshannapolisvalley.org/event/forecasting-using-machine-learning-techniques-in-energy-environment-and-agriculture/</link>
+      <pubDate>Tue, 10 Jan 2017 19:00:00 -0300</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/forecasting-using-machine-learning-techniques-in-energy-environment-and-agriculture/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://refreshannapolisvalley.org/person/dr-daniel-silver&#34;&gt;Dr Daniel Silver&lt;/a&gt;
+ will review a series of projects undertaken by the &lt;a href=&#34;https://refreshannapolisvalley.org/organization/acadia-institute-for-data-analytics&#34;&gt;
+    
+        Acadia Institute for Data Analytics
+    
+&lt;/a&gt;
+.  These amazing projects can estimate crop yield from smart phone images, do solar energy forecasting, manage building energy, determine stream flow rate and aquifer recharge prediction, sales forecasting, and classifying objects in UAV agriculture field images.&lt;/p&gt;
+
+&lt;p&gt;Many of these problems utilize high resolution observed and forecasted weather, high definition and multi-spectral digital images, and 5 minute through 60 minute data flow rates.  These projects use a variety of machine learning methods.  Come learn about standard neural networks, random forests, more advanced deep and recurrent neural networks, as well as transfer learning.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Acadia Institute for Data Analytics</title>
+      <link>https://refreshannapolisvalley.org/organization/acadia-institute-for-data-analytics/</link>
+      <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/organization/acadia-institute-for-data-analytics/</guid>
+      <description>
+
+&lt;p&gt;Rural Canada feeds our nation literally, economically, and environmentally.  It provides the food, fiber, minerals, water and other bio-resources and natural resources on which our country depends and the arteries of transportation by which they are delivered.  Digital technologies and data analytics can help us shape how we work with these resources and their impact on our local communities and our planet.&lt;/p&gt;
+
+&lt;h3 id=&#34;mission&#34;&gt;Mission&lt;/h3&gt;
+
+&lt;p&gt;To advance knowledge in data analytics through collaborative and interdisciplinary research, education and outreach and to foster the ethical application and commercialization of data analytic solutions to challenges facing industry, government and society in rural Canada. The institute will initially focus on agriculture, food production, the environment, and green energy.&lt;/p&gt;
+
+&lt;h3 id=&#34;goals-and-objectives&#34;&gt;Goals and Objectives&lt;/h3&gt;
+
+&lt;p&gt;The goals of the Acadia Institute for Data Analytics are to foster collaboration and the sharing of data analytics methods, technologies, and ethical practices among its stakeholders.&lt;/p&gt;
+
+&lt;p&gt;More specifically, the Institute will gather active stakeholders as members (academic researchers, teachers, associations, companies, government departments, etc.); foster communications and collaboration among members; communicate and coordinate relevant meetings and other events; and make connections with other data analytics organizations.  The Institute will share knowledge of technologies and methods and promote the ethical use of data analytics methods that protect the privacy of individuals and the security and integrity of data.&lt;/p&gt;
+
+&lt;p&gt;The objectives of the Acadia Institute for Data Analytics can be divided into four categories:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Promotion and Outreach: To provide visibility for data analytics initiatives undertaken by members and communicate relevant events to industry, government and the public.  To make the institute relevant to rural business and industry.  To foster sharing of knowledge and use of data analytics through vehicles such as web inventories of member competencies and resources.&lt;/li&gt;
+&lt;li&gt;Research:  To encourage, facilitate and leverage fundamental and interdisciplinary research and to attract high quality visiting scholars.  To work with members to provide shared technical infrastructure for research and development where possible.&lt;/li&gt;
+&lt;li&gt;Education: To facilitate the development and delivery of educational programs such as short courses, training workshops, and seminars that are focused on the needs of members.&lt;/li&gt;
+&lt;li&gt;Application and Commercialization: To foster the development of innovative applications for use in academia, industry and government.  To establish Nova Scotia as a leader in the application of data analytics to rural problems. To stimulate technology transfer, commercialization and the development of new startups.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dr Daniel Silver</title>
+      <link>https://refreshannapolisvalley.org/person/dr-daniel-silver/</link>
+      <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/person/dr-daniel-silver/</guid>
+      <description>&lt;p&gt;Dr. Daniel L. Silver is the Director of the &lt;a href=&#34;https://refreshannapolisvalley.org/organization/acadia-institute-for-data-analytics&#34;&gt;
+    
+        Acadia Institute for Data Analytics
+    
+&lt;/a&gt;
+.  He is also a Professor in and currently the Acting-Director of the &lt;a href=&#34;https://refreshannapolisvalley.org/organization/jodrey-school-of-computer-science&#34;&gt;
+    
+        Jodrey School of Computer Science
+    
+&lt;/a&gt;
+ at Acadia University.   His areas of research and application are machine learning, data mining, and data analytics.   His expertise is in Lifelong Machine Learning and Transfer Learning.   He has published over 65 scientific papers and has co-chaired or been part of program committees for a number of national and international conferences, seminars and workshops on data mining and machine learning.   He was the President of the Canadian Artificial Intelligence Association (CAIAC) from 2009-11. In 2011, he received the Science Champion Award from the Nova Scotia Discovery Center for his work on youth robotics and the advancement of STEM education.  In December, 2014, he became an Honorary Colonel in the RCAF attached to 14 Wing Software Engineering Squadron, in Greenwood, NS.  In June of 2016, was awarded Canadian AI’s Distinguished Service Award.  Danny has over 30 years of experience in information technology, project management and business administration.  Since 1993, he has worked on machine learning and data mining projects in the private and public sector providing situation analysis and problem definition, project management and guidance, and data mining services.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Matt Hall</title>
       <link>https://refreshannapolisvalley.org/person/matt-hall/</link>
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>

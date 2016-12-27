@@ -6,8 +6,26 @@
     <description>Recent content on Refresh Annapolis Valley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <lastBuildDate>Tue, 13 Dec 2016 19:00:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 10 Jan 2017 19:00:00 -0300</lastBuildDate>
     <atom:link href="https://refreshannapolisvalley.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Forecasting: Using Machine Learning Techniques in Energy, Environment and Agriculture</title>
+      <link>https://refreshannapolisvalley.org/event/forecasting-using-machine-learning-techniques-in-energy-environment-and-agriculture/</link>
+      <pubDate>Tue, 10 Jan 2017 19:00:00 -0300</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/forecasting-using-machine-learning-techniques-in-energy-environment-and-agriculture/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://refreshannapolisvalley.org/person/dr-daniel-silver&#34;&gt;Dr Daniel Silver&lt;/a&gt;
+ will review a series of projects undertaken by the &lt;a href=&#34;https://refreshannapolisvalley.org/organization/acadia-institute-for-data-analytics&#34;&gt;
+    
+        Acadia Institute for Data Analytics
+    
+&lt;/a&gt;
+.  These amazing projects can estimate crop yield from smart phone images, do solar energy forecasting, manage building energy, determine stream flow rate and aquifer recharge prediction, sales forecasting, and classifying objects in UAV agriculture field images.&lt;/p&gt;
+
+&lt;p&gt;Many of these problems utilize high resolution observed and forecasted weather, high definition and multi-spectral digital images, and 5 minute through 60 minute data flow rates.  These projects use a variety of machine learning methods.  Come learn about standard neural networks, random forests, more advanced deep and recurrent neural networks, as well as transfer learning.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>The Startup Life: Feel The Frost Byte</title>
@@ -276,6 +294,37 @@ made possible by the inclusion of more women in code.&lt;/p&gt;
     </item>
     
     <item>
+      <title>Acadia Institute for Data Analytics</title>
+      <link>https://refreshannapolisvalley.org/organization/acadia-institute-for-data-analytics/</link>
+      <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/organization/acadia-institute-for-data-analytics/</guid>
+      <description>
+
+&lt;p&gt;Rural Canada feeds our nation literally, economically, and environmentally.  It provides the food, fiber, minerals, water and other bio-resources and natural resources on which our country depends and the arteries of transportation by which they are delivered.  Digital technologies and data analytics can help us shape how we work with these resources and their impact on our local communities and our planet.&lt;/p&gt;
+
+&lt;h3 id=&#34;mission&#34;&gt;Mission&lt;/h3&gt;
+
+&lt;p&gt;To advance knowledge in data analytics through collaborative and interdisciplinary research, education and outreach and to foster the ethical application and commercialization of data analytic solutions to challenges facing industry, government and society in rural Canada. The institute will initially focus on agriculture, food production, the environment, and green energy.&lt;/p&gt;
+
+&lt;h3 id=&#34;goals-and-objectives&#34;&gt;Goals and Objectives&lt;/h3&gt;
+
+&lt;p&gt;The goals of the Acadia Institute for Data Analytics are to foster collaboration and the sharing of data analytics methods, technologies, and ethical practices among its stakeholders.&lt;/p&gt;
+
+&lt;p&gt;More specifically, the Institute will gather active stakeholders as members (academic researchers, teachers, associations, companies, government departments, etc.); foster communications and collaboration among members; communicate and coordinate relevant meetings and other events; and make connections with other data analytics organizations.  The Institute will share knowledge of technologies and methods and promote the ethical use of data analytics methods that protect the privacy of individuals and the security and integrity of data.&lt;/p&gt;
+
+&lt;p&gt;The objectives of the Acadia Institute for Data Analytics can be divided into four categories:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Promotion and Outreach: To provide visibility for data analytics initiatives undertaken by members and communicate relevant events to industry, government and the public.  To make the institute relevant to rural business and industry.  To foster sharing of knowledge and use of data analytics through vehicles such as web inventories of member competencies and resources.&lt;/li&gt;
+&lt;li&gt;Research:  To encourage, facilitate and leverage fundamental and interdisciplinary research and to attract high quality visiting scholars.  To work with members to provide shared technical infrastructure for research and development where possible.&lt;/li&gt;
+&lt;li&gt;Education: To facilitate the development and delivery of educational programs such as short courses, training workshops, and seminars that are focused on the needs of members.&lt;/li&gt;
+&lt;li&gt;Application and Commercialization: To foster the development of innovative applications for use in academia, industry and government.  To establish Nova Scotia as a leader in the application of data analytics to rural problems. To stimulate technology transfer, commercialization and the development of new startups.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Acadia Robotics Program</title>
       <link>https://refreshannapolisvalley.org/organization/acadia-robotics-program/</link>
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
@@ -398,30 +447,6 @@ made possible by the inclusion of more women in code.&lt;/p&gt;
  where he worked for two years, ever since graduating from Acadia University with a Honors degree in Computer Science with Co-Op option.&lt;/p&gt;
 
 &lt;p&gt;Charlie&amp;rsquo;s profile picture was created by a robot inspired by the work of Ruby the painting elephant.  True story.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Chris Jordan</title>
-      <link>https://refreshannapolisvalley.org/person/chris-jordan/</link>
-      <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
-      
-      <guid>https://refreshannapolisvalley.org/person/chris-jordan/</guid>
-      <description>&lt;p&gt;Chris is a software developer with 16+ years experience with Henry Schein.  Not to be pigeonholed, he&amp;rsquo;s got his hand in all sorts of things: Top tier support for an installation base spanning 2000+ customers, Brand development, Application planning and development, Database design, Documentation, Testing, Training, Training material development: web, print and video, Customer support, Installer creation, Phone system programming.&lt;/p&gt;
-
-&lt;p&gt;Chris&amp;rsquo; profile pic is a mashup of a picture of his swiped from Facebook and R2D2.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Colibri Software</title>
-      <link>https://refreshannapolisvalley.org/organization/colibri-software/</link>
-      <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
-      
-      <guid>https://refreshannapolisvalley.org/organization/colibri-software/</guid>
-      <description>&lt;p&gt;Colibri Software builds awesome software. We work with our clients to understand their needs and then produce a simple and effective solution to their problems. Our focus is on making a product easy to use, from websites to mobile apps, we like it when we hear “this is easy”.&lt;/p&gt;
-
-&lt;p&gt;We have a special affinity for mapping projects and have send rugged phone apps as far as Nunavut to help collect data for the hunting community.&lt;/p&gt;
 </description>
     </item>
     

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Refresh Annapolis Valley</title>
+    <link>https://refreshannapolisvalley.org/people/dr-daniel-silver/index.xml</link>
+    <description>Recent content on Refresh Annapolis Valley</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-ca</language>
+    <atom:link href="https://refreshannapolisvalley.org/people/dr-daniel-silver/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Forecasting: Using Machine Learning Techniques in Energy, Environment and Agriculture</title>
+      <link>https://refreshannapolisvalley.org/event/forecasting-using-machine-learning-techniques-in-energy-environment-and-agriculture/</link>
+      <pubDate>Tue, 10 Jan 2017 19:00:00 -0300</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/forecasting-using-machine-learning-techniques-in-energy-environment-and-agriculture/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://refreshannapolisvalley.org/person/dr-daniel-silver&#34;&gt;Dr Daniel Silver&lt;/a&gt;
+ will review a series of projects undertaken by the &lt;a href=&#34;https://refreshannapolisvalley.org/organization/acadia-institute-for-data-analytics&#34;&gt;
+    
+        Acadia Institute for Data Analytics
+    
+&lt;/a&gt;
+.  These amazing projects can estimate crop yield from smart phone images, do solar energy forecasting, manage building energy, determine stream flow rate and aquifer recharge prediction, sales forecasting, and classifying objects in UAV agriculture field images.&lt;/p&gt;
+
+&lt;p&gt;Many of these problems utilize high resolution observed and forecasted weather, high definition and multi-spectral digital images, and 5 minute through 60 minute data flow rates.  These projects use a variety of machine learning methods.  Come learn about standard neural networks, random forests, more advanced deep and recurrent neural networks, as well as transfer learning.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Acadia Institute for Data Analytics</title>
+      <link>https://refreshannapolisvalley.org/organization/acadia-institute-for-data-analytics/</link>
+      <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/organization/acadia-institute-for-data-analytics/</guid>
+      <description>
+
+&lt;p&gt;Rural Canada feeds our nation literally, economically, and environmentally.  It provides the food, fiber, minerals, water and other bio-resources and natural resources on which our country depends and the arteries of transportation by which they are delivered.  Digital technologies and data analytics can help us shape how we work with these resources and their impact on our local communities and our planet.&lt;/p&gt;
+
+&lt;h3 id=&#34;mission&#34;&gt;Mission&lt;/h3&gt;
+
+&lt;p&gt;To advance knowledge in data analytics through collaborative and interdisciplinary research, education and outreach and to foster the ethical application and commercialization of data analytic solutions to challenges facing industry, government and society in rural Canada. The institute will initially focus on agriculture, food production, the environment, and green energy.&lt;/p&gt;
+
+&lt;h3 id=&#34;goals-and-objectives&#34;&gt;Goals and Objectives&lt;/h3&gt;
+
+&lt;p&gt;The goals of the Acadia Institute for Data Analytics are to foster collaboration and the sharing of data analytics methods, technologies, and ethical practices among its stakeholders.&lt;/p&gt;
+
+&lt;p&gt;More specifically, the Institute will gather active stakeholders as members (academic researchers, teachers, associations, companies, government departments, etc.); foster communications and collaboration among members; communicate and coordinate relevant meetings and other events; and make connections with other data analytics organizations.  The Institute will share knowledge of technologies and methods and promote the ethical use of data analytics methods that protect the privacy of individuals and the security and integrity of data.&lt;/p&gt;
+
+&lt;p&gt;The objectives of the Acadia Institute for Data Analytics can be divided into four categories:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Promotion and Outreach: To provide visibility for data analytics initiatives undertaken by members and communicate relevant events to industry, government and the public.  To make the institute relevant to rural business and industry.  To foster sharing of knowledge and use of data analytics through vehicles such as web inventories of member competencies and resources.&lt;/li&gt;
+&lt;li&gt;Research:  To encourage, facilitate and leverage fundamental and interdisciplinary research and to attract high quality visiting scholars.  To work with members to provide shared technical infrastructure for research and development where possible.&lt;/li&gt;
+&lt;li&gt;Education: To facilitate the development and delivery of educational programs such as short courses, training workshops, and seminars that are focused on the needs of members.&lt;/li&gt;
+&lt;li&gt;Application and Commercialization: To foster the development of innovative applications for use in academia, industry and government.  To establish Nova Scotia as a leader in the application of data analytics to rural problems. To stimulate technology transfer, commercialization and the development of new startups.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Jodrey School of Computer Science</title>
+      <link>https://refreshannapolisvalley.org/organization/jodrey-school-of-computer-science-at-acadia-university/</link>
+      <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/organization/jodrey-school-of-computer-science-at-acadia-university/</guid>
+      <description>&lt;p&gt;The Jodrey School of Computer Science prepares students for today&amp;rsquo;s ever changing world of technology in a unique, fully mobile computing environment. Students develop a thorough understanding of computer systems software, modern software design methods and computer systems software.&lt;/p&gt;
+
+&lt;p&gt;Students in all degree programs complete a self-directed project during the course of their studies. This provides students with the opportunity to work closely with professors and to apply knowledge acquired through experiment and real-life application. Many students work on projects that end up in the public domain as open-source applications, free for everyone to download. Some students complete research work that becomes an integral part of their supervisor&amp;rsquo;s research, leading to publications in conferences and journals.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

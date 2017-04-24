@@ -6,8 +6,33 @@
     <description>Recent content on Refresh Annapolis Valley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <lastBuildDate>Tue, 11 Apr 2017 19:00:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 13 May 2017 12:30:00 -0300</lastBuildDate>
     <atom:link href="https://refreshannapolisvalley.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Bootstrapping The Web</title>
+      <link>https://refreshannapolisvalley.org/event/bootstrapping-the-web/</link>
+      <pubDate>Sat, 13 May 2017 12:30:00 -0300</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/bootstrapping-the-web/</guid>
+      <description>&lt;p&gt;For our first Hoist meetup, we&amp;rsquo;ll be learning how to use the Twitter Bootstrap code library to create beautiful front-end websites. Bootstrap is a combination of HTML, CSS, and JavaScript that allow you to write very little but get a whole lot.  We&amp;rsquo;ll with the basics of HTML and CSS and then dive into using Bootstrap to jump-start your web project.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Startup Life:  Youth Gone Wild</title>
+      <link>https://refreshannapolisvalley.org/event/the-startup-life-youth-gone-wild/</link>
+      <pubDate>Tue, 09 May 2017 19:00:00 -0300</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/the-startup-life-youth-gone-wild/</guid>
+      <description>&lt;p&gt;Aristides Milios is possessed.  In 2014 he co-founded Microcent Technologies. As CTO he focused on incubating hyper-local location technology for use in small-to-mid sized businesses.  In 2015, he co-founded Hoist Halifax: a monthly series of workshops for teens interested in design, entrepreneurship and tech.  That same year, he graduated from Propel ICT Accelerator Program.  In 2016 he graduated from High School.&lt;/p&gt;
+
+&lt;p&gt;In this fireside chat, come learn what drives Aristides towards the tech startup trenches, and how he is building a youth entrepreneurship culture in Nova Scotia.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://refreshannapolisvalley.org/person/wes-booth&#34;&gt;Wes Booth&lt;/a&gt;
+, Young Business Leaders Committee with the Annapolis Valley Chamber of Commerce, will be our tour guide for our fire-side chat.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Project Management Sucks</title>
@@ -346,6 +371,38 @@ made possible by the inclusion of more women in code.&lt;/p&gt;
     </item>
     
     <item>
+      <title>Tech Meetups</title>
+      <link>https://refreshannapolisvalley.org/project/meetups/</link>
+      <pubDate>Sun, 11 Sep 2016 19:00:00 +0000</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/project/meetups/</guid>
+      <description>
+
+&lt;p&gt;Our monthly Refresh meetup is where the Annapolis Valley community of designers, developers and innovators come hang out.  Those interested in the creative, technical, and professional culture of digital technology endeavours in the Annapolis Valley meet and talk about all things design, technology, and entrepreneurship.&lt;/p&gt;
+
+&lt;p&gt;Refresh meets the second Tuesday evening of each month in the Wolfville area. These are casual affairs with short, member-interest talks followed by an opportunity to mingle.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;All are welcome&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Join our &lt;strong&gt;mailing list&lt;/strong&gt; (see below) to stay up-to-date about our upcoming meetups.&lt;/p&gt;
+
+&lt;h2 id=&#34;special-thanks&#34;&gt;Special Thanks&lt;/h2&gt;
+
+&lt;p&gt;Big tip of the hat to the &lt;a href=&#34;https://refreshannapolisvalley.org/organization/acadia-entrepreneurship-centre&#34;&gt;
+    
+        Acadia Entrepreneurship Centre
+    
+&lt;/a&gt;
+ for hosting our meetup and &lt;a href=&#34;https://refreshannapolisvalley.org/organization/innovacorp&#34;&gt;
+    
+        innovacorp
+    
+&lt;/a&gt;
+ for keeping the dream alive.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Acadia Computer Science Society</title>
       <link>https://refreshannapolisvalley.org/organization/acadia-computer-science-society/</link>
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
@@ -403,55 +460,6 @@ made possible by the inclusion of more women in code.&lt;/p&gt;
 &lt;li&gt;Education: To facilitate the development and delivery of educational programs such as short courses, training workshops, and seminars that are focused on the needs of members.&lt;/li&gt;
 &lt;li&gt;Application and Commercialization: To foster the development of innovative applications for use in academia, industry and government.  To establish Nova Scotia as a leader in the application of data analytics to rural problems. To stimulate technology transfer, commercialization and the development of new startups.&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Acadia Robotics Program</title>
-      <link>https://refreshannapolisvalley.org/organization/acadia-robotics-program/</link>
-      <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
-      
-      <guid>https://refreshannapolisvalley.org/organization/acadia-robotics-program/</guid>
-      <description>&lt;p&gt;The Robot Programming Competition mission is to increase interest in building digital technology and computer science by engaging Nova Scotia students in annual robotics programming competitions and related activities that feature problem solving and teamwork.&lt;/p&gt;
-
-&lt;p&gt;The Acadia Robotics Program, through the Jodrey School of Computer Science, depends heavily on financial support from external organizations and the committed volunteers who annually contribute to the season from late August through to mid-June.  We have a junior program, FIRST® LEGO® League, and a senior program, Robofest. All the outreach throughout the season culminates in a Provincial Robot Programming Championship here at Acadia Unversity each February, involving over 400 participants, 100 volunteers, media and many organizations.&lt;/p&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/qA3L8_KJB4c&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>Andrew Button</title>
-      <link>https://refreshannapolisvalley.org/person/andrew-button/</link>
-      <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
-      
-      <guid>https://refreshannapolisvalley.org/person/andrew-button/</guid>
-      <description>&lt;p&gt;After a 15 year career with various businesses and economic development organizations, Andrew felt it was about time to move from being a ‘cheerleader’ and ‘curator’ of entrepreneurship to doing something that actually produced more entrepreneurs in rural communities.&lt;/p&gt;
-
-&lt;p&gt;​In 2014 he founded &lt;a href=&#34;http://www.mashuplab.ca/&#34;&gt;Mashup Lab&lt;/a&gt;; a for-more-than-profit company that activates rural ideas.  That same year he launched a chapter of the &lt;a href=&#34;http://www.awesomesouthshore.ca/&#34;&gt;Awesome Foundation&lt;/a&gt; in his community. Andrew has since gone on to launch another social enterprise - &lt;a href=&#34;https://refreshannapolisvalley.org/organization/co3&#34;&gt;
-    
-        CO3
-    
-&lt;/a&gt;
-, a fresh new coworking space for Freelancers, Entrepreneurs, and Independents located in Bridgewater, Nova Scotia.&lt;/p&gt;
-
-&lt;p&gt;Andrew&amp;rsquo;s work with over 1,000 Entrepreneurs located in rural has convinced him that great ideas can come from anywhere. His passion and energy is focused on one thing: unleashing entrepreneurial potential in rural communities that has yet to be inspired into action.&lt;/p&gt;
-
-&lt;p&gt;&lt;small&gt;Andrew&amp;rsquo;s banner image is a Captain Canuck inspired rendition of artwork blatantly ripped off the Mashup Lab website.&lt;/small&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Annapolis Valley STEAMspace</title>
-      <link>https://refreshannapolisvalley.org/organization/annapolis-valley-steamspace/</link>
-      <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
-      
-      <guid>https://refreshannapolisvalley.org/organization/annapolis-valley-steamspace/</guid>
-      <description>&lt;p&gt;A place for Annapolis Valley Makers, inventors, artists, entrepreneurs, tinkerers and the like to meet, share ideas and work towards establishing the proposed Acadia University STEAMspace.&lt;/p&gt;
 </description>
     </item>
     

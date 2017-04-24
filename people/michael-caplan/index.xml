@@ -9,6 +9,16 @@
     <atom:link href="https://refreshannapolisvalley.org/people/michael-caplan/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Bootstrapping The Web</title>
+      <link>https://refreshannapolisvalley.org/event/bootstrapping-the-web/</link>
+      <pubDate>Sat, 13 May 2017 12:30:00 -0300</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/bootstrapping-the-web/</guid>
+      <description>&lt;p&gt;For our first Hoist meetup, we&amp;rsquo;ll be learning how to use the Twitter Bootstrap code library to create beautiful front-end websites. Bootstrap is a combination of HTML, CSS, and JavaScript that allow you to write very little but get a whole lot.  We&amp;rsquo;ll with the basics of HTML and CSS and then dive into using Bootstrap to jump-start your web project.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Project Management Sucks</title>
       <link>https://refreshannapolisvalley.org/event/project-management-sucks/</link>
       <pubDate>Tue, 11 Apr 2017 19:00:00 -0300</pubDate>

@@ -44,7 +44,9 @@
 
 &lt;h2 id=&#34;register&#34;&gt;Register&lt;/h2&gt;
 
-&lt;p&gt;Pre-registration is required.  Details coming soon!&lt;/p&gt;
+&lt;p&gt;Pre-registration is required.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;expanded large button&#34; href=&#34;https://www.eventbrite.ca/e/scratchfest-tickets-34931270370&#34;&gt;&lt;i class=&#34;fa fa-rocket&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Get It Done! &lt;i class=&#34;fa fa-rocket&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;faq&#34;&gt;FAQ&lt;/h2&gt;
 
@@ -56,24 +58,81 @@
 &lt;li&gt;&lt;strong&gt;Can I work on my project with a group?&lt;/strong&gt;  Groups of up to 2 people can be formed.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Can I work on a pre-existing project?&lt;/strong&gt;  Projects need to be created from &amp;ldquo;scratch&amp;rdquo; at the event.  You will have two days to begin, develop, tweak and complete your original project over the course of the weekend.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;How do I win?&lt;/strong&gt;  Participants will earn points from the community.  The projects with the highest points win.  Points will be awarded to individuals who help their neighbors with their tough Scratch programming problems.  The community will also award points to what they think are the best projects.  Finally, judges will award points to projects who best meet the judging criteria.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;When Does Judging Take Place?&lt;/strong&gt;  Project judging will happen &amp;ldquo;science fair style&amp;rdquo; starting at 2:30 PM on Sunday.  All participants, including parents, will be able to award points to each project.  Invite your friends and Grandma and Grandpa.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;What about food?&lt;/strong&gt;  This is a bring your own food event.  Please pack enough food to fuel yourself for the 4 hour workday.  Please do not bring food items that are common food allergies.  Also, please no citrus.  There are a few folks participating who are highly allergic to citrus.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Can parents hang out at the event?&lt;/strong&gt; Absolutely.  Pull up a chair, get comfy, and help cheer on all the kids.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;sponsors&#34;&gt;Sponsors&lt;/h2&gt;
 
 &lt;p&gt;Several amazing Valley business tossed support our way to pull off this event.  Hats off to our Valley IT community.&lt;/p&gt;
 
-&lt;ol&gt;
-&lt;li&gt;Acadia University&lt;/li&gt;
-&lt;li&gt;Acadia Entrepreneurship Centre&lt;/li&gt;
-&lt;li&gt;Automattic&lt;/li&gt;
-&lt;li&gt;Precision Hawk&lt;/li&gt;
-&lt;li&gt;Colibri Software&lt;/li&gt;
-&lt;li&gt;Singolar&lt;/li&gt;
-&lt;li&gt;Frostbyte Interactive&lt;/li&gt;
-&lt;li&gt;Progeny Genealogy&lt;/li&gt;
-&lt;li&gt;Henry Schein&lt;/li&gt;
-&lt;/ol&gt;
+&lt;div class=&#34;row&#34;&gt;
+  &lt;div class=&#34;large-4 columns&#34;&gt;
+    &lt;div class=&#34;card&#34;&gt;
+      &lt;img src=&#34;https://refreshannapolisvalley.org/images/event/scratchfest/acadia.png&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+
+&lt;p&gt;&lt;div class=&#34;large-4 columns&#34;&gt;
+      &lt;div class=&#34;card&#34;&gt;
+        &lt;img src=&#34;https://refreshannapolisvalley.org/images/event/scratchfest/colibri.png&#34;&gt;
+        &lt;div class=&#34;card-section&#34;&gt;
+          &lt;p&gt;Colibri Software&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;large-4 columns&#34;&gt;
+     &lt;div class=&#34;card&#34;&gt;
+       &lt;img src=&#34;https://refreshannapolisvalley.org/images/event/scratchfest/progeny.png&#34;&gt;
+     &lt;/div&gt;
+   &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;div class=&#34;row&#34;&gt;
+  &lt;div class=&#34;large-4 columns&#34;&gt;
+    &lt;div class=&#34;card&#34;&gt;
+      &lt;img src=&#34;https://refreshannapolisvalley.org/images/event/scratchfest/precisionhawk.png&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+
+&lt;p&gt;&lt;div class=&#34;large-4 columns&#34;&gt;
+      &lt;div class=&#34;card&#34;&gt;
+        &lt;img src=&#34;https://refreshannapolisvalley.org/images/event/scratchfest/aec.png&#34;&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;large-4 columns&#34;&gt;
+    &lt;div class=&#34;card&#34;&gt;
+      &lt;img src=&#34;https://refreshannapolisvalley.org/images/event/scratchfest/singolar.png&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;div class=&#34;row&#34;&gt;
+  &lt;div class=&#34;large-4 columns&#34;&gt;
+    &lt;div class=&#34;card&#34;&gt;
+      &lt;img src=&#34;https://refreshannapolisvalley.org/images/event/scratchfest/frostbyte.png&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+
+&lt;p&gt;&lt;div class=&#34;large-4 columns&#34;&gt;
+      &lt;div class=&#34;card&#34;&gt;
+        &lt;img src=&#34;https://refreshannapolisvalley.org/images/event/scratchfest/automattic.png&#34;&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;large-4 columns&#34;&gt;
+    &lt;div class=&#34;card&#34;&gt;
+      &lt;img src=&#34;https://refreshannapolisvalley.org/images/event/scratchfest/henryschein.png&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
 </description>
     </item>
     

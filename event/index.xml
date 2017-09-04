@@ -6,8 +6,18 @@
     <description>Recent content in Event-rsses on Refresh Annapolis Valley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <lastBuildDate>Sat, 24 Jun 2017 12:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 12 Sep 2017 19:00:00 -0300</lastBuildDate>
     <atom:link href="https://refreshannapolisvalley.org/event/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>DIY Usability Lab: Testing With Little Or No Budget</title>
+      <link>https://refreshannapolisvalley.org/event/diy-usability/</link>
+      <pubDate>Tue, 12 Sep 2017 19:00:00 -0300</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/diy-usability/</guid>
+      <description>&lt;p&gt;Usability testing uncovers problem areas with your website. But not many do it, or do too little because of perceived complexity and cost. When you have limited time and budget, build your own usability lab and get results. A low-cost usability lab will be demonstrated using readily available hardware and software and results from testing our Acadia University library website will be shared.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>#ScratchFest</title>
@@ -311,6 +321,30 @@
     </item>
     
     <item>
+      <title>The Realtime Web: Intro To Node.js</title>
+      <link>https://refreshannapolisvalley.org/event/the-realtime-web-intro-to-node-js/</link>
+      <pubDate>Tue, 11 Oct 2016 19:00:00 -0300</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/the-realtime-web-intro-to-node-js/</guid>
+      <description>&lt;p&gt;Node.js is a rapidly growing technology that has been making big waves in the world of web development. Node lets you easily build fast and scalable network applications perfect for the realtime web. In this workshop you’ll learn how to get started using Node, its background and history, and the problems it seeks to address. We’ll get our hands dirty building a realtime chat server to get a feel for the amazing power of Node.&lt;/p&gt;
+
+&lt;p&gt;If you adore building application for the web, this workshop is for you. Not a web ninja? No worries. A basic understanding of web technologies is recommended (how your web browser works, HTML and JavaScript) is recommended, but not required. If you get the WWW and have ever fooled with code, you’ll get enough out of this workshop to be dangerous.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>UX Fist Fighting - Designing For Usability</title>
+      <link>https://refreshannapolisvalley.org/event/ux-fist-fighting-designing-for-usability/</link>
+      <pubDate>Tue, 11 Oct 2016 19:00:00 -0300</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/ux-fist-fighting-designing-for-usability/</guid>
+      <description>&lt;p&gt;10 years of picking fights and getting kicked out of a meetings - Mike Downs shares his personal quest to define &amp;ldquo;usability.&amp;rdquo; Mike will dive deep in to describing why usability is important for your websites and web applications. He will offer up pointers on how to think about your own projects with a user focused mind.&lt;/p&gt;
+
+&lt;p&gt;Mike has over eighteen years of Internet marketing strategy and product management experience helping create, shape, and launch technology products on the Web. Mike is very passionate about how human beings use computers. Focusing on usability and user experience for the last 10 years, Mike has helped retail giants like Macy&amp;rsquo;s and The Gap as well as government organizations like Tourism British Columbia and Service Nova Scotia deliver experiences that engage their audience.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>CODE: Debugging the Gender Gap</title>
       <link>https://refreshannapolisvalley.org/event/code-debugging-the-gender-gap/</link>
       <pubDate>Tue, 20 Sep 2016 18:30:00 -0300</pubDate>
@@ -382,49 +416,6 @@ moments from popular culture are complemented with a cutting edge musical score 
 bolstered by a strong sense of purpose. &lt;em&gt;CODE&lt;/em&gt; reflects, at its heart, the interconnectedness of
 the stories, the web, and by proxy, the shared vision of a new, more democratic community
 made possible by the inclusion of more women in code.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Ballmer Peak</title>
-      <link>https://refreshannapolisvalley.org/event/ballmer-peak/</link>
-      <pubDate>Tue, 12 Jul 2016 19:00:00 -0300</pubDate>
-      
-      <guid>https://refreshannapolisvalley.org/event/ballmer-peak/</guid>
-      <description>&lt;p&gt;When surveying a bunch of #Refreshers what we should do for July:&lt;/p&gt;
-
-&lt;p&gt;A) Take off and enjoy the sun (47.1%)&lt;/p&gt;
-
-&lt;p&gt;B) Keep on trucking - regular Refresh meetup for July (35.3%)&lt;/p&gt;
-
-&lt;p&gt;C) Other - drink beer (17.6%)&lt;/p&gt;
-
-&lt;p&gt;&amp;hellip; so we drink beer!&lt;/p&gt;
-
-&lt;p&gt;Join us for a crazy selection of craft beer, pizza and banter. Bring your laptop and we can put the Ballmer Peak to the test**. Come chat about the BIG plans for Refresh in September and beyond&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;** Designated driver required&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Inspiration. Imitation. Innovation: Transforming The Physical World With Open Source Hardware</title>
-      <link>https://refreshannapolisvalley.org/event/inspiration-imitation-innovation-transforming-the-physical-world-with-open-source-hardware/</link>
-      <pubDate>Tue, 14 Jun 2016 19:00:00 -0300</pubDate>
-      
-      <guid>https://refreshannapolisvalley.org/event/inspiration-imitation-innovation-transforming-the-physical-world-with-open-source-hardware/</guid>
-      <description>&lt;p&gt;Powered by open source hardware and software, students, engineers, and garage tinkerers alike are hacking the physical world. Using inexpensive “mini computers” like the Arduino, these makers are building interactive devices that can sense and control other physical objects. In this presentation, we will look at opportunity the Open Source Hardware Movement has created for everyday people to hack our technological world. &lt;a href=&#34;https://refreshannapolisvalley.org/person/ian-mckay&#34;&gt;Ian McKay&lt;/a&gt;
- will introduce us to hacking the Arduino with a newbie how-to. We will do a live build of a project, playing with sensors, controlling devices and mad scientist programming.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>IP Matters</title>
-      <link>https://refreshannapolisvalley.org/event/ip-matters/</link>
-      <pubDate>Tue, 10 May 2016 19:00:00 -0300</pubDate>
-      
-      <guid>https://refreshannapolisvalley.org/event/ip-matters/</guid>
-      <description>&lt;p&gt;Take an engaging journey into the world of intellectual property (IP) and software. What IP do you have and how can you protect it? Is it better to use a trademark, copyright or a patent? How long does it take and what does it cost? This presentation will introduce you to the types of IP and why they matter.&lt;/p&gt;
 </description>
     </item>
     

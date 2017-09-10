@@ -6,8 +6,40 @@
     <description>Recent content in Event-rsses on Refresh Annapolis Valley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <lastBuildDate>Sat, 16 Sep 2017 12:30:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 23 Sep 2017 12:30:00 -0300</lastBuildDate>
     <atom:link href="https://refreshannapolisvalley.org/event/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>National Learn to Code Day: Intro to AI and Machine Learning</title>
+      <link>https://refreshannapolisvalley.org/event/national-learn-to-code-day-intro-to-ai-and-machine-learning/</link>
+      <pubDate>Sat, 23 Sep 2017 12:30:00 -0300</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/national-learn-to-code-day-intro-to-ai-and-machine-learning/</guid>
+      <description>&lt;p&gt;Join hundreds of Canadians coast to coast to coast taking their first steps learning about Computer Science. National Learn to Code Day was launched by Ladies Learning Code 5 years ago!&lt;/p&gt;
+
+&lt;p&gt;At this &amp;ldquo;Women Learning Code&amp;rdquo; event, we will learn about Artificial intelligence and machine learning. From Siri on your iPhone to Google Map suggestions, to recommendations for purchases during your Amazon check-out, AI is all around us.&lt;/p&gt;
+
+&lt;p&gt;AI and machine learning at its core is about data - and ways to make meaning of data. In this hands on workshop, we’ll learn how to put data to use for us in our everyday lives.&lt;/p&gt;
+
+&lt;p&gt;Never coded before? Have no prior experience with Computer science? No problem! This workshop is designed for absolute beginners!&lt;/p&gt;
+
+&lt;p&gt;During the workshop, you&amp;rsquo;ll learn:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The history of artificial intelligence and machine learning&lt;/li&gt;
+&lt;li&gt;Strategies for collection, preparation, manipulation and analysis of data&lt;/li&gt;
+&lt;li&gt;How to build your very own machine learning model to evaluate data that’s interesting to you&lt;/li&gt;
+&lt;li&gt;Available resources to continue learning at home&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;What you must bring:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A potluck item&lt;/li&gt;
+&lt;li&gt;A laptop, and power cord. (Don&amp;rsquo;t have a laptop? We will have a few available for borrowing)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>3D Printing: From Concept to the Palm of Your Hand</title>
@@ -345,18 +377,6 @@
       <description>&lt;p&gt;Node.js is a rapidly growing technology that has been making big waves in the world of web development. Node lets you easily build fast and scalable network applications perfect for the realtime web. In this workshop you’ll learn how to get started using Node, its background and history, and the problems it seeks to address. We’ll get our hands dirty building a realtime chat server to get a feel for the amazing power of Node.&lt;/p&gt;
 
 &lt;p&gt;If you adore building application for the web, this workshop is for you. Not a web ninja? No worries. A basic understanding of web technologies is recommended (how your web browser works, HTML and JavaScript) is recommended, but not required. If you get the WWW and have ever fooled with code, you’ll get enough out of this workshop to be dangerous.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>UX Fist Fighting - Designing For Usability</title>
-      <link>https://refreshannapolisvalley.org/event/ux-fist-fighting-designing-for-usability/</link>
-      <pubDate>Tue, 11 Oct 2016 19:00:00 -0300</pubDate>
-      
-      <guid>https://refreshannapolisvalley.org/event/ux-fist-fighting-designing-for-usability/</guid>
-      <description>&lt;p&gt;10 years of picking fights and getting kicked out of a meetings - Mike Downs shares his personal quest to define &amp;ldquo;usability.&amp;rdquo; Mike will dive deep in to describing why usability is important for your websites and web applications. He will offer up pointers on how to think about your own projects with a user focused mind.&lt;/p&gt;
-
-&lt;p&gt;Mike has over eighteen years of Internet marketing strategy and product management experience helping create, shape, and launch technology products on the Web. Mike is very passionate about how human beings use computers. Focusing on usability and user experience for the last 10 years, Mike has helped retail giants like Macy&amp;rsquo;s and The Gap as well as government organizations like Tourism British Columbia and Service Nova Scotia deliver experiences that engage their audience.&lt;/p&gt;
 </description>
     </item>
     

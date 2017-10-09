@@ -1,13 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Event-rsses on Refresh Annapolis Valley</title>
+    <title>Events on Refresh Annapolis Valley</title>
     <link>https://refreshannapolisvalley.org/event/index.xml</link>
-    <description>Recent content in Event-rsses on Refresh Annapolis Valley</description>
+    <description>Recent content in Events on Refresh Annapolis Valley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <lastBuildDate>Tue, 10 Oct 2017 19:00:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 28 Oct 2017 13:30:00 -0300</lastBuildDate>
     <atom:link href="https://refreshannapolisvalley.org/event/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Founders Meetup: Lets Start a Business</title>
+      <link>https://refreshannapolisvalley.org/event/founders-meetup/</link>
+      <pubDate>Sat, 28 Oct 2017 13:30:00 -0300</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/founders-meetup/</guid>
+      <description>&lt;p&gt;For this Hoist meetup, we will be doing something a little different.  We are looking for a few budding teen entrepreneurs to start a business.  This is the pitch:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Services supporting the business startup space in Rural Nova Scotia are diverse and not well represented as a whole.  Our business aims to unify the Western Nova business startup ecosystem by building a coherent communication platform.  By doing so, we will encourage entrepreneurship within our community.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;We are looking for teens with a range of interests to flesh out this initiative:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Designer&lt;/strong&gt;: Logos, web design, brand aesthetics. &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Software development&lt;/strong&gt;: HTML, JavaScript, server management.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Business development&lt;/strong&gt;: Idea generation, shape features, market fit, competitive landscape, research.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Marketing and sales&lt;/strong&gt;: Evangelism, blogging, advertising.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Content management&lt;/strong&gt;: Master wordsmith, create original content.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Accounting&lt;/strong&gt;: Budgeting, account receivables.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Don&amp;rsquo;t have mad skillz to share, no problem.  You just need passion.  We will learn as we go, bringing in subject matter experts to beef up our skill set.&lt;/p&gt;
+
+&lt;p&gt;Bring your own laptop. A small number of laptops will be available to borrow.&lt;/p&gt;
+
+&lt;p&gt;First time Hoisters need to get a parent or guardian to &lt;a href=&#34;https://form.jotform.ca/71164477795267&#34;&gt;fill out the consent form&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title> Smart Annapolis Valley</title>
@@ -375,17 +404,6 @@
     
 &lt;/a&gt;
  &amp;mdash; will provide us a primer on R. Through a series of examples, he will demonstrate the various strength of R in data analysis and data visualization.  No experience with programming is required to learn about what R can do for you. Just bring your inquiring mind.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>10 Ideas for Your Next Social Media Campaign</title>
-      <link>https://refreshannapolisvalley.org/event/10-ideas-for-your-next-social-media-campaign/</link>
-      <pubDate>Tue, 11 Oct 2016 19:00:00 -0300</pubDate>
-      
-      <guid>https://refreshannapolisvalley.org/event/10-ideas-for-your-next-social-media-campaign/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://refreshannapolisvalley.org/person/wes-booth&#34;&gt;Wes Booth&lt;/a&gt;
- will break down and share 10 tips he&amp;rsquo;s learned over his 10 year experience in the world of social media. Everything from emerging platforms and tools you can use to promote your business, to specific tips for boosting your marketing campaign success, and how to go above and beyond for your audience and customers. Wes won&amp;rsquo;t promise you life changing results because that&amp;rsquo;s not possible, but what he can do is prepare you to be in a position to have success and offer you practical things to take away and test out on your business. Come ready to like, share, comment and put into action everything you learn!&lt;/p&gt;
 </description>
     </item>
     

@@ -1,12 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Refresh Annapolis Valley</title>
+    <title>Entrepreneurship on Refresh Annapolis Valley</title>
     <link>https://refreshannapolisvalley.org/topics/entrepreneurship/index.xml</link>
-    <description>Recent content on Refresh Annapolis Valley</description>
+    <description>Recent content in Entrepreneurship on Refresh Annapolis Valley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
     <atom:link href="https://refreshannapolisvalley.org/topics/entrepreneurship/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Founders Meetup: Lets Start a Business</title>
+      <link>https://refreshannapolisvalley.org/event/founders-meetup/</link>
+      <pubDate>Sat, 28 Oct 2017 13:30:00 -0300</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/founders-meetup/</guid>
+      <description>&lt;p&gt;For this Hoist meetup, we will be doing something a little different.  We are looking for a few budding teen entrepreneurs to start a business.  This is the pitch:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Services supporting the business startup space in Rural Nova Scotia are diverse and not well represented as a whole.  Our business aims to unify the Western Nova business startup ecosystem by building a coherent communication platform.  By doing so, we will encourage entrepreneurship within our community.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;We are looking for teens with a range of interests to flesh out this initiative:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Designer&lt;/strong&gt;: Logos, web design, brand aesthetics. &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Software development&lt;/strong&gt;: HTML, JavaScript, server management.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Business development&lt;/strong&gt;: Idea generation, shape features, market fit, competitive landscape, research.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Marketing and sales&lt;/strong&gt;: Evangelism, blogging, advertising.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Content management&lt;/strong&gt;: Master wordsmith, create original content.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Accounting&lt;/strong&gt;: Budgeting, account receivables.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Don&amp;rsquo;t have mad skillz to share, no problem.  You just need passion.  We will learn as we go, bringing in subject matter experts to beef up our skill set.&lt;/p&gt;
+
+&lt;p&gt;Bring your own laptop. A small number of laptops will be available to borrow.&lt;/p&gt;
+
+&lt;p&gt;First time Hoisters need to get a parent or guardian to &lt;a href=&#34;https://form.jotform.ca/71164477795267&#34;&gt;fill out the consent form&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Hoist Annapolis Valley</title>

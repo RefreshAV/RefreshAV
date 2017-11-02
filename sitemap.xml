@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://refreshannapolisvalley.org/event/seed-hacking-entrepreneurship-in-the-annapolis-valley/</loc>
+    <lastmod>2017-11-21T18:00:00-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://refreshannapolisvalley.org/event/creative-entrepreneurship-turning-ideas-into-action/</loc>
     <lastmod>2017-11-18T12:30:00-03:00</lastmod>
   </url>
@@ -133,6 +138,11 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/organization/acadia-robotics-program/</loc>
+    <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/organization/acadia-school-of-business/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
   </url>
   
@@ -287,7 +297,7 @@
   </url>
   
   <url>
-    <loc>https://refreshannapolisvalley.org/person/laura-churchill-duke/</loc>
+    <loc>https://refreshannapolisvalley.org/person/leanne-strathdee/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
   </url>
   
@@ -323,6 +333,11 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/person/Mike-Downs/</loc>
+    <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/organization/nscc/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
   </url>
   
@@ -393,6 +408,11 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/organization/the-hub-yarmouth/</loc>
+    <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/organization/valley-regional-enterprise-network/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
   </url>
   
@@ -505,13 +525,19 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/organizations/acadia-entrepreneurship-centre/</loc>
-    <lastmod>2017-11-18T12:30:00-03:00</lastmod>
+    <lastmod>2017-11-21T18:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://refreshannapolisvalley.org/organizations/acadia-institute-for-data-analytics/</loc>
-    <lastmod>2017-01-10T19:00:00-03:00</lastmod>
+    <lastmod>2017-11-21T18:00:00-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/organizations/acadia-school-of-business/</loc>
+    <lastmod>2017-11-21T18:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -548,6 +574,12 @@
   <url>
     <loc>https://refreshannapolisvalley.org/people/andrew-button/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/organizations/annapolis-valley-regional-school-board/</loc>
+    <lastmod>2017-11-21T18:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -602,6 +634,12 @@
   <url>
     <loc>https://refreshannapolisvalley.org/organizations/canadian-intellectual-property-office/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/organizations/canopy-creative/</loc>
+    <lastmod>2017-11-21T18:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -666,6 +704,12 @@
   </url>
   
   <url>
+    <loc>https://refreshannapolisvalley.org/organizations/common-good-solutions/</loc>
+    <lastmod>2017-11-21T18:00:00-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://refreshannapolisvalley.org/topics/computer-graphics/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -674,12 +718,6 @@
   <url>
     <loc>https://refreshannapolisvalley.org/topics/computer-science/</loc>
     <lastmod>2016-09-11T19:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://refreshannapolisvalley.org/topics/content-creation/</loc>
-    <lastmod>2016-08-10T19:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -727,7 +765,7 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/organizations/digital-nova-scotia/</loc>
-    <lastmod>2016-09-20T18:30:00-03:00</lastmod>
+    <lastmod>2017-11-21T18:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -756,8 +794,14 @@
   </url>
   
   <url>
+    <loc>https://refreshannapolisvalley.org/organizations/enactus/</loc>
+    <lastmod>2017-11-21T18:00:00-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://refreshannapolisvalley.org/topics/entrepreneurship/</loc>
-    <lastmod>2017-11-18T12:30:00-03:00</lastmod>
+    <lastmod>2017-11-21T18:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -769,7 +813,7 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/event/</loc>
-    <lastmod>2017-11-18T12:30:00-03:00</lastmod>
+    <lastmod>2017-11-21T18:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -794,6 +838,12 @@
   <url>
     <loc>https://refreshannapolisvalley.org/people/frances-shagen/</loc>
     <lastmod>2014-02-21T19:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/organizations/fusion-annapolis-valley/</loc>
+    <lastmod>2017-11-21T18:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -948,8 +998,20 @@
   </url>
   
   <url>
+    <loc>https://refreshannapolisvalley.org/organizations/launchbox/</loc>
+    <lastmod>2017-11-21T18:00:00-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://refreshannapolisvalley.org/people/laura-churchill-duke/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/people/leanne-strathdee/</loc>
+    <lastmod>2017-11-21T18:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -980,6 +1042,12 @@
   <url>
     <loc>https://refreshannapolisvalley.org/topics/marketing/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/organizations/mashup-lab/</loc>
+    <lastmod>2017-11-21T18:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1040,6 +1108,24 @@
   <url>
     <loc>https://refreshannapolisvalley.org/topics/nova-scotia/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/organizations/nova-scotia-works/</loc>
+    <lastmod>2017-11-21T18:00:00-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/organizations/nscc/</loc>
+    <lastmod>2017-11-21T18:00:00-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/organizations/office-of-industry--community-engagement---acadia-university/</loc>
+    <lastmod>2017-11-21T18:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1120,6 +1206,12 @@
   </url>
   
   <url>
+    <loc>https://refreshannapolisvalley.org/topics/public-relations/</loc>
+    <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://refreshannapolisvalley.org/organizations/r-bar/</loc>
     <lastmod>2016-11-08T19:00:00-03:00</lastmod>
     <priority>0</priority>
@@ -1133,13 +1225,13 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/</loc>
-    <lastmod>2017-11-18T12:30:00-03:00</lastmod>
+    <lastmod>2017-11-21T18:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://refreshannapolisvalley.org/organizations/refresh-annapolis-valley/</loc>
-    <lastmod>2016-10-11T19:00:00-03:00</lastmod>
+    <lastmod>2017-11-21T18:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1252,7 +1344,13 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/organizations/valley-family-fun/</loc>
-    <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+    <lastmod>2012-12-10T19:30:00-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/organizations/valley-regional-enterprise-network/</loc>
+    <lastmod>2017-11-21T18:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -187,6 +187,11 @@
   </url>
   
   <url>
+    <loc>https://refreshannapolisvalley.org/organization/canopy-creative/</loc>
+    <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://refreshannapolisvalley.org/person/catherine-vardy/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
   </url>
@@ -203,6 +208,11 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/organization/colibri-software/</loc>
+    <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/organization/common-good-solutions/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
   </url>
   
@@ -228,6 +238,11 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/person/emily-konrath/</loc>
+    <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/organization/enactus-acadia/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
   </url>
   
@@ -317,6 +332,11 @@
   </url>
   
   <url>
+    <loc>https://refreshannapolisvalley.org/organization/mashup-lab/</loc>
+    <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://refreshannapolisvalley.org/person/matt-hall/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
   </url>
@@ -343,6 +363,16 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/organization/nscc/</loc>
+    <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/organization/nova-scotia-works/</loc>
+    <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/organization/office-of-industry--community-engagement---acadia-university/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
   </url>
   
@@ -799,7 +829,7 @@
   </url>
   
   <url>
-    <loc>https://refreshannapolisvalley.org/organizations/enactus/</loc>
+    <loc>https://refreshannapolisvalley.org/organizations/enactus-acadia/</loc>
     <lastmod>2017-11-21T18:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1315,6 +1345,12 @@
   <url>
     <loc>https://refreshannapolisvalley.org/organizations/the-hub-yarmouth/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/organizations/the-spot/shift-mobile-interactive/</loc>
+    <lastmod>2017-11-21T18:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   

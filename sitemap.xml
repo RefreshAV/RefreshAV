@@ -437,6 +437,11 @@
   </url>
   
   <url>
+    <loc>https://refreshannapolisvalley.org/organization/shift-mobile-interactive/</loc>
+    <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://refreshannapolisvalley.org/person/terry-wetherbee/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
   </url>
@@ -668,6 +673,12 @@
   <url>
     <loc>https://refreshannapolisvalley.org/topics/beer/</loc>
     <lastmod>2016-07-12T19:00:00-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/topics/branding/</loc>
+    <lastmod>2016-08-10T19:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1300,6 +1311,12 @@
   </url>
   
   <url>
+    <loc>https://refreshannapolisvalley.org/organizations/shift-mobile-interactive/</loc>
+    <lastmod>2017-11-21T18:00:00-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://refreshannapolisvalley.org/topics/smart-communities/</loc>
     <lastmod>2017-10-10T19:00:00-03:00</lastmod>
     <priority>0</priority>
@@ -1356,12 +1373,6 @@
   <url>
     <loc>https://refreshannapolisvalley.org/organizations/the-hub-yarmouth/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://refreshannapolisvalley.org/organizations/the-spot/shift-mobile-interactive/</loc>
-    <lastmod>2017-11-21T18:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -122,6 +122,11 @@
   </url>
   
   <url>
+    <loc>https://refreshannapolisvalley.org/organization/acenet/</loc>
+    <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://refreshannapolisvalley.org/organization/acadia-computer-science-society/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
   </url>
@@ -583,6 +588,12 @@
   </url>
   
   <url>
+    <loc>https://refreshannapolisvalley.org/organizations/acenet/</loc>
+    <lastmod>2017-11-21T18:00:00-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://refreshannapolisvalley.org/people/adam-barnett/</loc>
     <lastmod>2014-02-21T19:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -980,7 +991,7 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/organizations/jodrey-school-of-computer-science/</loc>
-    <lastmod>2016-10-11T19:00:00-03:00</lastmod>
+    <lastmod>2017-11-21T18:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   

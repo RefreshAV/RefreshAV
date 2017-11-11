@@ -9,6 +9,136 @@
     <atom:link href="https://refreshannapolisvalley.org/topics/makers/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>f5://imagination</title>
+      <link>https://refreshannapolisvalley.org/event/f5/imagination/</link>
+      <pubDate>Sun, 17 Dec 2017 13:00:00 -0300</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/f5/imagination/</guid>
+      <description>&lt;p&gt;f5://imagination is a pop up exhibit focused on digital creativity.  This one day temporary exhibit is seeking submissions from digital artists, makers, scratchers, computer scientists, engineers and pretendgineer, hardware hackers, lego robotics warriors, indy game developers, new media innovators, VR and AR pioneers&amp;hellip;  digital builders of all shapes, sizes, and credentials.&lt;/p&gt;
+
+&lt;p&gt;We are accepting submissions in the following categories:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Computer generated art&lt;/li&gt;
+&lt;li&gt;Digital games&lt;/li&gt;
+&lt;li&gt;Interactive story&lt;/li&gt;
+&lt;li&gt;Digital gadgets and gizmos&lt;/li&gt;
+&lt;li&gt;VR / AR environments&lt;/li&gt;
+&lt;li&gt;Animation&lt;/li&gt;
+&lt;li&gt;AI investigations&lt;/li&gt;
+&lt;li&gt;Miscellaneous computer experiments&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;f5://imagination serves as a platform for digital artistic experimentation. It promotes exploration into all forms of new media art, providing the public with an opportunity to experience your innovative work. f5://imagination is committed to making this extraordinary form, at the intersection of art and technology, available to everyone.&lt;/p&gt;
+
+&lt;div style=&#34;margin:0px;padding:0px;overflow:hidden&#34;&gt;
+    &lt;iframe src=&#34;https://docs.google.com/forms/d/e/1FAIpQLSco_QD5Lo5vCD_FDwCZT5BlUX78t9QbdeSWv4h4QYIyQ_Sy1g/viewform?embedded=true&#34; frameborder=&#34;0&#34; style=&#34;overflow:hidden;height:100vh;width:100%; border : 1px solid red;&#34;&gt;Loading...&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.min.js&#34; integrity=&#34;sha256-bXPU+HvtR3tP1IYHZVEFHzEZ9p5zkY8GLPnOnJXW67k=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script
+   type=&#34;text/javascript&#34;
+   src=&#34;https://rawgit.com/IDMNYU/p5.js-speech/master/lib/p5.speech.js&#34;
+&gt;&lt;/script&gt;
+
+&lt;script&gt;
+var lines =  3;
+
+var lineProps = [];
+var lx = [];
+var ly = [];
+
+var myVoice = new p5.Speech();
+var welcome = [];
+
+function getIP(json) {
+    welcome = [
+        &#39;Hello &#39; + json.ip + &#39;. Annapolis Valley festival of computer based art. refresh imagination.  A digital art exhibit&#39;,
+        &#39;Hello &#39; + json.ip + &#39;. Come explore digital imagination with us.  refresh imagination.  A digital art exhibit&#39;,
+        &#39;How do you express your creativity digitally? &#39; + json.ip + &#39;?  refresh imagination.  A digital art exhibit&#39;
+    ];
+}
+
+function setup() {
+  var header = document.querySelector(&#39;main article header&#39;);
+
+  canvas = createCanvas(header.offsetWidth, header.offsetHeight);
+  canvas.parent(header);
+  
+  lines = Math.floor(random(3, 10));
+  
+  for (var li = 0; li &lt; lines; li++) {
+    lx[li] = [];
+    ly[li] = [];
+    lineProps[li] = {
+        num: Math.floor(random(10, 500)),
+        range: Math.floor(random(5, 20))
+    };
+  
+    var d = random(2, li * 2);
+  
+    for ( var i = 0; i &lt; lineProps[li].num; i++ ) {
+      lx[li][i] = constrain(width / d, 0, width);
+      ly[li][i] = constrain(height / d, 0, height);
+    }
+  }
+  
+  frameRate(30);
+}
+
+function draw() {
+  background(&#39;#0a0a0a&#39;);
+
+  // Shift all elements 1 place to the left
+  for ( var li = 0; li &lt; lines; li++) {
+      for ( var i = 1; i &lt; lineProps[li].num; i++ ) {
+        lx[li][i - 1] = lx[li][i];
+        ly[li][i - 1] = ly[li][i];
+      }
+      
+      // Put a new value at the end of the array
+      lx[li][lineProps[li].num - 1] += random(-lineProps[li].range, lineProps[li].range);
+      ly[li][lineProps[li].num - 1] += random(-lineProps[li].range, lineProps[li].range);
+      
+      // Constrain all points to the screen
+      lx[li][lineProps[li].num - 1] = constrain(lx[li][lineProps[li].num - 1], 0, width);
+      ly[li][lineProps[li].num - 1] = constrain(ly[li][lineProps[li].num - 1], 0, height);
+
+  }
+
+  // Draw a line connecting the points
+  for ( var li = 0; li &lt; lines; li++) {
+    for ( var j = 1; j &lt; lineProps[li].num; j++ ) {
+        var val = j / lineProps[li].num * 204.0 + 51;
+        stroke(val);
+        line(lx[li][j - 1], ly[li][j - 1], lx[li][j], ly[li][j]);
+    }
+  }
+
+}
+
+setTimeout(function(){
+
+    var voices = [];
+    
+    for (var i = 0; i &lt; myVoice.voices.length; i++) {
+        if (myVoice.voices[i].lang.substr(0,2) == &#39;en&#39;) {
+            voices.push(i);
+        }
+    }
+
+    myVoice.setVoice(random(voices));
+    myVoice.setRate(0.7);
+    myVoice.speak(random(welcome));
+    
+}, 2000);
+&lt;/script&gt;
+
+&lt;script src=&#34;https://api.ipify.org?format=jsonp&amp;callback=getIP&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Maker Meetup</title>
       <link>https://refreshannapolisvalley.org/event/maker-meetup/</link>
       <pubDate>Tue, 21 Feb 2017 19:00:00 -0300</pubDate>

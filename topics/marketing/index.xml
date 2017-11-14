@@ -2,11 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Marketing on Refresh Annapolis Valley</title>
-    <link>https://refreshannapolisvalley.org/topics/marketing/index.xml</link>
+    <link>https://refreshannapolisvalley.org/topics/marketing/</link>
     <description>Recent content in Marketing on Refresh Annapolis Valley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <atom:link href="https://refreshannapolisvalley.org/topics/marketing/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Aug 2016 19:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://refreshannapolisvalley.org/topics/marketing/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Leanne Strathdee</title>
@@ -14,20 +17,7 @@
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/person/leanne-strathdee/</guid>
-      <description>&lt;p&gt;Leanne Strathdee is the Manager of Innovation and Incubation for &lt;a href=&#34;https://refreshannapolisvalley.org/organization/acadia-entrepreneurship-centre&#34;&gt;
-    
-        Acadia Entrepreneurship Centre
-    
-&lt;/a&gt;
-. In this role, she manages the Rural Innovation Centre – an incubator for start-up companies at &lt;a href=&#34;https://refreshannapolisvalley.org/organization/acadia-university&#34;&gt;
-    
-        Acadia University
-    
-&lt;/a&gt;
-, that are connected to the services and amenities that Acadia offers in research, data analytics, tidal energy or business - skills development. Additionally, she manages all the student entrepreneurship programming through the provincial sandbox, launchbox.&lt;/p&gt;
-
-&lt;p&gt;In her time with AEC, Leanne has worked to help young and established entrepreneurs connected to the many resources and opportunities available here in the Annapolis Valley. She is passionate about supporting youth, women and rural entrepreneurs. As an Acadia grad, she is very proud of the work the university is doing to support entrepreneurs in the community and on campus, and strongly believes that the Annapolis Valley is a hotbed of entrepreneurial activity.&lt;/p&gt;
-</description>
+      <description>Leanne Strathdee is the Manager of Innovation and Incubation for Acadia Entrepreneurship Centre  . In this role, she manages the Rural Innovation Centre – an incubator for start-up companies at Acadia University  , that are connected to the services and amenities that Acadia offers in research, data analytics, tidal energy or business - skills development. Additionally, she manages all the student entrepreneurship programming through the provincial sandbox, launchbox.</description>
     </item>
     
     <item>
@@ -36,25 +26,8 @@
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/person/ulrike-bahr-gedalia/</guid>
-      <description>&lt;p&gt;Ulrike Bahr-Gedalia (BA, MA) is the President &amp;amp; CEO of &lt;a href=&#34;https://refreshannapolisvalley.org/organization/digital-nova-scotia&#34;&gt;
-    
-        Digital Nova Scotia
-    
-&lt;/a&gt;
-. She’s a multilingual senior level executive with over 20 years of combined experience in the private, public &amp;amp; academic sectors. Her career spans five geographic regions: America (North), Africa (South), Middle East, Asia &amp;amp; Europe.&lt;/p&gt;
-
-&lt;p&gt;Ulrike thrives on challenges! With a proven track record in International Marketing, Business &amp;amp; Economic Development, Channel Management, Government/Stakeholder Relations, Board Governance, Fundraising, Organizational Growth &amp;amp; Public Speaking, she&amp;rsquo;s a true game-changer. Having lived, worked &amp;amp; studied in the USA, the UK, the Netherlands, Germany, Israel &amp;amp; now Canada, Ulrike has combined her passion for inclusive diversity, entrepreneurship, innovation, new technologies &amp;amp; STEAM-education with her keen ambition to help individuals &amp;amp; businesses succeed in local &amp;amp; global markets.&lt;/p&gt;
-
-&lt;p&gt;Ulrike has worked in executive leadership roles at the headquarters of prominent technology multinationals, SMEs &amp;amp; Startups, including Intel, Compaq/HP, RAD Data Communications, Commtouch Software, McAfee &amp;amp; Seaside Wireless. Her diverse sector expertise in software, hardware &amp;amp; networking products in ICT companies &amp;amp; software development in med-tech, aerospace &amp;amp; defense industries, provides her with first-hand experience &amp;amp; insight into the multi-sectoral facets of the ICT sector &amp;amp; its magnitude of opportunities.&lt;/p&gt;
-
-&lt;p&gt;2015: Ulrike was honoured with the WXN Canada’s Most Powerful Women: Top 100 Award, the RBC Top 25 Canadian Immigrant Award, the national WCT Top 15 Leadership Excellence Award: Innovator &amp;amp; the Atlantic Business Magazine Top 50 CEO Award. 2014: Ulrike was a recipient of the Progress Women of Excellence Award: Innovator/Entrepreneur, named 1 of Canada’s top 40 Change-Makers by Canadian Living, and received the Mannesmann Teaching Award (USA) &amp;amp; Fulbright Scholarship (USA) while pursuing her M.A.&lt;/p&gt;
-
-&lt;p&gt;Ulrike is an elected member of the International Women’s Forum &amp;amp; sits on Industry Advisory Boards with Dalhousie University &amp;amp; the Saint Mary&amp;rsquo;s University Sobey School of Business.&lt;/p&gt;
-
-&lt;p&gt;Ulrike is married and has two children. She moved with her family from Israel to Nova Scotia in 2002.&lt;/p&gt;
-
-&lt;p&gt;The banner image is of &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=50628&#34;&gt;a house designed by Hundertwasser&lt;/a&gt;, a favourite artist and architect of Ulrike&amp;rsquo;s.&lt;/p&gt;
-</description>
+      <description>Ulrike Bahr-Gedalia (BA, MA) is the President &amp;amp; CEO of Digital Nova Scotia  . She’s a multilingual senior level executive with over 20 years of combined experience in the private, public &amp;amp; academic sectors. Her career spans five geographic regions: America (North), Africa (South), Middle East, Asia &amp;amp; Europe.
+Ulrike thrives on challenges! With a proven track record in International Marketing, Business &amp;amp; Economic Development, Channel Management, Government/Stakeholder Relations, Board Governance, Fundraising, Organizational Growth &amp;amp; Public Speaking, she&amp;rsquo;s a true game-changer.</description>
     </item>
     
   </channel>

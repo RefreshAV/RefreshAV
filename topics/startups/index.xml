@@ -2,11 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Startups on Refresh Annapolis Valley</title>
-    <link>https://refreshannapolisvalley.org/topics/startups/index.xml</link>
+    <link>https://refreshannapolisvalley.org/topics/startups/</link>
     <description>Recent content in Startups on Refresh Annapolis Valley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <atom:link href="https://refreshannapolisvalley.org/topics/startups/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 May 2017 19:00:00 -0300</lastBuildDate>
+    
+	<atom:link href="https://refreshannapolisvalley.org/topics/startups/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>The Startup Life:  Youth Gone Wild</title>
@@ -14,13 +17,8 @@
       <pubDate>Tue, 09 May 2017 19:00:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/the-startup-life-youth-gone-wild/</guid>
-      <description>&lt;p&gt;Aristides Milios is possessed.  In 2014 he co-founded Microcent Technologies. As CTO he focused on incubating hyper-local location technology for use in small-to-mid sized businesses.  In 2015, he co-founded Hoist Halifax: a monthly series of workshops for teens interested in design, entrepreneurship and tech.  That same year, he graduated from Propel ICT Accelerator Program.  In 2016 he graduated from High School.&lt;/p&gt;
-
-&lt;p&gt;In this fireside chat, come learn what drives Aristides towards the tech startup trenches, and how he is building a youth entrepreneurship culture in Nova Scotia.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://refreshannapolisvalley.org/person/wes-booth&#34;&gt;Wes Booth&lt;/a&gt;
-, Young Business Leaders Committee with the Annapolis Valley Chamber of Commerce, will be our tour guide for our fire-side chat.&lt;/p&gt;
-</description>
+      <description>Aristides Milios is possessed. In 2014 he co-founded Microcent Technologies. As CTO he focused on incubating hyper-local location technology for use in small-to-mid sized businesses. In 2015, he co-founded Hoist Halifax: a monthly series of workshops for teens interested in design, entrepreneurship and tech. That same year, he graduated from Propel ICT Accelerator Program. In 2016 he graduated from High School.
+In this fireside chat, come learn what drives Aristides towards the tech startup trenches, and how he is building a youth entrepreneurship culture in Nova Scotia.</description>
     </item>
     
     <item>
@@ -29,16 +27,8 @@
       <pubDate>Tue, 13 Dec 2016 19:00:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/the-startup-life-feel-the-frost-byte/</guid>
-      <description>&lt;p&gt;Business-hypothesis-driven experimentation.  Iterative product releases. Validated learning.  Pivot. Pivot. Pivot.  Welcome to the tech startup world of &lt;a href=&#34;https://refreshannapolisvalley.org/person/john-frost&#34;&gt;John Frost&lt;/a&gt;
-.&lt;/p&gt;
-
-&lt;p&gt;From the early days of Frostbyte Interactive, Aerhyve Aerial Technologies, and now PrecisionHawk, John&amp;rsquo;s pursuit of innovative products and services in the digital tech space runs years long.  Join us for a fireside chat with John where we will explore the inner working of a person committed to the startup life.  We will examine his failures, study lessons learned from the startup trenches, and most importantly celebrate his successes.&lt;/p&gt;
-
-&lt;p&gt;John&amp;rsquo;s story is one also of the Annapolis Valley startup community.  As a tenant of the Rural Innovation Centre at Acadia University from day one, we will also explore how we are fairing in incubating innovative within our community.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://refreshannapolisvalley.org/person/emily-konrath&#34;&gt;Emily Konrath&lt;/a&gt;
-, Economic Development Officer, with the Valley Regional Enterprise Network will be our tour guide at our meetup.&lt;/p&gt;
-</description>
+      <description>Business-hypothesis-driven experimentation. Iterative product releases. Validated learning. Pivot. Pivot. Pivot. Welcome to the tech startup world of John Frost .
+From the early days of Frostbyte Interactive, Aerhyve Aerial Technologies, and now PrecisionHawk, John&amp;rsquo;s pursuit of innovative products and services in the digital tech space runs years long. Join us for a fireside chat with John where we will explore the inner working of a person committed to the startup life.</description>
     </item>
     
     <item>
@@ -47,23 +37,8 @@
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/organization/acadia-entrepreneurship-centre/</guid>
-      <description>
-
-&lt;p&gt;AEC has been developing and delivering workshops for business professionals, entrepreneurs, and not-for-profits for over 25 years. AEC continues to innovate and develop new and relevant programs for today’s business professional.&lt;/p&gt;
-
-&lt;h3 id=&#34;rural-innovation-centre&#34;&gt;Rural Innovation Centre&lt;/h3&gt;
-
-&lt;p&gt;The Rural Innovation Centre (RIC) supports entrepreneurs and businesses in the Annapolis Valley and on the South Shore by providing training, advisory and consulting services to small businesses, government and not-for-profit organizations. The Rural Innovation Centre is an incubator for start up companies to access working space and support, networking events, mentors and connect to Acadia faculty and facilities.&lt;/p&gt;
-
-&lt;h3 id=&#34;launchbox&#34;&gt;Launchbox&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://refreshannapolisvalley.org/organization/launchbox&#34;&gt;
-    
-        Launchbox
-    
-&lt;/a&gt;
- is the centre for student entrepreneurs, located on the 4th floor of Patterson Hall at Acadia University. We support students in their entrepreneurial pursuits by providing free programming, networking, access to mentors, and other entrepreneurs, working space and competitions.&lt;/p&gt;
-</description>
+      <description>AEC has been developing and delivering workshops for business professionals, entrepreneurs, and not-for-profits for over 25 years. AEC continues to innovate and develop new and relevant programs for today’s business professional.
+Rural Innovation Centre The Rural Innovation Centre (RIC) supports entrepreneurs and businesses in the Annapolis Valley and on the South Shore by providing training, advisory and consulting services to small businesses, government and not-for-profit organizations. The Rural Innovation Centre is an incubator for start up companies to access working space and support, networking events, mentors and connect to Acadia faculty and facilities.</description>
     </item>
     
     <item>
@@ -72,19 +47,8 @@
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/person/andrew-button/</guid>
-      <description>&lt;p&gt;After a 15 year career with various businesses and economic development organizations, Andrew felt it was about time to move from being a ‘cheerleader’ and ‘curator’ of entrepreneurship to doing something that actually produced more entrepreneurs in rural communities.&lt;/p&gt;
-
-&lt;p&gt;​In 2014 he founded &lt;a href=&#34;http://www.mashuplab.ca/&#34;&gt;Mashup Lab&lt;/a&gt;; a for-more-than-profit company that activates rural ideas.  That same year he launched a chapter of the &lt;a href=&#34;http://www.awesomesouthshore.ca/&#34;&gt;Awesome Foundation&lt;/a&gt; in his community. Andrew has since gone on to launch another social enterprise - &lt;a href=&#34;https://refreshannapolisvalley.org/organization/co3&#34;&gt;
-    
-        CO3
-    
-&lt;/a&gt;
-, a fresh new coworking space for Freelancers, Entrepreneurs, and Independents located in Bridgewater, Nova Scotia.&lt;/p&gt;
-
-&lt;p&gt;Andrew&amp;rsquo;s work with over 1,000 Entrepreneurs located in rural has convinced him that great ideas can come from anywhere. His passion and energy is focused on one thing: unleashing entrepreneurial potential in rural communities that has yet to be inspired into action.&lt;/p&gt;
-
-&lt;p&gt;&lt;small&gt;Andrew&amp;rsquo;s banner image is a Captain Canuck inspired rendition of artwork blatantly ripped off the Mashup Lab website.&lt;/small&gt;&lt;/p&gt;
-</description>
+      <description>After a 15 year career with various businesses and economic development organizations, Andrew felt it was about time to move from being a ‘cheerleader’ and ‘curator’ of entrepreneurship to doing something that actually produced more entrepreneurs in rural communities.
+​In 2014 he founded Mashup Lab; a for-more-than-profit company that activates rural ideas. That same year he launched a chapter of the Awesome Foundation in his community. Andrew has since gone on to launch another social enterprise - CO3  , a fresh new coworking space for Freelancers, Entrepreneurs, and Independents located in Bridgewater, Nova Scotia.</description>
     </item>
     
     <item>
@@ -93,10 +57,8 @@
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/person/aristides-milios/</guid>
-      <description>&lt;p&gt;Aristides is a highly motivated university student passionate about entrepreneurship, innovation, and web development.&lt;/p&gt;
-
-&lt;p&gt;CTO MicroCent Technologies and Co-Founder of Hoist Halifax, Aristides is full stack web developer who loves public speaking and is a natural leader.  Smokin.&lt;/p&gt;
-</description>
+      <description>Aristides is a highly motivated university student passionate about entrepreneurship, innovation, and web development.
+CTO MicroCent Technologies and Co-Founder of Hoist Halifax, Aristides is full stack web developer who loves public speaking and is a natural leader. Smokin.</description>
     </item>
     
     <item>
@@ -105,8 +67,7 @@
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/person/elizabeth-garrett/</guid>
-      <description>&lt;p&gt;&amp;ldquo;Just like becoming an expert in wine - you learn by drinking it, the best you can afford - you learn great food by finding the best there is, whether simply or luxurious. Then you savor it, analyze it, discuss it with your companions, and you compare it with other experiences&amp;rdquo; - Julia Child, &lt;em&gt;Mastering the Art of French Cooking&lt;/em&gt;&lt;/p&gt;
-</description>
+      <description>&amp;ldquo;Just like becoming an expert in wine - you learn by drinking it, the best you can afford - you learn great food by finding the best there is, whether simply or luxurious. Then you savor it, analyze it, discuss it with your companions, and you compare it with other experiences&amp;rdquo; - Julia Child, Mastering the Art of French Cooking</description>
     </item>
     
     <item>
@@ -115,10 +76,8 @@
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/person/emily-konrath/</guid>
-      <description>&lt;p&gt;Emily is a small business enthusiast with a passion for homegrown talent. Emily was born and raised in Wolfville, studied her Bachelor of Commerce degree at Saint Mary’s University and obtained her Masters in International Business from Jönköping, Sweden.  Emily has lived and studied in cities across Canada and abroad in Germany and Sweden.&lt;/p&gt;
-
-&lt;p&gt;Emily is an Economic Development Officer with the Valley Regional Enterprise Network, a municipal corporation that works as a catalyst for regional economic development in the Annapolis Valley. Emily is tasked with sector development of five core sectors that present key opportunities for growth and investment attraction (Agriculture; Information, Communications and Technologies (ICT); Manufacturing, Sustainable Energy; and Tourism). Previously, Emily worked as an International Trade Consultant working with firms interested in exporting to international markets where she travelled across Europe, South America, and the Caribbean matching businesses to international opportunities.&lt;/p&gt;
-</description>
+      <description>Emily is a small business enthusiast with a passion for homegrown talent. Emily was born and raised in Wolfville, studied her Bachelor of Commerce degree at Saint Mary’s University and obtained her Masters in International Business from Jönköping, Sweden. Emily has lived and studied in cities across Canada and abroad in Germany and Sweden.
+Emily is an Economic Development Officer with the Valley Regional Enterprise Network, a municipal corporation that works as a catalyst for regional economic development in the Annapolis Valley.</description>
     </item>
     
     <item>
@@ -127,14 +86,8 @@
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/person/frances-schagen/</guid>
-      <description>&lt;p&gt;Frances is a small business innovator. She geeks out over business strategy, business models and building entrepreneurial ecosystems. She believe that&amp;rsquo;s the kind of thinking we need to save the world. Frances helps create places where entrepreneurship can thrive within our business and within our community.&lt;/p&gt;
-
-&lt;p&gt;Business innovation is essential for us to solve our biggest issues and to succeed in the world today. Business theory was developed for large business and small business is not a little big business. Frances has been on this quest for decades, talking to 1000&amp;rsquo;s of business owners and reading 1000&amp;rsquo;s of books.&lt;/p&gt;
-
-&lt;p&gt;Your Effortless Business is her book where she outlines how you can make your business work better and be more entrepreneurial Hint:you don&amp;rsquo;t need an MBA to succeed in small business, in fact it will get in the way.&lt;/p&gt;
-
-&lt;p&gt;Frances&amp;rsquo; profile picture was created by software trained in the fine art of pastels.  Header image a pic of Jacob Epstein&amp;rsquo;s sculpture &lt;em&gt;The Rush of Green or The Bowater House Group&lt;/em&gt;.&lt;/p&gt;
-</description>
+      <description>Frances is a small business innovator. She geeks out over business strategy, business models and building entrepreneurial ecosystems. She believe that&amp;rsquo;s the kind of thinking we need to save the world. Frances helps create places where entrepreneurship can thrive within our business and within our community.
+Business innovation is essential for us to solve our biggest issues and to succeed in the world today. Business theory was developed for large business and small business is not a little big business.</description>
     </item>
     
     <item>
@@ -143,8 +96,7 @@
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/person/john-frost/</guid>
-      <description>&lt;p&gt;John Frost is a Senior Manager, Satellite Products, at PrecisionHawk.  John worked extensively in geophysical research and exploration before returning to university to complete studies in International Relations/Intercultural Studies. With broad national and international project exposure, he is a cross-cultural specialist in technology adaptation. Through the Aerhyve brand, the company focused on the analysis of UAV data with Machine Learning, providing actionable intelligence for agricultural and industrial applications. An entrepreneur and technophile, John is always pursuing opportunities which make a local-global impact.&lt;/p&gt;
-</description>
+      <description>John Frost is a Senior Manager, Satellite Products, at PrecisionHawk. John worked extensively in geophysical research and exploration before returning to university to complete studies in International Relations/Intercultural Studies. With broad national and international project exposure, he is a cross-cultural specialist in technology adaptation. Through the Aerhyve brand, the company focused on the analysis of UAV data with Machine Learning, providing actionable intelligence for agricultural and industrial applications. An entrepreneur and technophile, John is always pursuing opportunities which make a local-global impact.</description>
     </item>
     
     <item>
@@ -153,8 +105,7 @@
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/organization/launchbox/</guid>
-      <description>&lt;p&gt;Launchbox is the centre for student entrepreneurs, located on the 4th floor of Patterson Hall at Acadia University. We support students in their entrepreneurial pursuits by providing free programming, networking, access to mentors, and other entrepreneurs, working space and competitions.&lt;/p&gt;
-</description>
+      <description>Launchbox is the centre for student entrepreneurs, located on the 4th floor of Patterson Hall at Acadia University. We support students in their entrepreneurial pursuits by providing free programming, networking, access to mentors, and other entrepreneurs, working space and competitions.</description>
     </item>
     
     <item>
@@ -163,21 +114,8 @@
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/person/paul-richards/</guid>
-      <description>&lt;p&gt;Paul Richards is &lt;a href=&#34;https://refreshannapolisvalley.org/organization/innovacorp&#34;&gt;
-    
-        innovacorp&amp;#39;s
-    
-&lt;/a&gt;
- regional manager for Nova Scotia&amp;rsquo;s Annapolis Valley and South Shore. In this role, Paul focuses on enabling knowledge-based companies to accelerate their growth and helping foster a dynamic high-growth entrepreneurial culture in the region.&lt;/p&gt;
-
-&lt;p&gt;Paul spent over 10 years working with the Acadia Centre for Social and Business Entrepreneurship (ACSBE) assisting businesses in rural Nova Scotia. In this role, Paul also worked to build the entrepreneurial capacity and infrastructure of several developing economies in Africa.&lt;/p&gt;
-
-&lt;p&gt;Prior to joining Innovacorp, Paul worked with the Atlantic Canadian Opportunities Agency, where he worked with several priority industry sectors, provided commercialization advice to academic researchers, and developed many innovative community projects designed to stimulate economic improvement across Nova Scotia.&lt;/p&gt;
-
-&lt;p&gt;Paul holds an economics degree from Acadia University.&lt;/p&gt;
-
-&lt;p&gt;Unknown to Paul, his profile pic was reinterpreted by a computer who studied the works of the famous Nova Scotia artist Maud Lewis.  Kashi Go Lean waffles inspired by Paul&amp;rsquo;s teachings on Lean business concepts.&lt;/p&gt;
-</description>
+      <description>Paul Richards is innovacorp&amp;#39;s  regional manager for Nova Scotia&amp;rsquo;s Annapolis Valley and South Shore. In this role, Paul focuses on enabling knowledge-based companies to accelerate their growth and helping foster a dynamic high-growth entrepreneurial culture in the region.
+Paul spent over 10 years working with the Acadia Centre for Social and Business Entrepreneurship (ACSBE) assisting businesses in rural Nova Scotia. In this role, Paul also worked to build the entrepreneurial capacity and infrastructure of several developing economies in Africa.</description>
     </item>
     
     <item>
@@ -186,10 +124,8 @@
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/organization/innovacorp/</guid>
-      <description>&lt;p&gt;Innovacorp is Nova Scotia’s early stage venture capital organization. We work to find, fund and foster innovative Nova Scotia start-ups that strive to change the world. Early stage investment is at the core of our business model. We also give entrepreneurs access to world-class incubation facilities, expert advice and other support to help them accelerate their companies.&lt;/p&gt;
-
-&lt;p&gt;Target industries include clean technology, information technology, life sciences and ocean technology.&lt;/p&gt;
-</description>
+      <description>Innovacorp is Nova Scotia’s early stage venture capital organization. We work to find, fund and foster innovative Nova Scotia start-ups that strive to change the world. Early stage investment is at the core of our business model. We also give entrepreneurs access to world-class incubation facilities, expert advice and other support to help them accelerate their companies.
+Target industries include clean technology, information technology, life sciences and ocean technology.</description>
     </item>
     
     <item>
@@ -198,66 +134,18 @@
       <pubDate>Fri, 21 Feb 2014 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/project/f5-food/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Measure and mix together:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;1 cup of farmers&lt;/p&gt;
-
-&lt;p&gt;½ pound regional food distributors&lt;/p&gt;
-
-&lt;p&gt;2 tbsp chefs&lt;/p&gt;
-
-&lt;p&gt;1 cup food policy experts&lt;/p&gt;
-
-&lt;p&gt;1 dash of deep concern about making our regional bounty more accessible&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Stir in:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;2 tbsp software developers&lt;/p&gt;
-
-&lt;p&gt;½ cup interactive designers&lt;/p&gt;
-
-&lt;p&gt;4 tbsp marketers&lt;/p&gt;
-
-&lt;p&gt;1 pound new media entrepreneurs&lt;/p&gt;
-
-&lt;p&gt;Stir new media ingredients into agricultural mixture. Mix thoroughly with a group of mentors. Broil for 48 hours. Serve hot to a group of judges.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The weekend of January 17th, over 75 people found themselves involved in such a 48 hour experiment to rethink food production, distribution, and consumption.  &lt;a href=&#34;http://food.refreshannapolisvalley.org/&#34;&gt;F5://Food&lt;/a&gt; (pronounced Refresh Food) was the first event of its kind in Canada, hosted at Acadia University in the Annapolis Valley of Nova Scotia.  With new media technology (think mobile and web based applications) as a canvas for developing innovative products and services, the community of participants worked on incubating 5 projects.  These projects tackled a range problems including everything from apple breeding to food preparation.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;With an emerging set of technologies circling the Internet (web enabled sensors, real time data, the power of the smartphone, social media platforms, and the maturation of the Internet in general), the past several years has seen remarkable new applications of these technologies to the many problems found in the food arena.  Food “hackers” looking to collaborate with other like minded innovators have been building infrastructure to support early stage engagement on food technology startups.  This includes food oriented hackathons and startup weekend like events such as &lt;a href=&#34;http://hackmeatsv.foodtechconnect.com/&#34;&gt;Hack Meat&lt;/a&gt;, &lt;a href=&#34;http://foodhackathon.co/&#34;&gt;The Future of Food Hackathon&lt;/a&gt;, F5://Food, and the upcoming &lt;a href=&#34;http://www.up.co/communities/canada/truro/&#34;&gt;Truro Startup Weekend: Agri-Food&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;F5://Food spun out of a technology networking group called Refresh Annapolis Valley.  With this technology group sitting in the agricultural heartland of Nova Scotia, we believe we have a unique opportunity to develop a major part in the information technology that powers the agriculture of tomorrow.  F5://Food was our first initiative to start a conversation with stakeholders in agri-food and technology to explore new experimental collaborations.&lt;/p&gt;
-
-&lt;p&gt;To achieve such an ambitious goal, we see F5://Food and Refresh Annapolis Valley as one component of many programs that sustain agri-food entrepreneurism.  Guided by the belief that it takes wide community participation to nurture a vibrant and healthy economy, our emerging agri-food startup community includes other important programs and organizations such as the &lt;a href=&#34;https://annapolisvalleychamber.ca/committees/committee-4&#34;&gt;Annapolis Valley Chamber of Commerce’s Agriculture Innovation Accelerator Award&lt;/a&gt;, &lt;a href=&#34;http://farmworks.ca/home/&#34;&gt;Farmworks Investment Co-operative&lt;/a&gt;, &lt;a href=&#34;https://innovacorp.ca/&#34;&gt;Innovacorp&lt;/a&gt;, &lt;a href=&#34;http://www.acadiaentrepreneurshipcentre.com/&#34;&gt;Acadia Entrepreneurship Centre&lt;/a&gt;, &lt;a href=&#34;http://centreforsmallfarms.ca/&#34;&gt;Just Us! Centre For Small Farms&lt;/a&gt;, &lt;a href=&#34;http://www.perennia.ca/&#34;&gt;Perennia&lt;/a&gt;, and others.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;The opening evening of F5://Food saw 17 people pitch their ideas for elaboration over the weekend.  By process of consolidation and voting, the group of 35 weekend warriors settled on 5 projects.  Armed with a group of mentors and mini workshops, each group was faced with the task of building out the technology and business vision for their projects.  A group of judges and general onlookers were then asked to determine which of the final 5 minute group pitches best defined what could become a successful new product or service.&lt;/p&gt;
-
-&lt;p&gt;The People’s Choice Award was a three way tie between: &lt;strong&gt;tReecreate&lt;/strong&gt;, an online apple breeding network; &lt;strong&gt;Mash&lt;/strong&gt;, a cooking app that helps people choose a menu based on the time, ingredients and equipment they have on hand; and &lt;strong&gt;Grassroutes&lt;/strong&gt;, a food distribution service (Rideshare for farmers).  &lt;strong&gt;AgriGate&lt;/strong&gt;, an agri-food open data platform, came one point away from creating a four way tie.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;FarmG8 to Table&lt;/strong&gt;, a mobile app that helps locate local produce and farm experiences according to location and available products was the winner receiving a $1,000 prize and $1,000 in business development consulting services provided by FarmWorks Investment Co-Op.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;With just over a month having elapsed since F5://Food, it is very exciting the see that several of the groups that formed at the event are still working together to materialize their vision.  In this regard we can confidently say F5://Food was a resounding success.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;PS - Special shout out goes to the F5://Food sponsoring organizations for making the event possible: &lt;a href=&#34;http://www.acadiaentrepreneurshipcentre.com/&#34;&gt;Acadia Entrepreneurship Centre&lt;/a&gt;, &lt;a href=&#34;http://www2.acadiau.ca/&#34;&gt;Acadia University&lt;/a&gt;, Morton Horticultural Associates, Shift! Mobile, &lt;a href=&#34;https://www.colibri-software.com/&#34;&gt;Colibri Software&lt;/a&gt;, &lt;a href=&#34;http://www.harvesthand.com/&#34;&gt;HarvestHand&lt;/a&gt;, &lt;a href=&#34;https://innovacorp.ca/&#34;&gt;Innovacorp&lt;/a&gt;, &lt;a href=&#34;http://www.justuscoffee.com/&#34;&gt;Just Us! Coffee Roasters Co-op&lt;/a&gt;, &lt;a href=&#34;http://novascotia.ca/business/&#34;&gt;Nova Scotia Department of Economic and Rural Development and Tourism&lt;/a&gt;, &lt;a href=&#34;http://www.county.kings.ns.ca/&#34;&gt;Municipality of the County of Kings&lt;/a&gt;, Front &amp;amp; Central Restaurant, &lt;a href=&#34;http://farmworks.ca/home/&#34;&gt;Farmworks Investment Co-operative&lt;/a&gt;, &lt;a href=&#34;https://youreffortlessbusiness.wordpress.com/&#34;&gt;Your Effortless Business&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;This article originally appeared in the April 2014 issue of &lt;a href=&#34;http://www.rurallife.ca/ruraldelivery/&#34;&gt;Rural Delivery&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/Ylh5pVcghvI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-</description>
+      <description>Measure and mix together:
+1 cup of farmers
+½ pound regional food distributors
+2 tbsp chefs
+1 cup food policy experts
+1 dash of deep concern about making our regional bounty more accessible
+Stir in:
+2 tbsp software developers
+½ cup interactive designers
+4 tbsp marketers
+1 pound new media entrepreneurs
+Stir new media ingredients into agricultural mixture. Mix thoroughly with a group of mentors. Broil for 48 hours. Serve hot to a group of judges.</description>
     </item>
     
     <item>
@@ -266,83 +154,8 @@
       <pubDate>Mon, 10 Dec 2012 19:30:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/local-projects-roundup-round-two/</guid>
-      <description>&lt;p&gt;Come join us for &amp;ldquo;&lt;strong&gt;Local Projects Roundup - Round Two&lt;/strong&gt;,&amp;rdquo; a discussion about interesting local web projects, platforms, business, and techies.&lt;/p&gt;
-
-&lt;div class=&#34;media-object&#34;&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;div class=&#34;thumbnail&#34;&gt;
-            &lt;img style=&#34;max-width: 100px&#34; src= &#34;https://refreshannapolisvalley.org/images/organization/valley-family-fun/icon.jpg&#34;&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;h4&gt;&lt;strong&gt;Online Community Engagement&lt;/strong&gt; with Laura Churchill Duke&lt;/h4&gt;
-        &lt;p&gt;
-    Laura is the owner and operator of &lt;a href=&#34;https://refreshannapolisvalley.org/organization/valley-family-fun&#34;&gt;
-    
-        Valley Family Fun
-    
-&lt;/a&gt;
- which is a website for families living in the Annapolis Valley. It includes resources, ideas, information and a calendar of family-friendly events. Started in January 2012, it has grown to include a Facebook and Twitter site to form a web-based network of over 6000 followers.
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;&lt;div class=&#34;media-object&#34;&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;div class=&#34;thumbnail&#34;&gt;
-            &lt;img style=&#34;max-width: 100px&#34; src= &#34;https://refreshannapolisvalley.org/images/organization/scotiacom/icon.jpg&#34;&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;h4&gt;&lt;strong&gt;Let&amp;rsquo;s Build a Drupal Site in 8 Minutes, 32 Seconds!&lt;/strong&gt; with Geoff Crouse&lt;/h4&gt;
-        &lt;p&gt;
-    Geoff of &lt;a href=&#34;https://refreshannapolisvalley.org/organization/scotiacom&#34;&gt;
-    
-        ScotiaCom
-    
-&lt;/a&gt;
- will walk us through the build out of web sites using the popular open source Content Management System Drupal.
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&lt;div class=&#34;media-object&#34;&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;div class=&#34;thumbnail&#34;&gt;
-            &lt;img style=&#34;max-width: 100px&#34; src= &#34;https://refreshannapolisvalley.org/images/organization/colibri-software/icon.png&#34;&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;h4&gt;&lt;strong&gt;Locomotive CMS&lt;/strong&gt; with Charlie&lt;/h4&gt;
-        &lt;p&gt;
-    Charlie from &lt;a href=&#34;https://refreshannapolisvalley.org/organization/colibri-software&#34;&gt;
-    
-        Colibri Software
-    
-&lt;/a&gt;
- will present a description of the architecture of Locomotive CMS (a data driven system which uses Ruby on Rails, MongoDB and liquid markup) in contrast to a traditional PHP (page driven, PHP, SQL) content management system. We will look at the strengths and weaknesses of Locomotive in this context.
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&lt;div class=&#34;media-object&#34;&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;div class=&#34;thumbnail&#34;&gt;
-            &lt;img style=&#34;max-width: 100px&#34; src= &#34;https://refreshannapolisvalley.org/images/event/local-projects-roundup-round-two/coldfusion.png&#34;&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;h4&gt;&lt;strong&gt;Coldfusion&lt;/strong&gt; with Keith Diehl&lt;/h4&gt;
-        &lt;p&gt;
-    How Coldfusion saved me from a week of grunt work - Using SQL Server and Coldfusion to generate 600 Word Documents.
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-</description>
+      <description>Come join us for &amp;ldquo;Local Projects Roundup - Round Two,&amp;rdquo; a discussion about interesting local web projects, platforms, business, and techies.
+  Online Community Engagement with Laura Churchill Duke  Laura is the owner and operator of Valley Family Fun  which is a website for families living in the Annapolis Valley. It includes resources, ideas, information and a calendar of family-friendly events. Started in January 2012, it has grown to include a Facebook and Twitter site to form a web-based network of over 6000 followers.</description>
     </item>
     
     <item>
@@ -351,108 +164,8 @@
       <pubDate>Mon, 12 Nov 2012 19:30:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/local-projects-roundup-round-one/</guid>
-      <description>&lt;p&gt;Come join us for &lt;strong&gt;Local Projects Roundup - Round One&lt;/strong&gt;, a discussion about interesting local web projects, and initiatives supporting startups.&lt;/p&gt;
-
-&lt;div class=&#34;media-object&#34;&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;div class=&#34;thumbnail&#34;&gt;
-            &lt;img style=&#34;max-width: 100px&#34; src= &#34;https://refreshannapolisvalley.org/images/organization/hub-kentville/icon.jpg&#34;&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;h4&gt;&lt;strong&gt;HUB Kentville&lt;/strong&gt; with Frances Schagen&lt;/h4&gt;
-        &lt;p&gt;
-    Calling all forward-thinking entrepreneurs, start ups, creatives, artists, freelancers, coders and non-profits. &lt;a href=&#34;https://refreshannapolisvalley.org/organization/hub-kentville&#34;&gt;
-    
-        HUB Kentville
-    
-&lt;/a&gt;
- is a membership-based coworking spaces where people share an address, resources, equipment and community.
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;&lt;div class=&#34;media-object&#34;&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;div class=&#34;thumbnail&#34;&gt;
-            &lt;img style=&#34;max-width: 100px&#34; src= &#34;https://refreshannapolisvalley.org/images/organization/harvesthand/icon.png&#34;&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;h4&gt;&lt;strong&gt;HarvestHand&lt;/strong&gt; with Michael Caplan&lt;/h4&gt;
-        &lt;p&gt;
-    Community Supported Agriculture (CSA) is a member based model for food production and distribution that unites local communities with local farms. &lt;a href=&#34;https://refreshannapolisvalley.org/organization/harvesthand&#34;&gt;
-    
-        HarvestHand
-    
-&lt;/a&gt;
- is an Internet platform for CSA farms to communicate with and manage their community of members.
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&lt;div class=&#34;media-object&#34;&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;div class=&#34;thumbnail&#34;&gt;
-            &lt;img style=&#34;max-width: 100px&#34; src= &#34;https://refreshannapolisvalley.org/images/organization/labnet-dental-lab-systems/icon.png&#34;&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;h4&gt;&lt;strong&gt;Digital Dental Exchange&lt;/strong&gt; with Chris Jordan and Justin Bezanson&lt;/h4&gt;
-        &lt;p&gt;
-    The &lt;a href=&#34;https://refreshannapolisvalley.org/organization/labnet-dental-lab-systems&#34;&gt;
-    
-        Digital Dental Exchange
-    
-&lt;/a&gt;
- (DDX) is a network connecting dental labs and dental practices, and all sorts of dental technologies in between.  Crowns, dentures, 3D scanners and printers, DDX is the fabric of twenty-first century dentistry.
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&lt;div class=&#34;media-object&#34;&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;div class=&#34;thumbnail&#34;&gt;
-            &lt;img style=&#34;max-width: 100px&#34; src= &#34;https://refreshannapolisvalley.org/images/organization/progeny-genealogy/icon.png&#34;&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;h4&gt;&lt;strong&gt;Wallcharts.com&lt;/strong&gt; with Pierre Clouthier&lt;/h4&gt;
-        &lt;p&gt;
-    Build your family tree or create a family chart, &lt;a href=&#34;https://refreshannapolisvalley.org/organization/progeny-genealogy&#34;&gt;
-    
-        wallcharts.com
-    
-&lt;/a&gt;
- allows you to easily share family genealogy information.
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&lt;div class=&#34;media-object&#34;&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;div class=&#34;thumbnail&#34;&gt;
-            &lt;img style=&#34;max-width: 100px&#34; src= &#34;https://refreshannapolisvalley.org/images/organization/innovacorp/icon.jpg&#34;&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;h4&gt;&lt;strong&gt;innovacorp&lt;/strong&gt; with Paul Richards&lt;/h4&gt;
-        &lt;p&gt;
-    &lt;a href=&#34;https://refreshannapolisvalley.org/organization/innovacorp&#34;&gt;
-    
-        innovacorp
-    
-&lt;/a&gt;
- is a provincial crown corporation that works to development the knowledge based economy through the development of growth orientated technology businesses.  Paul will discuss innovacorp&#39;s work here in the Valley to strengthen our IT sector.
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-</description>
+      <description>Come join us for Local Projects Roundup - Round One, a discussion about interesting local web projects, and initiatives supporting startups.
+  HUB Kentville with Frances Schagen  Calling all forward-thinking entrepreneurs, start ups, creatives, artists, freelancers, coders and non-profits. HUB Kentville  is a membership-based coworking spaces where people share an address, resources, equipment and community.     HarvestHand with Michael Caplan  Community Supported Agriculture (CSA) is a member based model for food production and distribution that unites local communities with local farms.</description>
     </item>
     
   </channel>

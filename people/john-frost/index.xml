@@ -2,11 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>John Frost on Refresh Annapolis Valley</title>
-    <link>https://refreshannapolisvalley.org/people/john-frost/index.xml</link>
+    <link>https://refreshannapolisvalley.org/people/john-frost/</link>
     <description>Recent content in John Frost on Refresh Annapolis Valley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <atom:link href="https://refreshannapolisvalley.org/people/john-frost/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Dec 2016 19:00:00 -0300</lastBuildDate>
+    
+	<atom:link href="https://refreshannapolisvalley.org/people/john-frost/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>The Startup Life: Feel The Frost Byte</title>
@@ -14,16 +17,8 @@
       <pubDate>Tue, 13 Dec 2016 19:00:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/the-startup-life-feel-the-frost-byte/</guid>
-      <description>&lt;p&gt;Business-hypothesis-driven experimentation.  Iterative product releases. Validated learning.  Pivot. Pivot. Pivot.  Welcome to the tech startup world of &lt;a href=&#34;https://refreshannapolisvalley.org/person/john-frost&#34;&gt;John Frost&lt;/a&gt;
-.&lt;/p&gt;
-
-&lt;p&gt;From the early days of Frostbyte Interactive, Aerhyve Aerial Technologies, and now PrecisionHawk, John&amp;rsquo;s pursuit of innovative products and services in the digital tech space runs years long.  Join us for a fireside chat with John where we will explore the inner working of a person committed to the startup life.  We will examine his failures, study lessons learned from the startup trenches, and most importantly celebrate his successes.&lt;/p&gt;
-
-&lt;p&gt;John&amp;rsquo;s story is one also of the Annapolis Valley startup community.  As a tenant of the Rural Innovation Centre at Acadia University from day one, we will also explore how we are fairing in incubating innovative within our community.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://refreshannapolisvalley.org/person/emily-konrath&#34;&gt;Emily Konrath&lt;/a&gt;
-, Economic Development Officer, with the Valley Regional Enterprise Network will be our tour guide at our meetup.&lt;/p&gt;
-</description>
+      <description>Business-hypothesis-driven experimentation. Iterative product releases. Validated learning. Pivot. Pivot. Pivot. Welcome to the tech startup world of John Frost .
+From the early days of Frostbyte Interactive, Aerhyve Aerial Technologies, and now PrecisionHawk, John&amp;rsquo;s pursuit of innovative products and services in the digital tech space runs years long. Join us for a fireside chat with John where we will explore the inner working of a person committed to the startup life.</description>
     </item>
     
     <item>
@@ -32,8 +27,7 @@
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/organization/precisionhawk/</guid>
-      <description>&lt;p&gt;PrecisionHawk is the leading provider of aerial data and safety platforms for drones. The Lancaster  is PrecisionHawk’s fixed-wing, autonomous drone built to collect the highest quality terrestrial data using a host of integrated sensors including visual, thermal, LiDAR, multispectral and hyperspectral. PrecisionHawk houses three divisions that support its mission: DataMapper aerial mapping and analysis software, TerraServer satellite imagery and LATAS (Low Altitude Traffic and Airspace Safety).&lt;/p&gt;
-</description>
+      <description>PrecisionHawk is the leading provider of aerial data and safety platforms for drones. The Lancaster is PrecisionHawk’s fixed-wing, autonomous drone built to collect the highest quality terrestrial data using a host of integrated sensors including visual, thermal, LiDAR, multispectral and hyperspectral. PrecisionHawk houses three divisions that support its mission: DataMapper aerial mapping and analysis software, TerraServer satellite imagery and LATAS (Low Altitude Traffic and Airspace Safety).</description>
     </item>
     
   </channel>

@@ -2,11 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Web Dev on Refresh Annapolis Valley</title>
-    <link>https://refreshannapolisvalley.org/topics/web-dev/index.xml</link>
+    <link>https://refreshannapolisvalley.org/topics/web-dev/</link>
     <description>Recent content in Web Dev on Refresh Annapolis Valley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <atom:link href="https://refreshannapolisvalley.org/topics/web-dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Aug 2016 19:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://refreshannapolisvalley.org/topics/web-dev/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Charlie Greene</title>
@@ -14,15 +17,8 @@
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/person/charlie-greene/</guid>
-      <description>&lt;p&gt;Charlie is a senior software developer at The REDspace. He is alumni from &lt;a href=&#34;https://refreshannapolisvalley.org/organization/colibri-software&#34;&gt;
-    
-        Colibri Software
-    
-&lt;/a&gt;
- where he worked for two years, ever since graduating from Acadia University with a Honors degree in Computer Science with Co-Op option.&lt;/p&gt;
-
-&lt;p&gt;Charlie&amp;rsquo;s profile picture was created by a robot inspired by the work of Ruby the painting elephant.  True story.&lt;/p&gt;
-</description>
+      <description>Charlie is a senior software developer at The REDspace. He is alumni from Colibri Software  where he worked for two years, ever since graduating from Acadia University with a Honors degree in Computer Science with Co-Op option.
+Charlie&amp;rsquo;s profile picture was created by a robot inspired by the work of Ruby the painting elephant. True story.</description>
     </item>
     
     <item>
@@ -31,16 +27,11 @@
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/person/justin-bezanson/</guid>
-      <description>&lt;p&gt;Since 2000 I have continued to expand my knowledge and skills and worked hard to be the best developer I can be.&lt;/p&gt;
-
-&lt;p&gt;I enjoy meeting challenges and working hard to find creative and user friendly solutions.&lt;/p&gt;
-
-&lt;p&gt;My goal is to continually improve my development process, delivering higher quality and efficiency.&lt;/p&gt;
-
-&lt;p&gt;Specialties: PHP, ASP.NET MVC, HTML, CSS, JavaScript, jQuery, CodeIgniter, Zend Framework, AJAX, Windows, Linux, MySQL, SQL Server, WordPress, ASP.NET&lt;/p&gt;
-
-&lt;p&gt;Justin, pictured here, &lt;em&gt;is&lt;/em&gt; The Thing from the Fantastic Four.&lt;/p&gt;
-</description>
+      <description>Since 2000 I have continued to expand my knowledge and skills and worked hard to be the best developer I can be.
+I enjoy meeting challenges and working hard to find creative and user friendly solutions.
+My goal is to continually improve my development process, delivering higher quality and efficiency.
+Specialties: PHP, ASP.NET MVC, HTML, CSS, JavaScript, jQuery, CodeIgniter, Zend Framework, AJAX, Windows, Linux, MySQL, SQL Server, WordPress, ASP.NET
+Justin, pictured here, is The Thing from the Fantastic Four.</description>
     </item>
     
     <item>
@@ -49,12 +40,8 @@
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/person/keith-diehl/</guid>
-      <description>&lt;p&gt;Keith got his first glimpse of HTML with NCSA&amp;rsquo;s Mosaic browser in 1994.  A few “View Sources” later and he was hooked.&lt;/p&gt;
-
-&lt;p&gt;Soon after, he got his first web job as Webmaster for the Arizona Daily Wildcat.  Over the years, Keith has worked for several newspapers and Fortune 500 companies including Coca Cola and Aflac insurance.  He has been the Webmaster for North America&amp;rsquo;s premiere training provider CED Solutions for over 15 years.&lt;/p&gt;
-
-&lt;p&gt;Keith has been fortunate to be able to combine the connectivity of the web with his love of travel.   During his travels, he met a lovely Canadian who convinced him to move to Canada and get married.  He lives in Nova Scotia with his wife and young son.&lt;/p&gt;
-</description>
+      <description>Keith got his first glimpse of HTML with NCSA&amp;rsquo;s Mosaic browser in 1994. A few “View Sources” later and he was hooked.
+Soon after, he got his first web job as Webmaster for the Arizona Daily Wildcat. Over the years, Keith has worked for several newspapers and Fortune 500 companies including Coca Cola and Aflac insurance. He has been the Webmaster for North America&amp;rsquo;s premiere training provider CED Solutions for over 15 years.</description>
     </item>
     
     <item>
@@ -63,13 +50,7 @@
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/person/mark-davis/</guid>
-      <description>&lt;p&gt;Founder / CEO at &lt;a href=&#34;http://colovo.com/&#34;&gt;colovo&lt;/a&gt; and co-founder of &lt;a href=&#34;https://refreshannapolisvalley.org/organization/the-hub-yarmouth&#34;&gt;
-    
-        The HUB Yarmouth
-    
-&lt;/a&gt;
-.&lt;/p&gt;
-</description>
+      <description>Founder / CEO at colovo and co-founder of The HUB Yarmouth  .</description>
     </item>
     
     <item>
@@ -78,25 +59,8 @@
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/person/michael-caplan/</guid>
-      <description>&lt;p&gt;Mike has been active as a web application developer and web designer for 16 years, working in the non-profit, university, retail, agricultural, and dental industries. He is a founding partner of &lt;a href=&#34;https://refreshannapolisvalley.org/organization/harvesthand&#34;&gt;
-    
-        HarvestHand
-    
-&lt;/a&gt;
-, a platform that services Community Shared Agriculture farms. Mike founded &lt;a href=&#34;https://refreshannapolisvalley.org/organization/refresh-annapolis-valley&#34;&gt;
-    
-        Refresh Annapolis Valley
-    
-&lt;/a&gt;
-, a new media professional association to help grow the Valley&amp;rsquo;s technology industry.&lt;/p&gt;
-
-&lt;p&gt;Mike is the Software Development Manager for the &lt;a href=&#34;https://refreshannapolisvalley.org/organization/labnet-dental-lab-systems&#34;&gt;
-    
-        Labnet Dental Lab Systems
-    
-&lt;/a&gt;
- division of Henry Schein - a Fortune 300 company with a small footprint here in Wolfville.&lt;/p&gt;
-</description>
+      <description>Mike has been active as a web application developer and web designer for 16 years, working in the non-profit, university, retail, agricultural, and dental industries. He is a founding partner of HarvestHand  , a platform that services Community Shared Agriculture farms. Mike founded Refresh Annapolis Valley  , a new media professional association to help grow the Valley&amp;rsquo;s technology industry.
+Mike is the Software Development Manager for the Labnet Dental Lab Systems  division of Henry Schein - a Fortune 300 company with a small footprint here in Wolfville.</description>
     </item>
     
   </channel>

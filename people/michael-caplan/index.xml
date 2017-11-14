@@ -2,11 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Michael Caplan on Refresh Annapolis Valley</title>
-    <link>https://refreshannapolisvalley.org/people/michael-caplan/index.xml</link>
+    <link>https://refreshannapolisvalley.org/people/michael-caplan/</link>
     <description>Recent content in Michael Caplan on Refresh Annapolis Valley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <atom:link href="https://refreshannapolisvalley.org/people/michael-caplan/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Dec 2017 13:00:00 -0300</lastBuildDate>
+    
+	<atom:link href="https://refreshannapolisvalley.org/people/michael-caplan/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>f5://imagination</title>
@@ -14,144 +17,9 @@
       <pubDate>Sun, 17 Dec 2017 13:00:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/f5/imagination/</guid>
-      <description>&lt;p&gt;f5://imagination is a pop up exhibit focused on digital creativity.  This one day temporary exhibit is seeking submissions from digital artists, makers, scratchers, computer scientists, engineers and pretendgineer, hardware hackers, lego robotics warriors, indy game developers, new media innovators, VR and AR pioneers&amp;hellip;  digital builders of all shapes, sizes, and credentials.&lt;/p&gt;
-
-&lt;p&gt;We are accepting submissions in the following categories:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Computer generated art&lt;/li&gt;
-&lt;li&gt;Digital games&lt;/li&gt;
-&lt;li&gt;Interactive story&lt;/li&gt;
-&lt;li&gt;Digital gadgets and gizmos&lt;/li&gt;
-&lt;li&gt;VR / AR environments&lt;/li&gt;
-&lt;li&gt;Animation&lt;/li&gt;
-&lt;li&gt;AI investigations&lt;/li&gt;
-&lt;li&gt;Miscellaneous computer experiments&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;f5://imagination serves as a platform for digital artistic experimentation. It promotes exploration in all forms of new media art, providing the public with an opportunity to experience your innovative work. f5://imagination is committed to making this extraordinary form, at the intersection of art and technology, available to everyone.&lt;/p&gt;
-
-&lt;p&gt;Submissions are being accepted until midnight December 13.  To submit, fill out the below form.&lt;/p&gt;
-
-&lt;div style=&#34;margin:0px;padding:0px;overflow:hidden&#34;&gt;
-    &lt;iframe src=&#34;https://docs.google.com/forms/d/e/1FAIpQLSco_QD5Lo5vCD_FDwCZT5BlUX78t9QbdeSWv4h4QYIyQ_Sy1g/viewform?embedded=true&#34; frameborder=&#34;0&#34; style=&#34;overflow:hidden;height:100vh;width:100%; border: 1px solid hsla(0,0%,4%,.25)&#34;&gt;Loading...&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.min.js&#34; integrity=&#34;sha256-bXPU+HvtR3tP1IYHZVEFHzEZ9p5zkY8GLPnOnJXW67k=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
-&lt;script
-   type=&#34;text/javascript&#34;
-   src=&#34;https://rawgit.com/IDMNYU/p5.js-speech/master/lib/p5.speech.js&#34;
-&gt;&lt;/script&gt;
-
-&lt;script&gt;
-
-var isInit = 0;
-var lines =  3;
-
-var lineProps = [];
-var lx = [];
-var ly = [];
-
-var myVoice = new p5.Speech();
-var welcome = [];
-
-function getIP(json) {
-    welcome = [
-        &#39;Hello &#39; + json.ip + &#39;. Annapolis Valley festival of computer based art. refresh imagination.  A digital art exhibit&#39;,
-        &#39;Hello &#39; + json.ip + &#39;. Come explore digital imagination with us.  refresh imagination.  A digital art exhibit&#39;,
-        &#39;How do you express your creativity digitally? &#39; + json.ip + &#39;?  refresh imagination.  A digital art exhibit&#39;
-    ];
-    
-    isInit++;
-}
-
-function setup() {
-  var header = document.querySelector(&#39;main article header&#39;);
-
-  canvas = createCanvas(header.offsetWidth, header.offsetHeight);
-  canvas.parent(header);
-  
-  lines = Math.floor(random(3, 10));
-  
-  for (var li = 0; li &lt; lines; li++) {
-    lx[li] = [];
-    ly[li] = [];
-    lineProps[li] = {
-        num: Math.floor(random(10, 500)),
-        range: Math.floor(random(5, 20))
-    };
-  
-    var w = random(0, width);
-    var h = random(0, height);
-  
-    for ( var i = 0; i &lt; lineProps[li].num; i++ ) {
-      lx[li][i] = w;
-      ly[li][i] = h;
-    }
-  }
-  
-  frameRate(30);
-  isInit++;
-}
-
-function draw() {
-  background(&#39;#0a0a0a&#39;);
-
-  // Shift all elements 1 place to the left
-  for ( var li = 0; li &lt; lines; li++) {
-      for ( var i = 1; i &lt; lineProps[li].num; i++ ) {
-        lx[li][i - 1] = lx[li][i];
-        ly[li][i - 1] = ly[li][i];
-      }
-      
-      // Put a new value at the end of the array
-      lx[li][lineProps[li].num - 1] += random(-lineProps[li].range, lineProps[li].range);
-      ly[li][lineProps[li].num - 1] += random(-lineProps[li].range, lineProps[li].range);
-      
-      // Constrain all points to the screen
-      lx[li][lineProps[li].num - 1] = constrain(lx[li][lineProps[li].num - 1], 0, width);
-      ly[li][lineProps[li].num - 1] = constrain(ly[li][lineProps[li].num - 1], 0, height);
-
-  }
-
-  // Draw a line connecting the points
-  for ( var li = 0; li &lt; lines; li++) {
-    for ( var j = 1; j &lt; lineProps[li].num; j++ ) {
-        var val = j / lineProps[li].num * 204.0 + 51;
-        stroke(val);
-        line(lx[li][j - 1], ly[li][j - 1], lx[li][j], ly[li][j]);
-    }
-  }
-
-}
-
-var intervalId = setInterval(function(){
-
-    if (isInit &gt; 1) {
-        clearInterval(intervalId);
-        talk();
-    }
-    
-}, 2000);
-
-
-function talk() {
-    var voices = [];
-    
-    for (var i = 0; i &lt; myVoice.voices.length; i++) {
-        if (myVoice.voices[i].lang.substr(0,2) == &#39;en&#39;) {
-            voices.push(i);
-        }
-    }
-
-    myVoice.setVoice(random(voices));
-    myVoice.setRate(0.7);
-    myVoice.speak(random(welcome));
-}
-&lt;/script&gt;
-
-&lt;script src=&#34;https://api.ipify.org?format=jsonp&amp;callback=getIP&#34;&gt;&lt;/script&gt;
-</description>
+      <description>f5://imagination is a pop up exhibit focused on digital creativity. This one day temporary exhibit is seeking submissions from digital artists, makers, scratchers, computer scientists, engineers and pretendgineer, hardware hackers, lego robotics warriors, indy game developers, new media innovators, VR and AR pioneers&amp;hellip; digital builders of all shapes, sizes, and credentials.
+We are accepting submissions in the following categories:
+ Computer generated art Digital games Interactive story Digital gadgets and gizmos VR / AR environments Animation AI investigations Miscellaneous computer experiments  f5://imagination serves as a platform for digital artistic experimentation.</description>
     </item>
     
     <item>
@@ -160,27 +28,8 @@ function talk() {
       <pubDate>Sat, 28 Oct 2017 13:30:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/founders-meetup/</guid>
-      <description>&lt;p&gt;For this Hoist meetup, we will be doing something a little different.  We are looking for a few budding teen entrepreneurs to start a business.  This is the pitch:&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Services supporting the business startup space in Rural Nova Scotia are diverse and not well represented as a whole.  Our business aims to unify the Western Nova business startup ecosystem by building a coherent communication platform.  By doing so, we will encourage entrepreneurship within our community.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;We are looking for teens with a range of interests to flesh out this initiative:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Designer&lt;/strong&gt;: Logos, web design, brand aesthetics. &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Software development&lt;/strong&gt;: HTML, JavaScript, server management.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Business development&lt;/strong&gt;: Idea generation, shape features, market fit, competitive landscape, research.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Marketing and sales&lt;/strong&gt;: Evangelism, blogging, advertising.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Content management&lt;/strong&gt;: Master wordsmith, create original content.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Accounting&lt;/strong&gt;: Budgeting, account receivables.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Don&amp;rsquo;t have mad skillz to share, no problem.  You just need passion.  We will learn as we go, bringing in subject matter experts to beef up our skill set.&lt;/p&gt;
-
-&lt;p&gt;Bring your own laptop. A small number of laptops will be available to borrow.&lt;/p&gt;
-
-&lt;p&gt;First time Hoisters need to get a parent or guardian to &lt;a href=&#34;https://form.jotform.ca/71164477795267&#34;&gt;fill out the consent form&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>For this Hoist meetup, we will be doing something a little different. We are looking for a few budding teen entrepreneurs to start a business. This is the pitch:
+Services supporting the business startup space in Rural Nova Scotia are diverse and not well represented as a whole. Our business aims to unify the Western Nova business startup ecosystem by building a coherent communication platform. By doing so, we will encourage entrepreneurship within our community.</description>
     </item>
     
     <item>
@@ -189,14 +38,9 @@ function talk() {
       <pubDate>Sat, 13 May 2017 12:30:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/bootstrapping-the-web/</guid>
-      <description>&lt;p&gt;For our first Hoist meetup, we&amp;rsquo;ll be learning how to use the Twitter Bootstrap code library to create beautiful front-end websites. Bootstrap is a combination of HTML, CSS, and JavaScript that allow you to write very little but get a whole lot.  We&amp;rsquo;ll start with the basics of HTML and CSS and then dive into using Bootstrap to jump-start your web project.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Pizza + workshop + building&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Bring your own laptop. A small number of laptops will be available to borrow.&lt;/p&gt;
-
-&lt;p&gt;First time Hoisters need to get a parent or guardian to &lt;a href=&#34;https://form.jotform.ca/71164477795267&#34;&gt;fill out the consent form&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>For our first Hoist meetup, we&amp;rsquo;ll be learning how to use the Twitter Bootstrap code library to create beautiful front-end websites. Bootstrap is a combination of HTML, CSS, and JavaScript that allow you to write very little but get a whole lot. We&amp;rsquo;ll start with the basics of HTML and CSS and then dive into using Bootstrap to jump-start your web project.
+Pizza + workshop + building
+Bring your own laptop.</description>
     </item>
     
     <item>
@@ -205,21 +49,8 @@ function talk() {
       <pubDate>Tue, 11 Apr 2017 19:00:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/project-management-sucks/</guid>
-      <description>&lt;p&gt;Project management seems to be one of those areas of necessary evil. Disconnected project managers who don&amp;rsquo;t really understand your work coupled with never ending meetings, charts, spreadsheets, forms, paperwork, complicated management software&amp;hellip;  Project management can feel like it is more of a barrier than a help to team productivity.&lt;/p&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;https://refreshannapolisvalley.org/images/event/project-management-sucks/dilbert.gif&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;In this talk, Mike Caplan, a reluctant Software Development Manager, will explore a lightweight tool for overseeing the project processes.  Based on a simple board, this technique helps visualize workflow, expose operational problems, and reduce wasted time from excessive multitasking.  Best of all, it is a team tool that helps decentralize project management to the group.&lt;/p&gt;
-
-&lt;p&gt;From creative project work, software development, or many knowledge based areas of work, this simple workflow visualization tool scales from small teams, to large groups, and is based off of simple rules that anyone can pick up at a short Refresh Annapolis Valley meetup.&lt;/p&gt;
-</description>
+      <description>Project management seems to be one of those areas of necessary evil. Disconnected project managers who don&amp;rsquo;t really understand your work coupled with never ending meetings, charts, spreadsheets, forms, paperwork, complicated management software&amp;hellip; Project management can feel like it is more of a barrier than a help to team productivity.
+ In this talk, Mike Caplan, a reluctant Software Development Manager, will explore a lightweight tool for overseeing the project processes.</description>
     </item>
     
     <item>
@@ -228,112 +59,7 @@ function talk() {
       <pubDate>Sun, 11 Sep 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/project/creative-computing/</guid>
-      <description>
-
-&lt;p&gt;Creative Computing is a course developed by an international network of educators passionate about exposing kids to the computer sciences.  Broken up into 7 units, this course uses the popular Scratch programming environment to aid young people (aged 8 to 13) in learning the basics of software development.  Scratch is used over the world by students to easily create animations and games while acting as a stepping stone to the more advanced world of computer science.&lt;/p&gt;
-
-&lt;p&gt;What can kids do with Scratch, and why is teaching kids how to code important?  Mitchel Resnick, co-creator of Scratch, explains in this TED Talk.&lt;/p&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/Ok6LbV6bqaE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-
-&lt;h2 id=&#34;course-objectives&#34;&gt;Course Objectives&lt;/h2&gt;
-
-&lt;img class=&#34;thumbnail&#34; src=&#34;https://refreshannapolisvalley.org/images/project/creative-computing/objectives.jpg&#34; alt=&#34;Objectives&#34; align=&#34;right&#34;&gt;
-
-
-&lt;p&gt;First and foremost, we aim to provide opportunities for young learners to become exposed to the computer sciences and inter-related disciplines (other science and technology fields as well as entrepreneurship).  Our goal is to provide a learning environment that goes beyond what students are taught in public schools about the computer sciences.  We will explore software as both a creative and entrepreneurial act.&lt;/p&gt;
-
-&lt;h2 id=&#34;who-are-we&#34;&gt;Who Are We?&lt;/h2&gt;
-
-&lt;img class=&#34;thumbnail&#34; src=&#34;https://refreshannapolisvalley.org/images/project/creative-computing/who-are-we.jpg&#34; alt=&#34;Mike and Kids&#34; align=&#34;left&#34;&gt;
-
-
-&lt;p&gt;Mike Caplan is a web application developer with over 16 years experience working in non-profit, university, retail, agricultural, and dental industries.  Mike also runs Refresh Annapolis Valley, a new media professional association to help grow the Valley’s digital technology industry.  Max (15), Solomon (11) and Mike (really old) have been working with Scratch for over 5 years as a tool to help promote the computer sciences within the Valley with young people.&lt;/p&gt;
-
-&lt;img class=&#34;thumbnail&#34; src=&#34;https://refreshannapolisvalley.org/images/project/creative-computing/hm.jpg&#34; alt=&#34;Mrugakshee Palwe and Hayly Anne Thackeray&#34; align=&#34;right&#34;&gt;
-
-
-&lt;p&gt;Mrugakshee Palwe and Hayly Anne Thackeray are Co-President of the Acadia Computer Science Society. Both are students at the Acadia University Jodrey School of Computer Science in their third year of the Bachelor of Computer Science program and active members in Women In Science and Engineering Acadia. Mrugakshee and Hayly have run programs working with girls and boys on several topics within the computer sciences.&lt;/p&gt;
-
-&lt;img class=&#34;thumbnail&#34; src=&#34;https://refreshannapolisvalley.org/images/project/creative-computing/Mohammed_Shameer_Iqbal.png&#34; alt=&#34;Shameer Iqbal&#34; align=&#34;left&#34;&gt;
-
-
-&lt;p&gt;After completing his Masters in Computer Science at Acadia University, Shameer Iqbal began working with Singolar.  Singolar is a Wolfville based technology startup that uses advanced intelligence to help companies improve client interactions.  Shameer&amp;rsquo;s areas of computer science interest includes Machine Learning, Data Mining and Data Visualization.&lt;/p&gt;
-
-&lt;p&gt;We believe that offering an extracurricular course on Scratch for kids 8 to 13 will help this generation develop a fundamental literacy around the computer sciences.&lt;/p&gt;
-
-&lt;h2 id=&#34;format&#34;&gt;Format&lt;/h2&gt;
-
-&lt;img class=&#34;thumbnail&#34; src=&#34;https://refreshannapolisvalley.org/images/project/creative-computing/format.jpg&#34; alt=&#34;Format&#34; align=&#34;right&#34;&gt;
-
-
-&lt;p&gt;Creative Computing will run weekly with two different classes. Each class will run for 2 hours and 15 minutes for a total of 19 classes.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Mondays 6 PM to 8:15 PM starting January 9th, 2017.  Snow days will bump the class to the Thursday (weather permitting).  The final Monday class will take place on June 12th.&lt;/li&gt;
-&lt;li&gt;Sundays 1 PM to 3:15 PM starting January 15th, 2017.  Snow days will bump the class to the Friday (weather permitting).  The final Sunday class will take place on June 18th.
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;A weekend &amp;ldquo;#ScratchFest&amp;rdquo; will cap off the course June 24 and 25.&lt;/p&gt;
-
-&lt;p&gt;The class will follow a six unit curriculum.  Units are broken down into several exercises that range from 15 to 60 minutes a piece.   The class mentors will share teaching and mentoring responsibilities.  We will aim to have a 5 students to 1 mentor ratio.&lt;/p&gt;
-
-&lt;p&gt;During #ScartchFest, participants will brainstorm an idea, develop a project, and showcase a final prototype using an iterative plan-make-reflect cycle.  It will provide an excellent opportunity for participants to invent their own relevant projects to work on, which can be developed as independent projects or in collaborative teams, and demonstrate their knowledge in Scratch within a collaborative, creative, flexible, and playful environment.&lt;/p&gt;
-
-&lt;h2 id=&#34;guest-speakers&#34;&gt;Guest Speakers&lt;/h2&gt;
-
-&lt;img class=&#34;thumbnail&#34; src=&#34;https://refreshannapolisvalley.org/images/project/creative-computing/guests.jpg&#34; alt=&#34;Guest Speakers&#34; align=&#34;left&#34;&gt;
-
-
-&lt;p&gt;We have designed the class to have upwards to 12 guest speaker slots of 20 minutes to 30 minutes each.  With the guest speakers we aim to illustrate how the classwork can translate to industry application.  We also would like to introduce other topics in and around the computer sciences to give the student a wider sense of the world beyond our Scratch development environment.&lt;/p&gt;
-
-&lt;h2 id=&#34;class-size&#34;&gt;Class Size&lt;/h2&gt;
-
-&lt;img class=&#34;thumbnail&#34; src=&#34;https://refreshannapolisvalley.org/images/project/creative-computing/size.jpg&#34; alt=&#34;Class Size&#34; align=&#34;right&#34;&gt;
-
-
-&lt;p&gt;The course class size will be capped at 20 learners.  The age range of the students sought will be between 8 and 13, but not limited to.  Where historically such classes tend to be predominantly male, we will limit student spots for boys to 50% in order to promote diverse gender participation.&lt;/p&gt;
-
-&lt;h2 id=&#34;class-location&#34;&gt;Class Location&lt;/h2&gt;
-
-&lt;img class=&#34;thumbnail&#34; src=&#34;https://refreshannapolisvalley.org/images/organization/acadia-entrepreneurship-centre/icon.png&#34; alt=&#34;Class Location&#34; align=&#34;left&#34;&gt;
-
-
-&lt;p&gt;The class will be hosted by the Acadia Entrepreneurship Centre Rural Innovation Centre at Acadia University.  The Rural Innovation Centre supports entrepreneurs and businesses in the Annapolis Valley and provides an incubator program for start up companies. This location gives us both an opportunity to introduce young learners to the Acadia campus, and alows us to draw from works of entrepreneurship taking place at this specific campus location.&lt;/p&gt;
-
-&lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;
-
-&lt;img class=&#34;thumbnail&#34; src=&#34;https://refreshannapolisvalley.org/images/project/creative-computing/requirements.jpg&#34; alt=&#34;Requirements&#34; align=&#34;right&#34;&gt;
-
-
-&lt;p&gt;The total cost for the course is $190 ($10 per class) per student.  We realize that this fee will not scale to meet everyone&amp;rsquo;s budget.  We will provide a number of as needed reduced tuition rates at $114 and as low as $0.&lt;/p&gt;
-
-&lt;p&gt;Students will also need to bring a laptop to each class.  The laptop needs to be able to run a modern web browser such as Google Chrome.  A mouse is also highly recommended.  We will supply course material as well as hardware prototyping boards.&lt;/p&gt;
-
-&lt;p&gt;If you don&amp;rsquo;t have a laptop available for your child to use, we will work to source one.&lt;/p&gt;
-
-&lt;p&gt;Parents will be asked to provide class snacks on a rotating as needed basis.&lt;/p&gt;
-
-&lt;h2 id=&#34;registration&#34;&gt;Registration&lt;/h2&gt;
-
-&lt;p&gt;Or &lt;a href=&#34;https://goo.gl/forms/9DrKqRJZEh4muw7y1&#34;&gt;open the registration form directly&lt;/a&gt;.&lt;/p&gt;
-
-&lt;iframe src=&#34;https://docs.google.com/forms/d/e/1FAIpQLSfEoGx38o70hTKTTKoG51d02L-EYeI3s7q4PD3Ic_PMWEAQ7g/viewform?embedded=true&#34; width=&#34;100%&#34; height=&#34;100%&#34; style=&#34;height: 95vh&#34; frameborder=&#34;0&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34;&gt;Loading...&lt;/iframe&gt;
-
-&lt;h2 id=&#34;special-thanks&#34;&gt;Special Thanks&lt;/h2&gt;
-
-&lt;p&gt;Big tip of the hat to the &lt;a href=&#34;https://refreshannapolisvalley.org/organization/acadia-entrepreneurship-centre&#34;&gt;
-    
-        Acadia Entrepreneurship Centre
-    
-&lt;/a&gt;
- for hosting our class.  Also to &lt;a href=&#34;http://campaignforkids.com/&#34;&gt;Campaign for Kids&lt;/a&gt; for helping us to break down financial barriers and make this class available to all kids.&lt;/p&gt;
-</description>
+      <description>Creative Computing is a course developed by an international network of educators passionate about exposing kids to the computer sciences. Broken up into 7 units, this course uses the popular Scratch programming environment to aid young people (aged 8 to 13) in learning the basics of software development. Scratch is used over the world by students to easily create animations and games while acting as a stepping stone to the more advanced world of computer science.</description>
     </item>
     
     <item>
@@ -342,25 +68,8 @@ function talk() {
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/organization/harvesthand/</guid>
-      <description>&lt;p&gt;HarvestHand is a community platform dedicated to strengthening regional food systems. We&amp;rsquo;re passionate about supporting farms with CSA&amp;rsquo;s to become more profitable using HarvestHand CSA Software, helping communities eat better through the HarvestHand Community, creating good jobs in rural communities, and building new media solutions that make sharing the harvest easier.&lt;/p&gt;
-
-&lt;p&gt;Our vision is to create new media solutions that strengthen regional food systems&amp;rsquo; ability to succeed in value oriented approaches to production, distribution, consumption and community.&lt;/p&gt;
-
-&lt;p&gt;Our Mandate is to:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Improve the profitability of Community Shared Agriculture (CSA) farms through the ease and functionality of HarvestHand CSA Software Platform&lt;/li&gt;
-&lt;li&gt;Create localized and fairly paid employment opportunities in rural communities&lt;/li&gt;
-&lt;li&gt;Make it easy for citizens to locate, join and remain a member of a CSA farm&lt;/li&gt;
-&lt;li&gt;Create a space for exploration of ideas, identification of problems and creation of solutions related to local food systems&lt;/li&gt;
-&lt;li&gt;Build out best of regional food tooling&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&#34;flex-video&#34;&gt;
-    &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/qNxWThFGa5M&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-</description>
+      <description>HarvestHand is a community platform dedicated to strengthening regional food systems. We&amp;rsquo;re passionate about supporting farms with CSA&amp;rsquo;s to become more profitable using HarvestHand CSA Software, helping communities eat better through the HarvestHand Community, creating good jobs in rural communities, and building new media solutions that make sharing the harvest easier.
+Our vision is to create new media solutions that strengthen regional food systems&amp;rsquo; ability to succeed in value oriented approaches to production, distribution, consumption and community.</description>
     </item>
     
     <item>
@@ -369,22 +78,8 @@ function talk() {
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/organization/labnet-dental-lab-systems/</guid>
-      <description>&lt;p&gt;Labnet Dental Lab Systems offers the Dental Lab industry&amp;rsquo;s most comprehensive and powerful management systems with solutions suited for labs of all sizes and budgets. Whether your lab is a thriving multi-site corporation or a one-technician miracle lab, we have a perfect fit for you.&lt;/p&gt;
-
-&lt;p&gt;As a Henry Schein company, you can depend on Labnet Dental Lab Systems for stability and providing your dentists with the latest technological advancements. When you are operating within tight deadlines, the last thing you should worry about is your software. Stability in your software means consistency and piece of mind in your lab.&lt;/p&gt;
-
-&lt;p&gt;Henry Schein’s commitment to software in dentistry is unparalleled. No other company is in the unique position of developing software for both dentists and laboratories. The internet link between the labs and dentists shows the foresight one expects from industry leaders Labnet Dental Lab Systems and Dentrix.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://labnet.net/products/labnet/index.html&#34;&gt;Labnet&lt;/a&gt;: The most powerful lab management software ever&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://labnet.net/products/supplynet/index.html&#34;&gt;Supplynet&lt;/a&gt;: The leading inventory management application in our industry&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.labnext.net/&#34;&gt;Labnext&lt;/a&gt;: Web based lab management software designed specifically for digital dentistry&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.ddxdental.com/&#34;&gt;DDX&lt;/a&gt;: Share pertinent information with your accounts at your convenience&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Labnet Dental Lab Systems offers the Dental Lab industry&amp;rsquo;s most comprehensive and powerful management systems with solutions suited for labs of all sizes and budgets. Whether your lab is a thriving multi-site corporation or a one-technician miracle lab, we have a perfect fit for you.
+As a Henry Schein company, you can depend on Labnet Dental Lab Systems for stability and providing your dentists with the latest technological advancements. When you are operating within tight deadlines, the last thing you should worry about is your software.</description>
     </item>
     
     <item>
@@ -397,9 +92,7 @@ function talk() {
 
 &lt;p&gt;&lt;strong&gt;Recursive meta loop&lt;/strong&gt;.  Stack overflow.  Core now being dumped&amp;hellip;&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;small&gt;&lt;a href=&#34;https://www.flickr.com/photos/80845533@N00/1376527668&#34;&gt;Chocobot&lt;/a&gt; icon remixed with your bad dreams.&lt;/small&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -408,66 +101,18 @@ function talk() {
       <pubDate>Fri, 21 Feb 2014 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/project/f5-food/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Measure and mix together:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;1 cup of farmers&lt;/p&gt;
-
-&lt;p&gt;½ pound regional food distributors&lt;/p&gt;
-
-&lt;p&gt;2 tbsp chefs&lt;/p&gt;
-
-&lt;p&gt;1 cup food policy experts&lt;/p&gt;
-
-&lt;p&gt;1 dash of deep concern about making our regional bounty more accessible&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Stir in:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;2 tbsp software developers&lt;/p&gt;
-
-&lt;p&gt;½ cup interactive designers&lt;/p&gt;
-
-&lt;p&gt;4 tbsp marketers&lt;/p&gt;
-
-&lt;p&gt;1 pound new media entrepreneurs&lt;/p&gt;
-
-&lt;p&gt;Stir new media ingredients into agricultural mixture. Mix thoroughly with a group of mentors. Broil for 48 hours. Serve hot to a group of judges.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The weekend of January 17th, over 75 people found themselves involved in such a 48 hour experiment to rethink food production, distribution, and consumption.  &lt;a href=&#34;http://food.refreshannapolisvalley.org/&#34;&gt;F5://Food&lt;/a&gt; (pronounced Refresh Food) was the first event of its kind in Canada, hosted at Acadia University in the Annapolis Valley of Nova Scotia.  With new media technology (think mobile and web based applications) as a canvas for developing innovative products and services, the community of participants worked on incubating 5 projects.  These projects tackled a range problems including everything from apple breeding to food preparation.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;With an emerging set of technologies circling the Internet (web enabled sensors, real time data, the power of the smartphone, social media platforms, and the maturation of the Internet in general), the past several years has seen remarkable new applications of these technologies to the many problems found in the food arena.  Food “hackers” looking to collaborate with other like minded innovators have been building infrastructure to support early stage engagement on food technology startups.  This includes food oriented hackathons and startup weekend like events such as &lt;a href=&#34;http://hackmeatsv.foodtechconnect.com/&#34;&gt;Hack Meat&lt;/a&gt;, &lt;a href=&#34;http://foodhackathon.co/&#34;&gt;The Future of Food Hackathon&lt;/a&gt;, F5://Food, and the upcoming &lt;a href=&#34;http://www.up.co/communities/canada/truro/&#34;&gt;Truro Startup Weekend: Agri-Food&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;F5://Food spun out of a technology networking group called Refresh Annapolis Valley.  With this technology group sitting in the agricultural heartland of Nova Scotia, we believe we have a unique opportunity to develop a major part in the information technology that powers the agriculture of tomorrow.  F5://Food was our first initiative to start a conversation with stakeholders in agri-food and technology to explore new experimental collaborations.&lt;/p&gt;
-
-&lt;p&gt;To achieve such an ambitious goal, we see F5://Food and Refresh Annapolis Valley as one component of many programs that sustain agri-food entrepreneurism.  Guided by the belief that it takes wide community participation to nurture a vibrant and healthy economy, our emerging agri-food startup community includes other important programs and organizations such as the &lt;a href=&#34;https://annapolisvalleychamber.ca/committees/committee-4&#34;&gt;Annapolis Valley Chamber of Commerce’s Agriculture Innovation Accelerator Award&lt;/a&gt;, &lt;a href=&#34;http://farmworks.ca/home/&#34;&gt;Farmworks Investment Co-operative&lt;/a&gt;, &lt;a href=&#34;https://innovacorp.ca/&#34;&gt;Innovacorp&lt;/a&gt;, &lt;a href=&#34;http://www.acadiaentrepreneurshipcentre.com/&#34;&gt;Acadia Entrepreneurship Centre&lt;/a&gt;, &lt;a href=&#34;http://centreforsmallfarms.ca/&#34;&gt;Just Us! Centre For Small Farms&lt;/a&gt;, &lt;a href=&#34;http://www.perennia.ca/&#34;&gt;Perennia&lt;/a&gt;, and others.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;The opening evening of F5://Food saw 17 people pitch their ideas for elaboration over the weekend.  By process of consolidation and voting, the group of 35 weekend warriors settled on 5 projects.  Armed with a group of mentors and mini workshops, each group was faced with the task of building out the technology and business vision for their projects.  A group of judges and general onlookers were then asked to determine which of the final 5 minute group pitches best defined what could become a successful new product or service.&lt;/p&gt;
-
-&lt;p&gt;The People’s Choice Award was a three way tie between: &lt;strong&gt;tReecreate&lt;/strong&gt;, an online apple breeding network; &lt;strong&gt;Mash&lt;/strong&gt;, a cooking app that helps people choose a menu based on the time, ingredients and equipment they have on hand; and &lt;strong&gt;Grassroutes&lt;/strong&gt;, a food distribution service (Rideshare for farmers).  &lt;strong&gt;AgriGate&lt;/strong&gt;, an agri-food open data platform, came one point away from creating a four way tie.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;FarmG8 to Table&lt;/strong&gt;, a mobile app that helps locate local produce and farm experiences according to location and available products was the winner receiving a $1,000 prize and $1,000 in business development consulting services provided by FarmWorks Investment Co-Op.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;With just over a month having elapsed since F5://Food, it is very exciting the see that several of the groups that formed at the event are still working together to materialize their vision.  In this regard we can confidently say F5://Food was a resounding success.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;PS - Special shout out goes to the F5://Food sponsoring organizations for making the event possible: &lt;a href=&#34;http://www.acadiaentrepreneurshipcentre.com/&#34;&gt;Acadia Entrepreneurship Centre&lt;/a&gt;, &lt;a href=&#34;http://www2.acadiau.ca/&#34;&gt;Acadia University&lt;/a&gt;, Morton Horticultural Associates, Shift! Mobile, &lt;a href=&#34;https://www.colibri-software.com/&#34;&gt;Colibri Software&lt;/a&gt;, &lt;a href=&#34;http://www.harvesthand.com/&#34;&gt;HarvestHand&lt;/a&gt;, &lt;a href=&#34;https://innovacorp.ca/&#34;&gt;Innovacorp&lt;/a&gt;, &lt;a href=&#34;http://www.justuscoffee.com/&#34;&gt;Just Us! Coffee Roasters Co-op&lt;/a&gt;, &lt;a href=&#34;http://novascotia.ca/business/&#34;&gt;Nova Scotia Department of Economic and Rural Development and Tourism&lt;/a&gt;, &lt;a href=&#34;http://www.county.kings.ns.ca/&#34;&gt;Municipality of the County of Kings&lt;/a&gt;, Front &amp;amp; Central Restaurant, &lt;a href=&#34;http://farmworks.ca/home/&#34;&gt;Farmworks Investment Co-operative&lt;/a&gt;, &lt;a href=&#34;https://youreffortlessbusiness.wordpress.com/&#34;&gt;Your Effortless Business&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;This article originally appeared in the April 2014 issue of &lt;a href=&#34;http://www.rurallife.ca/ruraldelivery/&#34;&gt;Rural Delivery&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/Ylh5pVcghvI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-</description>
+      <description>Measure and mix together:
+1 cup of farmers
+½ pound regional food distributors
+2 tbsp chefs
+1 cup food policy experts
+1 dash of deep concern about making our regional bounty more accessible
+Stir in:
+2 tbsp software developers
+½ cup interactive designers
+4 tbsp marketers
+1 pound new media entrepreneurs
+Stir new media ingredients into agricultural mixture. Mix thoroughly with a group of mentors. Broil for 48 hours. Serve hot to a group of judges.</description>
     </item>
     
     <item>
@@ -476,18 +121,9 @@ function talk() {
       <pubDate>Mon, 14 Jan 2013 19:00:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/html5-and-semantic-markup/</guid>
-      <description>
-
-&lt;p&gt;Come join us for &amp;ldquo;HTML5 and Semantic Markup,&amp;rdquo; a discussion about HTML5, markup, and HTML5 websites that rock.&lt;/p&gt;
-
-&lt;h4 id=&#34;open-web-platform-html5-and-semantic-markup&#34;&gt;Open Web Platform: HTML5 and Semantic Markup&lt;/h4&gt;
-
-&lt;p&gt;Mike Caplan will give a talk about HTML5&amp;rsquo;s new elements and attributes that allow us to define semantically meaningful HTML. Semantics you say? What is the meaning of this? Come find out.&lt;/p&gt;
-
-&lt;h4 id=&#34;html5-websites-show-and-tell&#34;&gt;HTML5 Websites Show and Tell&lt;/h4&gt;
-
-&lt;p&gt;Dust off your favorite website that uses anything under the HTML5 sun – offline storage, connectivity, file access, semantics, audio/video, 3D/graphics, presentation, performance, big features, or small. We&amp;rsquo;ll put it on the screen and you can give a brief tour. Stickers for all those who participate.&lt;/p&gt;
-</description>
+      <description>Come join us for &amp;ldquo;HTML5 and Semantic Markup,&amp;rdquo; a discussion about HTML5, markup, and HTML5 websites that rock.
+Open Web Platform: HTML5 and Semantic Markup Mike Caplan will give a talk about HTML5&amp;rsquo;s new elements and attributes that allow us to define semantically meaningful HTML. Semantics you say? What is the meaning of this? Come find out.
+HTML5 Websites Show and Tell Dust off your favorite website that uses anything under the HTML5 sun – offline storage, connectivity, file access, semantics, audio/video, 3D/graphics, presentation, performance, big features, or small.</description>
     </item>
     
     <item>
@@ -496,108 +132,8 @@ function talk() {
       <pubDate>Mon, 12 Nov 2012 19:30:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/local-projects-roundup-round-one/</guid>
-      <description>&lt;p&gt;Come join us for &lt;strong&gt;Local Projects Roundup - Round One&lt;/strong&gt;, a discussion about interesting local web projects, and initiatives supporting startups.&lt;/p&gt;
-
-&lt;div class=&#34;media-object&#34;&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;div class=&#34;thumbnail&#34;&gt;
-            &lt;img style=&#34;max-width: 100px&#34; src= &#34;https://refreshannapolisvalley.org/images/organization/hub-kentville/icon.jpg&#34;&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;h4&gt;&lt;strong&gt;HUB Kentville&lt;/strong&gt; with Frances Schagen&lt;/h4&gt;
-        &lt;p&gt;
-    Calling all forward-thinking entrepreneurs, start ups, creatives, artists, freelancers, coders and non-profits. &lt;a href=&#34;https://refreshannapolisvalley.org/organization/hub-kentville&#34;&gt;
-    
-        HUB Kentville
-    
-&lt;/a&gt;
- is a membership-based coworking spaces where people share an address, resources, equipment and community.
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;&lt;div class=&#34;media-object&#34;&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;div class=&#34;thumbnail&#34;&gt;
-            &lt;img style=&#34;max-width: 100px&#34; src= &#34;https://refreshannapolisvalley.org/images/organization/harvesthand/icon.png&#34;&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;h4&gt;&lt;strong&gt;HarvestHand&lt;/strong&gt; with Michael Caplan&lt;/h4&gt;
-        &lt;p&gt;
-    Community Supported Agriculture (CSA) is a member based model for food production and distribution that unites local communities with local farms. &lt;a href=&#34;https://refreshannapolisvalley.org/organization/harvesthand&#34;&gt;
-    
-        HarvestHand
-    
-&lt;/a&gt;
- is an Internet platform for CSA farms to communicate with and manage their community of members.
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&lt;div class=&#34;media-object&#34;&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;div class=&#34;thumbnail&#34;&gt;
-            &lt;img style=&#34;max-width: 100px&#34; src= &#34;https://refreshannapolisvalley.org/images/organization/labnet-dental-lab-systems/icon.png&#34;&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;h4&gt;&lt;strong&gt;Digital Dental Exchange&lt;/strong&gt; with Chris Jordan and Justin Bezanson&lt;/h4&gt;
-        &lt;p&gt;
-    The &lt;a href=&#34;https://refreshannapolisvalley.org/organization/labnet-dental-lab-systems&#34;&gt;
-    
-        Digital Dental Exchange
-    
-&lt;/a&gt;
- (DDX) is a network connecting dental labs and dental practices, and all sorts of dental technologies in between.  Crowns, dentures, 3D scanners and printers, DDX is the fabric of twenty-first century dentistry.
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&lt;div class=&#34;media-object&#34;&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;div class=&#34;thumbnail&#34;&gt;
-            &lt;img style=&#34;max-width: 100px&#34; src= &#34;https://refreshannapolisvalley.org/images/organization/progeny-genealogy/icon.png&#34;&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;h4&gt;&lt;strong&gt;Wallcharts.com&lt;/strong&gt; with Pierre Clouthier&lt;/h4&gt;
-        &lt;p&gt;
-    Build your family tree or create a family chart, &lt;a href=&#34;https://refreshannapolisvalley.org/organization/progeny-genealogy&#34;&gt;
-    
-        wallcharts.com
-    
-&lt;/a&gt;
- allows you to easily share family genealogy information.
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&lt;div class=&#34;media-object&#34;&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;div class=&#34;thumbnail&#34;&gt;
-            &lt;img style=&#34;max-width: 100px&#34; src= &#34;https://refreshannapolisvalley.org/images/organization/innovacorp/icon.jpg&#34;&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;h4&gt;&lt;strong&gt;innovacorp&lt;/strong&gt; with Paul Richards&lt;/h4&gt;
-        &lt;p&gt;
-    &lt;a href=&#34;https://refreshannapolisvalley.org/organization/innovacorp&#34;&gt;
-    
-        innovacorp
-    
-&lt;/a&gt;
- is a provincial crown corporation that works to development the knowledge based economy through the development of growth orientated technology businesses.  Paul will discuss innovacorp&#39;s work here in the Valley to strengthen our IT sector.
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-</description>
+      <description>Come join us for Local Projects Roundup - Round One, a discussion about interesting local web projects, and initiatives supporting startups.
+  HUB Kentville with Frances Schagen  Calling all forward-thinking entrepreneurs, start ups, creatives, artists, freelancers, coders and non-profits. HUB Kentville  is a membership-based coworking spaces where people share an address, resources, equipment and community.     HarvestHand with Michael Caplan  Community Supported Agriculture (CSA) is a member based model for food production and distribution that unites local communities with local farms.</description>
     </item>
     
   </channel>

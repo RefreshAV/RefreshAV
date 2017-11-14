@@ -2,11 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Refresh Annapolis Valley</title>
-    <link>https://refreshannapolisvalley.org/organizations/refresh-annapolis-valley/index.xml</link>
+    <link>https://refreshannapolisvalley.org/organizations/refresh-annapolis-valley/</link>
     <description>Recent content on Refresh Annapolis Valley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <atom:link href="https://refreshannapolisvalley.org/organizations/refresh-annapolis-valley/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Dec 2017 13:00:00 -0300</lastBuildDate>
+    
+	<atom:link href="https://refreshannapolisvalley.org/organizations/refresh-annapolis-valley/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>f5://imagination</title>
@@ -14,144 +17,9 @@
       <pubDate>Sun, 17 Dec 2017 13:00:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/f5/imagination/</guid>
-      <description>&lt;p&gt;f5://imagination is a pop up exhibit focused on digital creativity.  This one day temporary exhibit is seeking submissions from digital artists, makers, scratchers, computer scientists, engineers and pretendgineer, hardware hackers, lego robotics warriors, indy game developers, new media innovators, VR and AR pioneers&amp;hellip;  digital builders of all shapes, sizes, and credentials.&lt;/p&gt;
-
-&lt;p&gt;We are accepting submissions in the following categories:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Computer generated art&lt;/li&gt;
-&lt;li&gt;Digital games&lt;/li&gt;
-&lt;li&gt;Interactive story&lt;/li&gt;
-&lt;li&gt;Digital gadgets and gizmos&lt;/li&gt;
-&lt;li&gt;VR / AR environments&lt;/li&gt;
-&lt;li&gt;Animation&lt;/li&gt;
-&lt;li&gt;AI investigations&lt;/li&gt;
-&lt;li&gt;Miscellaneous computer experiments&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;f5://imagination serves as a platform for digital artistic experimentation. It promotes exploration in all forms of new media art, providing the public with an opportunity to experience your innovative work. f5://imagination is committed to making this extraordinary form, at the intersection of art and technology, available to everyone.&lt;/p&gt;
-
-&lt;p&gt;Submissions are being accepted until midnight December 13.  To submit, fill out the below form.&lt;/p&gt;
-
-&lt;div style=&#34;margin:0px;padding:0px;overflow:hidden&#34;&gt;
-    &lt;iframe src=&#34;https://docs.google.com/forms/d/e/1FAIpQLSco_QD5Lo5vCD_FDwCZT5BlUX78t9QbdeSWv4h4QYIyQ_Sy1g/viewform?embedded=true&#34; frameborder=&#34;0&#34; style=&#34;overflow:hidden;height:100vh;width:100%; border: 1px solid hsla(0,0%,4%,.25)&#34;&gt;Loading...&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.min.js&#34; integrity=&#34;sha256-bXPU+HvtR3tP1IYHZVEFHzEZ9p5zkY8GLPnOnJXW67k=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
-&lt;script
-   type=&#34;text/javascript&#34;
-   src=&#34;https://rawgit.com/IDMNYU/p5.js-speech/master/lib/p5.speech.js&#34;
-&gt;&lt;/script&gt;
-
-&lt;script&gt;
-
-var isInit = 0;
-var lines =  3;
-
-var lineProps = [];
-var lx = [];
-var ly = [];
-
-var myVoice = new p5.Speech();
-var welcome = [];
-
-function getIP(json) {
-    welcome = [
-        &#39;Hello &#39; + json.ip + &#39;. Annapolis Valley festival of computer based art. refresh imagination.  A digital art exhibit&#39;,
-        &#39;Hello &#39; + json.ip + &#39;. Come explore digital imagination with us.  refresh imagination.  A digital art exhibit&#39;,
-        &#39;How do you express your creativity digitally? &#39; + json.ip + &#39;?  refresh imagination.  A digital art exhibit&#39;
-    ];
-    
-    isInit++;
-}
-
-function setup() {
-  var header = document.querySelector(&#39;main article header&#39;);
-
-  canvas = createCanvas(header.offsetWidth, header.offsetHeight);
-  canvas.parent(header);
-  
-  lines = Math.floor(random(3, 10));
-  
-  for (var li = 0; li &lt; lines; li++) {
-    lx[li] = [];
-    ly[li] = [];
-    lineProps[li] = {
-        num: Math.floor(random(10, 500)),
-        range: Math.floor(random(5, 20))
-    };
-  
-    var w = random(0, width);
-    var h = random(0, height);
-  
-    for ( var i = 0; i &lt; lineProps[li].num; i++ ) {
-      lx[li][i] = w;
-      ly[li][i] = h;
-    }
-  }
-  
-  frameRate(30);
-  isInit++;
-}
-
-function draw() {
-  background(&#39;#0a0a0a&#39;);
-
-  // Shift all elements 1 place to the left
-  for ( var li = 0; li &lt; lines; li++) {
-      for ( var i = 1; i &lt; lineProps[li].num; i++ ) {
-        lx[li][i - 1] = lx[li][i];
-        ly[li][i - 1] = ly[li][i];
-      }
-      
-      // Put a new value at the end of the array
-      lx[li][lineProps[li].num - 1] += random(-lineProps[li].range, lineProps[li].range);
-      ly[li][lineProps[li].num - 1] += random(-lineProps[li].range, lineProps[li].range);
-      
-      // Constrain all points to the screen
-      lx[li][lineProps[li].num - 1] = constrain(lx[li][lineProps[li].num - 1], 0, width);
-      ly[li][lineProps[li].num - 1] = constrain(ly[li][lineProps[li].num - 1], 0, height);
-
-  }
-
-  // Draw a line connecting the points
-  for ( var li = 0; li &lt; lines; li++) {
-    for ( var j = 1; j &lt; lineProps[li].num; j++ ) {
-        var val = j / lineProps[li].num * 204.0 + 51;
-        stroke(val);
-        line(lx[li][j - 1], ly[li][j - 1], lx[li][j], ly[li][j]);
-    }
-  }
-
-}
-
-var intervalId = setInterval(function(){
-
-    if (isInit &gt; 1) {
-        clearInterval(intervalId);
-        talk();
-    }
-    
-}, 2000);
-
-
-function talk() {
-    var voices = [];
-    
-    for (var i = 0; i &lt; myVoice.voices.length; i++) {
-        if (myVoice.voices[i].lang.substr(0,2) == &#39;en&#39;) {
-            voices.push(i);
-        }
-    }
-
-    myVoice.setVoice(random(voices));
-    myVoice.setRate(0.7);
-    myVoice.speak(random(welcome));
-}
-&lt;/script&gt;
-
-&lt;script src=&#34;https://api.ipify.org?format=jsonp&amp;callback=getIP&#34;&gt;&lt;/script&gt;
-</description>
+      <description>f5://imagination is a pop up exhibit focused on digital creativity. This one day temporary exhibit is seeking submissions from digital artists, makers, scratchers, computer scientists, engineers and pretendgineer, hardware hackers, lego robotics warriors, indy game developers, new media innovators, VR and AR pioneers&amp;hellip; digital builders of all shapes, sizes, and credentials.
+We are accepting submissions in the following categories:
+ Computer generated art Digital games Interactive story Digital gadgets and gizmos VR / AR environments Animation AI investigations Miscellaneous computer experiments  f5://imagination serves as a platform for digital artistic experimentation.</description>
     </item>
     
     <item>
@@ -160,39 +28,8 @@ function talk() {
       <pubDate>Tue, 21 Nov 2017 18:00:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/seed-hacking-entrepreneurship-in-the-annapolis-valley/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Seed&lt;/strong&gt; is a documentary that follows an international group of programmer entrepreneurs at Angelhack: one of the most competitive global hackathons and digital business ideation competitions. Three minutes to pitch. One shot to fund their proposals.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Seed&lt;/strong&gt; is also a gathering of our Annapolis Valley startup community.  The event will feature the diversity of associations, businesses, and individuals who comprise our digital tech startup community.  An assembly of our entrepreneurial family.  Come mingle and build your network.&lt;/p&gt;
-
-&lt;p&gt;Introductory keynote address by &lt;a href=&#34;https://refreshannapolisvalley.org/person/leanne-strathdee&#34;&gt;Leanne Strathdee&lt;/a&gt;
-,
-Manager of Innovation and Incubation for the &lt;a href=&#34;https://refreshannapolisvalley.org/organization/acadia-entrepreneurship-centre&#34;&gt;
-    
-        Acadia Entrepreneurship Centre
-    
-&lt;/a&gt;
-.&lt;/p&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/4qyuHfRHLkc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-
-&lt;p&gt;Directed by Andrew Wonder and produced by Station Film and Something Different, &lt;strong&gt;Seed&lt;/strong&gt; is a documentary feature film which dives head first into the thrilling and daunting world of Silicon Valley. The film tells the story of the new American Dream, where innovators from around the world come to Silicon Valley with the hope of turning their ideas into billion dollar valuations.&lt;/p&gt;
-
-&lt;p&gt;In a riveting behind-the-scenes look at the preparation behind an investor pitch, Seed follows an Uber driver from New York, three local high school kids, and five college students from Nairobi as they compete in a high profile hackathon for the seed money they need to turn their dreams into reality. The rollercoaster ride of sleepless nights and tough-love coaching culminates in a final presentation before a full audience of tech executives and tastemakers.&lt;/p&gt;
-
-&lt;p&gt;“Silicon Valley is a world where you only hear about big successes and IPOs, but never about the people who are fighting everyday to make their dreams a reality. I hope Seed can be an anthem for anyone who has gone down this path, successful or not, and show an honest look at what it takes to turn that app idea you had at dinner into a business that works,” Andrew Wonder says.&lt;/p&gt;
-
-&lt;p&gt;Andrew paints a vivid picture of the raw drive and passion that fuels each team. Their backstories come to life as the viewer watches each person experience both the lows from unexpected setbacks and highs when something finally goes right. Andrew captures these tensions, victories, and sacrifices through his organic observational approach; his keen eye draws out the humanity and spirit of each character’s unique story.&lt;/p&gt;
-
-&lt;p&gt;The film focuses on a hackathon competition hosted by AngelHack, a female-owned, female-majority company and the world’s largest and most diverse hacker community. “I’m grateful to AngelHack for the access they gave us and the teams for always being willing to share and let us in. It’s not easy to show how hard the path can be when all you want is for everyone else to see you as a success,” Andrew says of the partnership.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.valleyren.ca/wp-content/uploads/2016/05/vren_logo.png&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;This event is supported by the amazing folks at the &lt;strong&gt;Valley Regional Enterprise Network&lt;/strong&gt; via their Collective Impact Project.&lt;/p&gt;
-</description>
+      <description>Seed is a documentary that follows an international group of programmer entrepreneurs at AngelHack: one of the most competitive global hackathons and digital business ideation competitions. Three minutes to pitch. One shot to fund their proposals.
+Seed is also a gathering of our Annapolis Valley startup community. The event will feature the diversity of associations, businesses, and individuals who comprise our digital tech startup community. An assembly of our entrepreneurial family.</description>
     </item>
     
     <item>
@@ -201,10 +38,7 @@ Manager of Innovation and Incubation for the &lt;a href=&#34;https://refreshanna
       <pubDate>Tue, 11 Oct 2016 19:00:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/the-realtime-web-intro-to-node-js/</guid>
-      <description>&lt;p&gt;Node.js is a rapidly growing technology that has been making big waves in the world of web development. Node lets you easily build fast and scalable network applications perfect for the realtime web. In this workshop you’ll learn how to get started using Node, its background and history, and the problems it seeks to address. We’ll get our hands dirty building a realtime chat server to get a feel for the amazing power of Node.&lt;/p&gt;
-
-&lt;p&gt;If you adore building application for the web, this workshop is for you. Not a web ninja? No worries. A basic understanding of web technologies is recommended (how your web browser works, HTML and JavaScript) is recommended, but not required. If you get the WWW and have ever fooled with code, you’ll get enough out of this workshop to be dangerous.&lt;/p&gt;
-</description>
+      <description>Node.js is a rapidly growing technology that has been making big waves in the world of web development. Node lets you easily build fast and scalable network applications perfect for the realtime web. In this workshop you’ll learn how to get started using Node, its background and history, and the problems it seeks to address. We’ll get our hands dirty building a realtime chat server to get a feel for the amazing power of Node.</description>
     </item>
     
     <item>
@@ -213,10 +47,8 @@ Manager of Innovation and Incubation for the &lt;a href=&#34;https://refreshanna
       <pubDate>Tue, 11 Oct 2016 19:00:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/ux-fist-fighting-designing-for-usability/</guid>
-      <description>&lt;p&gt;10 years of picking fights and getting kicked out of a meetings - Mike Downs shares his personal quest to define &amp;ldquo;usability.&amp;rdquo; Mike will dive deep in to describing why usability is important for your websites and web applications. He will offer up pointers on how to think about your own projects with a user focused mind.&lt;/p&gt;
-
-&lt;p&gt;Mike has over eighteen years of Internet marketing strategy and product management experience helping create, shape, and launch technology products on the Web. Mike is very passionate about how human beings use computers. Focusing on usability and user experience for the last 10 years, Mike has helped retail giants like Macy&amp;rsquo;s and The Gap as well as government organizations like Tourism British Columbia and Service Nova Scotia deliver experiences that engage their audience.&lt;/p&gt;
-</description>
+      <description>10 years of picking fights and getting kicked out of a meetings - Mike Downs shares his personal quest to define &amp;ldquo;usability.&amp;rdquo; Mike will dive deep in to describing why usability is important for your websites and web applications. He will offer up pointers on how to think about your own projects with a user focused mind.
+Mike has over eighteen years of Internet marketing strategy and product management experience helping create, shape, and launch technology products on the Web.</description>
     </item>
     
     <item>
@@ -225,25 +57,8 @@ Manager of Innovation and Incubation for the &lt;a href=&#34;https://refreshanna
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/person/michael-caplan/</guid>
-      <description>&lt;p&gt;Mike has been active as a web application developer and web designer for 16 years, working in the non-profit, university, retail, agricultural, and dental industries. He is a founding partner of &lt;a href=&#34;https://refreshannapolisvalley.org/organization/harvesthand&#34;&gt;
-    
-        HarvestHand
-    
-&lt;/a&gt;
-, a platform that services Community Shared Agriculture farms. Mike founded &lt;a href=&#34;https://refreshannapolisvalley.org/organization/refresh-annapolis-valley&#34;&gt;
-    
-        Refresh Annapolis Valley
-    
-&lt;/a&gt;
-, a new media professional association to help grow the Valley&amp;rsquo;s technology industry.&lt;/p&gt;
-
-&lt;p&gt;Mike is the Software Development Manager for the &lt;a href=&#34;https://refreshannapolisvalley.org/organization/labnet-dental-lab-systems&#34;&gt;
-    
-        Labnet Dental Lab Systems
-    
-&lt;/a&gt;
- division of Henry Schein - a Fortune 300 company with a small footprint here in Wolfville.&lt;/p&gt;
-</description>
+      <description>Mike has been active as a web application developer and web designer for 16 years, working in the non-profit, university, retail, agricultural, and dental industries. He is a founding partner of HarvestHand  , a platform that services Community Shared Agriculture farms. Mike founded Refresh Annapolis Valley  , a new media professional association to help grow the Valley&amp;rsquo;s technology industry.
+Mike is the Software Development Manager for the Labnet Dental Lab Systems  division of Henry Schein - a Fortune 300 company with a small footprint here in Wolfville.</description>
     </item>
     
     <item>
@@ -252,10 +67,8 @@ Manager of Innovation and Incubation for the &lt;a href=&#34;https://refreshanna
       <pubDate>Tue, 08 Mar 2016 19:00:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/introduction-to-wordpress/</guid>
-      <description>&lt;p&gt;WordPress is a free content management system used by more than 23.3% of the top 10 million websites. In this talk, Sandy McFadden and Raina Noel will show us what is it, what it can do for you, and how you can start using it to get your message online.&lt;/p&gt;
-
-&lt;p&gt;You&amp;rsquo;ll learn how to install WordPress and get it setup using Posts, Pages, Widgets, and Menus. Raina and Sandy will also show us how you can extend Wordpress functionality and change the way your site looks with Plugins and Themes.&lt;/p&gt;
-</description>
+      <description>WordPress is a free content management system used by more than 23.3% of the top 10 million websites. In this talk, Sandy McFadden and Raina Noel will show us what is it, what it can do for you, and how you can start using it to get your message online.
+You&amp;rsquo;ll learn how to install WordPress and get it setup using Posts, Pages, Widgets, and Menus. Raina and Sandy will also show us how you can extend Wordpress functionality and change the way your site looks with Plugins and Themes.</description>
     </item>
     
     <item>
@@ -264,8 +77,7 @@ Manager of Innovation and Incubation for the &lt;a href=&#34;https://refreshanna
       <pubDate>Tue, 10 Nov 2015 19:00:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/steam-powered-maker-space/</guid>
-      <description>&lt;p&gt;The recent and explosive growth in maker-culture combined with the emergence of 3D Printing in Fabrication Laboratories (or “FabLabs”) presents an opportunity for the province to prepare for the future by investing in economic and cultural change in rural Nova Scotia. Acting in concert with the Acadia Entrepreneurship Centre and the Centre for Rural Innovation, Acadia’s new STEAM Space is working toward the creation of a Maker Space/FabLab on the Acadia University campus. It will be based on the combination of Acadia’s knowledge in Science and Technology with expertise in business for the purposes of developing an Entrepreneurial culture of innovation for Artisanal Making. It is designed to turn disruption into opportunity for the local and regional community in which Acadia is embedded. David and Terry will talk about the potential of maker spaces, as well as provide some 3D printing show and tell.&lt;/p&gt;
-</description>
+      <description>The recent and explosive growth in maker-culture combined with the emergence of 3D Printing in Fabrication Laboratories (or “FabLabs”) presents an opportunity for the province to prepare for the future by investing in economic and cultural change in rural Nova Scotia. Acting in concert with the Acadia Entrepreneurship Centre and the Centre for Rural Innovation, Acadia’s new STEAM Space is working toward the creation of a Maker Space/FabLab on the Acadia University campus.</description>
     </item>
     
   </channel>

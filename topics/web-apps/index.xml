@@ -2,11 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Web Apps on Refresh Annapolis Valley</title>
-    <link>https://refreshannapolisvalley.org/topics/web-apps/index.xml</link>
+    <link>https://refreshannapolisvalley.org/topics/web-apps/</link>
     <description>Recent content in Web Apps on Refresh Annapolis Valley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <atom:link href="https://refreshannapolisvalley.org/topics/web-apps/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Aug 2016 19:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://refreshannapolisvalley.org/topics/web-apps/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Colibri Software</title>
@@ -14,10 +17,8 @@
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/organization/colibri-software/</guid>
-      <description>&lt;p&gt;Colibri Software builds awesome software. We work with our clients to understand their needs and then produce a simple and effective solution to their problems. Our focus is on making a product easy to use, from websites to mobile apps, we like it when we hear “this is easy”.&lt;/p&gt;
-
-&lt;p&gt;We have a special affinity for mapping projects and have send rugged phone apps as far as Nunavut to help collect data for the hunting community.&lt;/p&gt;
-</description>
+      <description>Colibri Software builds awesome software. We work with our clients to understand their needs and then produce a simple and effective solution to their problems. Our focus is on making a product easy to use, from websites to mobile apps, we like it when we hear “this is easy”.
+We have a special affinity for mapping projects and have send rugged phone apps as far as Nunavut to help collect data for the hunting community.</description>
     </item>
     
     <item>
@@ -26,22 +27,8 @@
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/organization/labnet-dental-lab-systems/</guid>
-      <description>&lt;p&gt;Labnet Dental Lab Systems offers the Dental Lab industry&amp;rsquo;s most comprehensive and powerful management systems with solutions suited for labs of all sizes and budgets. Whether your lab is a thriving multi-site corporation or a one-technician miracle lab, we have a perfect fit for you.&lt;/p&gt;
-
-&lt;p&gt;As a Henry Schein company, you can depend on Labnet Dental Lab Systems for stability and providing your dentists with the latest technological advancements. When you are operating within tight deadlines, the last thing you should worry about is your software. Stability in your software means consistency and piece of mind in your lab.&lt;/p&gt;
-
-&lt;p&gt;Henry Schein’s commitment to software in dentistry is unparalleled. No other company is in the unique position of developing software for both dentists and laboratories. The internet link between the labs and dentists shows the foresight one expects from industry leaders Labnet Dental Lab Systems and Dentrix.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://labnet.net/products/labnet/index.html&#34;&gt;Labnet&lt;/a&gt;: The most powerful lab management software ever&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://labnet.net/products/supplynet/index.html&#34;&gt;Supplynet&lt;/a&gt;: The leading inventory management application in our industry&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.labnext.net/&#34;&gt;Labnext&lt;/a&gt;: Web based lab management software designed specifically for digital dentistry&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.ddxdental.com/&#34;&gt;DDX&lt;/a&gt;: Share pertinent information with your accounts at your convenience&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Labnet Dental Lab Systems offers the Dental Lab industry&amp;rsquo;s most comprehensive and powerful management systems with solutions suited for labs of all sizes and budgets. Whether your lab is a thriving multi-site corporation or a one-technician miracle lab, we have a perfect fit for you.
+As a Henry Schein company, you can depend on Labnet Dental Lab Systems for stability and providing your dentists with the latest technological advancements. When you are operating within tight deadlines, the last thing you should worry about is your software.</description>
     </item>
     
     <item>
@@ -50,8 +37,7 @@
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/person/pierre-clouthier/</guid>
-      <description>&lt;p&gt;Co-founder, President, Progeny Genealogy Inc., specialising in computer graphics software for genealogy.&lt;/p&gt;
-</description>
+      <description>Co-founder, President, Progeny Genealogy Inc., specialising in computer graphics software for genealogy.</description>
     </item>
     
     <item>
@@ -60,8 +46,7 @@
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/organization/progeny-genealogy/</guid>
-      <description>&lt;p&gt;Progeny Genealogy is the leading developer of family tree software and other useful, easy-to-use genealogy research resources, including &lt;a href=&#34;http://progenygenealogy.com/Products/FamilyTreeCharts.aspx&#34;&gt;Charting Companion&lt;/a&gt;™, &lt;a href=&#34;http://progenygenealogy.com/Products/TimelineCharts.aspx&#34;&gt;Genelines&lt;/a&gt;™ and &lt;a href=&#34;http://progenygenealogy.com/Products/FamilyMaps.aspx&#34;&gt;Map My Family Tree&lt;/a&gt;™. More than pretty charts, our genealogy software programs are also powerful research tools.&lt;/p&gt;
-</description>
+      <description>Progeny Genealogy is the leading developer of family tree software and other useful, easy-to-use genealogy research resources, including Charting Companion™, Genelines™ and Map My Family Tree™. More than pretty charts, our genealogy software programs are also powerful research tools.</description>
     </item>
     
     <item>
@@ -70,83 +55,8 @@
       <pubDate>Mon, 10 Dec 2012 19:30:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/local-projects-roundup-round-two/</guid>
-      <description>&lt;p&gt;Come join us for &amp;ldquo;&lt;strong&gt;Local Projects Roundup - Round Two&lt;/strong&gt;,&amp;rdquo; a discussion about interesting local web projects, platforms, business, and techies.&lt;/p&gt;
-
-&lt;div class=&#34;media-object&#34;&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;div class=&#34;thumbnail&#34;&gt;
-            &lt;img style=&#34;max-width: 100px&#34; src= &#34;https://refreshannapolisvalley.org/images/organization/valley-family-fun/icon.jpg&#34;&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;h4&gt;&lt;strong&gt;Online Community Engagement&lt;/strong&gt; with Laura Churchill Duke&lt;/h4&gt;
-        &lt;p&gt;
-    Laura is the owner and operator of &lt;a href=&#34;https://refreshannapolisvalley.org/organization/valley-family-fun&#34;&gt;
-    
-        Valley Family Fun
-    
-&lt;/a&gt;
- which is a website for families living in the Annapolis Valley. It includes resources, ideas, information and a calendar of family-friendly events. Started in January 2012, it has grown to include a Facebook and Twitter site to form a web-based network of over 6000 followers.
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;&lt;div class=&#34;media-object&#34;&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;div class=&#34;thumbnail&#34;&gt;
-            &lt;img style=&#34;max-width: 100px&#34; src= &#34;https://refreshannapolisvalley.org/images/organization/scotiacom/icon.jpg&#34;&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;h4&gt;&lt;strong&gt;Let&amp;rsquo;s Build a Drupal Site in 8 Minutes, 32 Seconds!&lt;/strong&gt; with Geoff Crouse&lt;/h4&gt;
-        &lt;p&gt;
-    Geoff of &lt;a href=&#34;https://refreshannapolisvalley.org/organization/scotiacom&#34;&gt;
-    
-        ScotiaCom
-    
-&lt;/a&gt;
- will walk us through the build out of web sites using the popular open source Content Management System Drupal.
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&lt;div class=&#34;media-object&#34;&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;div class=&#34;thumbnail&#34;&gt;
-            &lt;img style=&#34;max-width: 100px&#34; src= &#34;https://refreshannapolisvalley.org/images/organization/colibri-software/icon.png&#34;&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;h4&gt;&lt;strong&gt;Locomotive CMS&lt;/strong&gt; with Charlie&lt;/h4&gt;
-        &lt;p&gt;
-    Charlie from &lt;a href=&#34;https://refreshannapolisvalley.org/organization/colibri-software&#34;&gt;
-    
-        Colibri Software
-    
-&lt;/a&gt;
- will present a description of the architecture of Locomotive CMS (a data driven system which uses Ruby on Rails, MongoDB and liquid markup) in contrast to a traditional PHP (page driven, PHP, SQL) content management system. We will look at the strengths and weaknesses of Locomotive in this context.
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&lt;div class=&#34;media-object&#34;&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;div class=&#34;thumbnail&#34;&gt;
-            &lt;img style=&#34;max-width: 100px&#34; src= &#34;https://refreshannapolisvalley.org/images/event/local-projects-roundup-round-two/coldfusion.png&#34;&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;h4&gt;&lt;strong&gt;Coldfusion&lt;/strong&gt; with Keith Diehl&lt;/h4&gt;
-        &lt;p&gt;
-    How Coldfusion saved me from a week of grunt work - Using SQL Server and Coldfusion to generate 600 Word Documents.
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-</description>
+      <description>Come join us for &amp;ldquo;Local Projects Roundup - Round Two,&amp;rdquo; a discussion about interesting local web projects, platforms, business, and techies.
+  Online Community Engagement with Laura Churchill Duke  Laura is the owner and operator of Valley Family Fun  which is a website for families living in the Annapolis Valley. It includes resources, ideas, information and a calendar of family-friendly events. Started in January 2012, it has grown to include a Facebook and Twitter site to form a web-based network of over 6000 followers.</description>
     </item>
     
     <item>
@@ -155,108 +65,8 @@
       <pubDate>Mon, 12 Nov 2012 19:30:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/local-projects-roundup-round-one/</guid>
-      <description>&lt;p&gt;Come join us for &lt;strong&gt;Local Projects Roundup - Round One&lt;/strong&gt;, a discussion about interesting local web projects, and initiatives supporting startups.&lt;/p&gt;
-
-&lt;div class=&#34;media-object&#34;&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;div class=&#34;thumbnail&#34;&gt;
-            &lt;img style=&#34;max-width: 100px&#34; src= &#34;https://refreshannapolisvalley.org/images/organization/hub-kentville/icon.jpg&#34;&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;h4&gt;&lt;strong&gt;HUB Kentville&lt;/strong&gt; with Frances Schagen&lt;/h4&gt;
-        &lt;p&gt;
-    Calling all forward-thinking entrepreneurs, start ups, creatives, artists, freelancers, coders and non-profits. &lt;a href=&#34;https://refreshannapolisvalley.org/organization/hub-kentville&#34;&gt;
-    
-        HUB Kentville
-    
-&lt;/a&gt;
- is a membership-based coworking spaces where people share an address, resources, equipment and community.
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;&lt;div class=&#34;media-object&#34;&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;div class=&#34;thumbnail&#34;&gt;
-            &lt;img style=&#34;max-width: 100px&#34; src= &#34;https://refreshannapolisvalley.org/images/organization/harvesthand/icon.png&#34;&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;h4&gt;&lt;strong&gt;HarvestHand&lt;/strong&gt; with Michael Caplan&lt;/h4&gt;
-        &lt;p&gt;
-    Community Supported Agriculture (CSA) is a member based model for food production and distribution that unites local communities with local farms. &lt;a href=&#34;https://refreshannapolisvalley.org/organization/harvesthand&#34;&gt;
-    
-        HarvestHand
-    
-&lt;/a&gt;
- is an Internet platform for CSA farms to communicate with and manage their community of members.
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&lt;div class=&#34;media-object&#34;&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;div class=&#34;thumbnail&#34;&gt;
-            &lt;img style=&#34;max-width: 100px&#34; src= &#34;https://refreshannapolisvalley.org/images/organization/labnet-dental-lab-systems/icon.png&#34;&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;h4&gt;&lt;strong&gt;Digital Dental Exchange&lt;/strong&gt; with Chris Jordan and Justin Bezanson&lt;/h4&gt;
-        &lt;p&gt;
-    The &lt;a href=&#34;https://refreshannapolisvalley.org/organization/labnet-dental-lab-systems&#34;&gt;
-    
-        Digital Dental Exchange
-    
-&lt;/a&gt;
- (DDX) is a network connecting dental labs and dental practices, and all sorts of dental technologies in between.  Crowns, dentures, 3D scanners and printers, DDX is the fabric of twenty-first century dentistry.
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&lt;div class=&#34;media-object&#34;&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;div class=&#34;thumbnail&#34;&gt;
-            &lt;img style=&#34;max-width: 100px&#34; src= &#34;https://refreshannapolisvalley.org/images/organization/progeny-genealogy/icon.png&#34;&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;h4&gt;&lt;strong&gt;Wallcharts.com&lt;/strong&gt; with Pierre Clouthier&lt;/h4&gt;
-        &lt;p&gt;
-    Build your family tree or create a family chart, &lt;a href=&#34;https://refreshannapolisvalley.org/organization/progeny-genealogy&#34;&gt;
-    
-        wallcharts.com
-    
-&lt;/a&gt;
- allows you to easily share family genealogy information.
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&lt;div class=&#34;media-object&#34;&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;div class=&#34;thumbnail&#34;&gt;
-            &lt;img style=&#34;max-width: 100px&#34; src= &#34;https://refreshannapolisvalley.org/images/organization/innovacorp/icon.jpg&#34;&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;media-object-section&#34;&gt;
-        &lt;h4&gt;&lt;strong&gt;innovacorp&lt;/strong&gt; with Paul Richards&lt;/h4&gt;
-        &lt;p&gt;
-    &lt;a href=&#34;https://refreshannapolisvalley.org/organization/innovacorp&#34;&gt;
-    
-        innovacorp
-    
-&lt;/a&gt;
- is a provincial crown corporation that works to development the knowledge based economy through the development of growth orientated technology businesses.  Paul will discuss innovacorp&#39;s work here in the Valley to strengthen our IT sector.
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-</description>
+      <description>Come join us for Local Projects Roundup - Round One, a discussion about interesting local web projects, and initiatives supporting startups.
+  HUB Kentville with Frances Schagen  Calling all forward-thinking entrepreneurs, start ups, creatives, artists, freelancers, coders and non-profits. HUB Kentville  is a membership-based coworking spaces where people share an address, resources, equipment and community.     HarvestHand with Michael Caplan  Community Supported Agriculture (CSA) is a member based model for food production and distribution that unites local communities with local farms.</description>
     </item>
     
   </channel>

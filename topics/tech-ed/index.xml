@@ -2,11 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tech Ed on Refresh Annapolis Valley</title>
-    <link>https://refreshannapolisvalley.org/topics/tech-ed/index.xml</link>
+    <link>https://refreshannapolisvalley.org/topics/tech-ed/</link>
     <description>Recent content in Tech Ed on Refresh Annapolis Valley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <atom:link href="https://refreshannapolisvalley.org/topics/tech-ed/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Jun 2017 12:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="https://refreshannapolisvalley.org/topics/tech-ed/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>#ScratchFest</title>
@@ -14,127 +17,8 @@
       <pubDate>Sat, 24 Jun 2017 12:00:00 -0400</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/scratchfest/</guid>
-      <description>
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/rpkvmw65RLI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-
-&lt;h1 id=&#34;calling-all-scratchers&#34;&gt;Calling all Scratchers&lt;/h1&gt;
-
-&lt;p&gt;&lt;em&gt;#ScratchFest&lt;/em&gt; is a weekend (June 24th and June 25th) Scratch-a-thon for kids interested in creating amazing original work with the Scratch programming environment.&lt;/p&gt;
-
-&lt;p&gt;During &lt;em&gt;#ScartchFest&lt;/em&gt;, kids will brainstorm an idea, develop their project, and showcase a final prototype.  This weekend warrior event provides an excellent opportunity for Scratch coders to invent their own projects and demonstrate their knowledge in Scratch within a collaborative, creative, and playful environment.&lt;/p&gt;
-
-&lt;p&gt;Scratchers will work on projects in 1 of 3 categories:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Interactive Artwork:&lt;/strong&gt;  Abstract, conceptual, or just plain weird, interactive artwork projects explore the combination of visuals and sound to create unique interactive presentations.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Interactive Stories:&lt;/strong&gt;  With Scratch interactive story projects, you will take your audience through an amazing world of your own creation.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Video Games:&lt;/strong&gt;  Action, strategy, roll playing, sports&amp;hellip;. build your own game for your players to compete at.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Working in teams of up to 2, or working solo, Scratchers aged 8 to 13 of various skill levels will earn points from the community to take home top dog prizes.&lt;/p&gt;
-
-&lt;h2 id=&#34;win-big&#34;&gt;Win Big!&lt;/h2&gt;
-
-&lt;p&gt;Over &lt;strong&gt;$500&lt;/strong&gt; in prizes will be awarded for the best in category projects.  Hint: the prizes are related to the three categories of projects.&lt;/p&gt;
-
-&lt;h2 id=&#34;register&#34;&gt;Register&lt;/h2&gt;
-
-&lt;p&gt;Pre-registration is required.&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;expanded large button&#34; href=&#34;https://www.eventbrite.ca/e/scratchfest-tickets-34931270370&#34;&gt;&lt;i class=&#34;fa fa-rocket&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Get It Done! &lt;i class=&#34;fa fa-rocket&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;faq&#34;&gt;FAQ&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;What is Scratch?&lt;/strong&gt;  &lt;a href=&#34;https://scratch.mit.edu/&#34; target=&#34;_blank&#34;&gt;Scratch&lt;/a&gt; is used over the world by students to easily create animations and games while acting as a stepping stone to the more advanced world of computer science.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Do I need to know Scratch to participate?&lt;/strong&gt;  Having some basic prior knowledge of the Scratch programming environment is advantageous.  There will be some workshops at the event to help you out.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;How many days is &lt;em&gt;#ScratchFest&lt;/em&gt;?&lt;/strong&gt;  &lt;em&gt;#ScratchFest&lt;/em&gt; runs both Saturday June 24th, and Sunday June 25th.  The event each day runs from 12 to 4PM.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;What is the age range for participants?&lt;/strong&gt;  Scratchers at &lt;em&gt;#ScratchFest&lt;/em&gt; are aged 8 to 13.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Can I work on my project with a group?&lt;/strong&gt;  Groups of up to 2 people can be formed.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Can I work on a pre-existing project?&lt;/strong&gt;  Projects need to be created from &amp;ldquo;scratch&amp;rdquo; at the event.  You will have two days to begin, develop, tweak and complete your original project over the course of the weekend.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;How do I win?&lt;/strong&gt;  Participants will earn points from the community.  The projects with the highest points win.  Points will be awarded to individuals who help their neighbours with their tough Scratch programming problems.  The community will also award points to what they think are the best projects.  Finally, judges will award points to projects who best meet the judging criteria.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;When Does Judging Take Place?&lt;/strong&gt;  Project judging will happen &amp;ldquo;science fair style&amp;rdquo; starting at 2:30 PM on Sunday.  All participants, including parents, will be able to award points to each project.  Invite your friends and Grandma and Grandpa.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;What about food?&lt;/strong&gt;  This is a bring your own food event.  Please pack enough food to fuel yourself for the 4 hour workday.  Please do not bring food items that are common food allergies.  Also, please no citrus.  There are a few folks participating who are highly allergic to citrus.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Can parents hang out at the event?&lt;/strong&gt; Absolutely.  Pull up a chair, get comfy, and help cheer on all the kids.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;sponsors&#34;&gt;Sponsors&lt;/h2&gt;
-
-&lt;p&gt;Several amazing Valley business tossed support our way to pull off this event.  Hats off to our Valley IT community.&lt;/p&gt;
-
-&lt;div class=&#34;row&#34;&gt;
-  &lt;div class=&#34;large-4 columns&#34;&gt;
-    &lt;div class=&#34;card&#34;&gt;
-      &lt;img src=&#34;https://refreshannapolisvalley.org/images/event/scratchfest/acadia.png&#34;&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;large-4 columns&#34;&gt;
-      &lt;div class=&#34;card&#34;&gt;
-        &lt;img src=&#34;https://refreshannapolisvalley.org/images/event/scratchfest/colibri.png&#34;&gt;
-        &lt;div class=&#34;card-section&#34;&gt;
-          &lt;p&gt;Colibri Software&lt;/p&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;div class=&#34;large-4 columns&#34;&gt;
-     &lt;div class=&#34;card&#34;&gt;
-       &lt;img src=&#34;https://refreshannapolisvalley.org/images/event/scratchfest/progeny.png&#34;&gt;
-     &lt;/div&gt;
-   &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
-
-&lt;div class=&#34;row&#34;&gt;
-  &lt;div class=&#34;large-4 columns&#34;&gt;
-    &lt;div class=&#34;card&#34;&gt;
-      &lt;img src=&#34;https://refreshannapolisvalley.org/images/event/scratchfest/precisionhawk.png&#34;&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;large-4 columns&#34;&gt;
-    &lt;div class=&#34;card&#34;&gt;
-      &lt;img src=&#34;https://refreshannapolisvalley.org/images/event/scratchfest/henryschein.png&#34;&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;div class=&#34;large-4 columns&#34;&gt;
-    &lt;div class=&#34;card&#34;&gt;
-      &lt;img src=&#34;https://refreshannapolisvalley.org/images/event/scratchfest/singolar.png&#34;&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;div class=&#34;row&#34;&gt;
-  &lt;div class=&#34;large-4 columns&#34;&gt;
-    &lt;div class=&#34;card&#34;&gt;
-      &lt;img src=&#34;https://refreshannapolisvalley.org/images/event/scratchfest/frostbyte.png&#34;&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;large-4 columns&#34;&gt;
-      &lt;div class=&#34;card&#34;&gt;
-        &lt;img src=&#34;https://refreshannapolisvalley.org/images/event/scratchfest/automattic.png&#34;&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;div class=&#34;large-4 columns&#34;&gt;
-        &lt;div class=&#34;card&#34;&gt;
-          &lt;img src=&#34;https://refreshannapolisvalley.org/images/event/scratchfest/aec.png&#34;&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
-</description>
+      <description>Calling all Scratchers #ScratchFest is a weekend (June 24th and June 25th) Scratch-a-thon for kids interested in creating amazing original work with the Scratch programming environment.
+During #ScartchFest, kids will brainstorm an idea, develop their project, and showcase a final prototype. This weekend warrior event provides an excellent opportunity for Scratch coders to invent their own projects and demonstrate their knowledge in Scratch within a collaborative, creative, and playful environment.</description>
     </item>
     
     <item>
@@ -143,112 +27,7 @@
       <pubDate>Sun, 11 Sep 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/project/creative-computing/</guid>
-      <description>
-
-&lt;p&gt;Creative Computing is a course developed by an international network of educators passionate about exposing kids to the computer sciences.  Broken up into 7 units, this course uses the popular Scratch programming environment to aid young people (aged 8 to 13) in learning the basics of software development.  Scratch is used over the world by students to easily create animations and games while acting as a stepping stone to the more advanced world of computer science.&lt;/p&gt;
-
-&lt;p&gt;What can kids do with Scratch, and why is teaching kids how to code important?  Mitchel Resnick, co-creator of Scratch, explains in this TED Talk.&lt;/p&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/Ok6LbV6bqaE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-
-&lt;h2 id=&#34;course-objectives&#34;&gt;Course Objectives&lt;/h2&gt;
-
-&lt;img class=&#34;thumbnail&#34; src=&#34;https://refreshannapolisvalley.org/images/project/creative-computing/objectives.jpg&#34; alt=&#34;Objectives&#34; align=&#34;right&#34;&gt;
-
-
-&lt;p&gt;First and foremost, we aim to provide opportunities for young learners to become exposed to the computer sciences and inter-related disciplines (other science and technology fields as well as entrepreneurship).  Our goal is to provide a learning environment that goes beyond what students are taught in public schools about the computer sciences.  We will explore software as both a creative and entrepreneurial act.&lt;/p&gt;
-
-&lt;h2 id=&#34;who-are-we&#34;&gt;Who Are We?&lt;/h2&gt;
-
-&lt;img class=&#34;thumbnail&#34; src=&#34;https://refreshannapolisvalley.org/images/project/creative-computing/who-are-we.jpg&#34; alt=&#34;Mike and Kids&#34; align=&#34;left&#34;&gt;
-
-
-&lt;p&gt;Mike Caplan is a web application developer with over 16 years experience working in non-profit, university, retail, agricultural, and dental industries.  Mike also runs Refresh Annapolis Valley, a new media professional association to help grow the Valley’s digital technology industry.  Max (15), Solomon (11) and Mike (really old) have been working with Scratch for over 5 years as a tool to help promote the computer sciences within the Valley with young people.&lt;/p&gt;
-
-&lt;img class=&#34;thumbnail&#34; src=&#34;https://refreshannapolisvalley.org/images/project/creative-computing/hm.jpg&#34; alt=&#34;Mrugakshee Palwe and Hayly Anne Thackeray&#34; align=&#34;right&#34;&gt;
-
-
-&lt;p&gt;Mrugakshee Palwe and Hayly Anne Thackeray are Co-President of the Acadia Computer Science Society. Both are students at the Acadia University Jodrey School of Computer Science in their third year of the Bachelor of Computer Science program and active members in Women In Science and Engineering Acadia. Mrugakshee and Hayly have run programs working with girls and boys on several topics within the computer sciences.&lt;/p&gt;
-
-&lt;img class=&#34;thumbnail&#34; src=&#34;https://refreshannapolisvalley.org/images/project/creative-computing/Mohammed_Shameer_Iqbal.png&#34; alt=&#34;Shameer Iqbal&#34; align=&#34;left&#34;&gt;
-
-
-&lt;p&gt;After completing his Masters in Computer Science at Acadia University, Shameer Iqbal began working with Singolar.  Singolar is a Wolfville based technology startup that uses advanced intelligence to help companies improve client interactions.  Shameer&amp;rsquo;s areas of computer science interest includes Machine Learning, Data Mining and Data Visualization.&lt;/p&gt;
-
-&lt;p&gt;We believe that offering an extracurricular course on Scratch for kids 8 to 13 will help this generation develop a fundamental literacy around the computer sciences.&lt;/p&gt;
-
-&lt;h2 id=&#34;format&#34;&gt;Format&lt;/h2&gt;
-
-&lt;img class=&#34;thumbnail&#34; src=&#34;https://refreshannapolisvalley.org/images/project/creative-computing/format.jpg&#34; alt=&#34;Format&#34; align=&#34;right&#34;&gt;
-
-
-&lt;p&gt;Creative Computing will run weekly with two different classes. Each class will run for 2 hours and 15 minutes for a total of 19 classes.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Mondays 6 PM to 8:15 PM starting January 9th, 2017.  Snow days will bump the class to the Thursday (weather permitting).  The final Monday class will take place on June 12th.&lt;/li&gt;
-&lt;li&gt;Sundays 1 PM to 3:15 PM starting January 15th, 2017.  Snow days will bump the class to the Friday (weather permitting).  The final Sunday class will take place on June 18th.
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;A weekend &amp;ldquo;#ScratchFest&amp;rdquo; will cap off the course June 24 and 25.&lt;/p&gt;
-
-&lt;p&gt;The class will follow a six unit curriculum.  Units are broken down into several exercises that range from 15 to 60 minutes a piece.   The class mentors will share teaching and mentoring responsibilities.  We will aim to have a 5 students to 1 mentor ratio.&lt;/p&gt;
-
-&lt;p&gt;During #ScartchFest, participants will brainstorm an idea, develop a project, and showcase a final prototype using an iterative plan-make-reflect cycle.  It will provide an excellent opportunity for participants to invent their own relevant projects to work on, which can be developed as independent projects or in collaborative teams, and demonstrate their knowledge in Scratch within a collaborative, creative, flexible, and playful environment.&lt;/p&gt;
-
-&lt;h2 id=&#34;guest-speakers&#34;&gt;Guest Speakers&lt;/h2&gt;
-
-&lt;img class=&#34;thumbnail&#34; src=&#34;https://refreshannapolisvalley.org/images/project/creative-computing/guests.jpg&#34; alt=&#34;Guest Speakers&#34; align=&#34;left&#34;&gt;
-
-
-&lt;p&gt;We have designed the class to have upwards to 12 guest speaker slots of 20 minutes to 30 minutes each.  With the guest speakers we aim to illustrate how the classwork can translate to industry application.  We also would like to introduce other topics in and around the computer sciences to give the student a wider sense of the world beyond our Scratch development environment.&lt;/p&gt;
-
-&lt;h2 id=&#34;class-size&#34;&gt;Class Size&lt;/h2&gt;
-
-&lt;img class=&#34;thumbnail&#34; src=&#34;https://refreshannapolisvalley.org/images/project/creative-computing/size.jpg&#34; alt=&#34;Class Size&#34; align=&#34;right&#34;&gt;
-
-
-&lt;p&gt;The course class size will be capped at 20 learners.  The age range of the students sought will be between 8 and 13, but not limited to.  Where historically such classes tend to be predominantly male, we will limit student spots for boys to 50% in order to promote diverse gender participation.&lt;/p&gt;
-
-&lt;h2 id=&#34;class-location&#34;&gt;Class Location&lt;/h2&gt;
-
-&lt;img class=&#34;thumbnail&#34; src=&#34;https://refreshannapolisvalley.org/images/organization/acadia-entrepreneurship-centre/icon.png&#34; alt=&#34;Class Location&#34; align=&#34;left&#34;&gt;
-
-
-&lt;p&gt;The class will be hosted by the Acadia Entrepreneurship Centre Rural Innovation Centre at Acadia University.  The Rural Innovation Centre supports entrepreneurs and businesses in the Annapolis Valley and provides an incubator program for start up companies. This location gives us both an opportunity to introduce young learners to the Acadia campus, and alows us to draw from works of entrepreneurship taking place at this specific campus location.&lt;/p&gt;
-
-&lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;
-
-&lt;img class=&#34;thumbnail&#34; src=&#34;https://refreshannapolisvalley.org/images/project/creative-computing/requirements.jpg&#34; alt=&#34;Requirements&#34; align=&#34;right&#34;&gt;
-
-
-&lt;p&gt;The total cost for the course is $190 ($10 per class) per student.  We realize that this fee will not scale to meet everyone&amp;rsquo;s budget.  We will provide a number of as needed reduced tuition rates at $114 and as low as $0.&lt;/p&gt;
-
-&lt;p&gt;Students will also need to bring a laptop to each class.  The laptop needs to be able to run a modern web browser such as Google Chrome.  A mouse is also highly recommended.  We will supply course material as well as hardware prototyping boards.&lt;/p&gt;
-
-&lt;p&gt;If you don&amp;rsquo;t have a laptop available for your child to use, we will work to source one.&lt;/p&gt;
-
-&lt;p&gt;Parents will be asked to provide class snacks on a rotating as needed basis.&lt;/p&gt;
-
-&lt;h2 id=&#34;registration&#34;&gt;Registration&lt;/h2&gt;
-
-&lt;p&gt;Or &lt;a href=&#34;https://goo.gl/forms/9DrKqRJZEh4muw7y1&#34;&gt;open the registration form directly&lt;/a&gt;.&lt;/p&gt;
-
-&lt;iframe src=&#34;https://docs.google.com/forms/d/e/1FAIpQLSfEoGx38o70hTKTTKoG51d02L-EYeI3s7q4PD3Ic_PMWEAQ7g/viewform?embedded=true&#34; width=&#34;100%&#34; height=&#34;100%&#34; style=&#34;height: 95vh&#34; frameborder=&#34;0&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34;&gt;Loading...&lt;/iframe&gt;
-
-&lt;h2 id=&#34;special-thanks&#34;&gt;Special Thanks&lt;/h2&gt;
-
-&lt;p&gt;Big tip of the hat to the &lt;a href=&#34;https://refreshannapolisvalley.org/organization/acadia-entrepreneurship-centre&#34;&gt;
-    
-        Acadia Entrepreneurship Centre
-    
-&lt;/a&gt;
- for hosting our class.  Also to &lt;a href=&#34;http://campaignforkids.com/&#34;&gt;Campaign for Kids&lt;/a&gt; for helping us to break down financial barriers and make this class available to all kids.&lt;/p&gt;
-</description>
+      <description>Creative Computing is a course developed by an international network of educators passionate about exposing kids to the computer sciences. Broken up into 7 units, this course uses the popular Scratch programming environment to aid young people (aged 8 to 13) in learning the basics of software development. Scratch is used over the world by students to easily create animations and games while acting as a stepping stone to the more advanced world of computer science.</description>
     </item>
     
     <item>
@@ -261,33 +40,7 @@
 
 &lt;p&gt;Meet up with Hoist members once per month at Acadia University&amp;rsquo;s Rural Innovation Centre &amp;ndash; like attending an tech + entrepreneurship class at university.&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;the-hoist-way&#34;&gt;The Hoist Way&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Lunch!&lt;/strong&gt; Have some pizza with your new friends.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Learn!&lt;/strong&gt; The first half-hour will be a lesson from a pro on the topic of the day – coding…design or business.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hack!&lt;/strong&gt; Build or design something, apply what you just learned…it’s a mini hackathon. Work in a group or on your own to create the next big product or service!&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Discuss!&lt;/strong&gt; Reflect and discuss the day…what did you find challenging or exciting? Chill out and talk to your new pals about what you created!&lt;/p&gt;
-
-&lt;p&gt;Join our &lt;strong&gt;mailing list&lt;/strong&gt; (see below) to stay up-to-date about our upcoming meetups.&lt;/p&gt;
-
-&lt;h2 id=&#34;special-thanks&#34;&gt;Special Thanks&lt;/h2&gt;
-
-&lt;p&gt;Big tip of the hat to the &lt;a href=&#34;https://refreshannapolisvalley.org/organization/acadia-entrepreneurship-centre&#34;&gt;
-    
-        Acadia Entrepreneurship Centre
-    
-&lt;/a&gt;
- for hosting our meetup, and &lt;a href=&#34;https://refreshannapolisvalley.org/organization/launchbox&#34;&gt;
-    
-        launchbox
-    
-&lt;/a&gt;
- for helping out in numerous ways.  And &lt;a href=&#34;http://hoisthalifax.com/&#34;&gt;Hoist Halifax&lt;/a&gt; for paving the way.&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -296,16 +49,8 @@
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/organization/acadia-robotics-program/</guid>
-      <description>&lt;p&gt;The Robot Programming Competition mission is to increase interest in building digital technology and computer science by engaging Nova Scotia students in annual robotics programming competitions and related activities that feature problem solving and teamwork.&lt;/p&gt;
-
-&lt;p&gt;The Acadia Robotics Program, through the Jodrey School of Computer Science, depends heavily on financial support from external organizations and the committed volunteers who annually contribute to the season from late August through to mid-June.  We have a junior program, FIRST® LEGO® League, and a senior program, Robofest. All the outreach throughout the season culminates in a Provincial Robot Programming Championship here at Acadia Unversity each February, involving over 400 participants, 100 volunteers, media and many organizations.&lt;/p&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/qA3L8_KJB4c&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-</description>
+      <description>The Robot Programming Competition mission is to increase interest in building digital technology and computer science by engaging Nova Scotia students in annual robotics programming competitions and related activities that feature problem solving and teamwork.
+The Acadia Robotics Program, through the Jodrey School of Computer Science, depends heavily on financial support from external organizations and the committed volunteers who annually contribute to the season from late August through to mid-June. We have a junior program, FIRST® LEGO® League, and a senior program, Robofest.</description>
     </item>
     
     <item>
@@ -314,18 +59,7 @@
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/person/dr-daniel-silver/</guid>
-      <description>&lt;p&gt;Dr. Daniel L. Silver is the Director of the &lt;a href=&#34;https://refreshannapolisvalley.org/organization/acadia-institute-for-data-analytics&#34;&gt;
-    
-        Acadia Institute for Data Analytics
-    
-&lt;/a&gt;
-.  He is also a Professor in and currently the Acting-Director of the &lt;a href=&#34;https://refreshannapolisvalley.org/organization/jodrey-school-of-computer-science&#34;&gt;
-    
-        Jodrey School of Computer Science
-    
-&lt;/a&gt;
- at Acadia University.   His areas of research and application are machine learning, data mining, and data analytics.   His expertise is in Lifelong Machine Learning and Transfer Learning.   He has published over 65 scientific papers and has co-chaired or been part of program committees for a number of national and international conferences, seminars and workshops on data mining and machine learning.   He was the President of the Canadian Artificial Intelligence Association (CAIAC) from 2009-11. In 2011, he received the Science Champion Award from the Nova Scotia Discovery Center for his work on youth robotics and the advancement of STEM education.  In December, 2014, he became an Honorary Colonel in the RCAF attached to 14 Wing Software Engineering Squadron, in Greenwood, NS.  In June of 2016, was awarded Canadian AI’s Distinguished Service Award.  Danny has over 30 years of experience in information technology, project management and business administration.  Since 1993, he has worked on machine learning and data mining projects in the private and public sector providing situation analysis and problem definition, project management and guidance, and data mining services.&lt;/p&gt;
-</description>
+      <description>Dr. Daniel L. Silver is the Director of the Acadia Institute for Data Analytics  . He is also a Professor in and currently the Acting-Director of the Jodrey School of Computer Science  at Acadia University. His areas of research and application are machine learning, data mining, and data analytics. His expertise is in Lifelong Machine Learning and Transfer Learning. He has published over 65 scientific papers and has co-chaired or been part of program committees for a number of national and international conferences, seminars and workshops on data mining and machine learning.</description>
     </item>
     
     <item>
@@ -334,12 +68,8 @@
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/person/ian-mckay/</guid>
-      <description>&lt;p&gt;“Creative Technician”&amp;hellip;what the heck is that?&lt;/p&gt;
-
-&lt;p&gt;I see my role, primarily, as that of a possibilitist. I listen closely to your ideas, what you hope to create, the problem you are working and then share with you the possibilities technology may offer. My years of immersion in Maker culture, joyfully exploring new and unusual uses for the wonders of emerging and age-old tech, provide me with a deep pool of possible solutions to your creative problems. While I am happy to help suggest solutions and inform you of the possibilities and challenges, I always keep in mind that the piece is YOUR work and will strive to help YOUR vision come to fruition. In those cases where a more collaborative model is what you are seeking, I would love to work with you to make our ideas a reality.&lt;/p&gt;
-
-&lt;p&gt;Ian&amp;rsquo;s &lt;a href=&#34;http://deepdreamgenerator.com/ddream/56b79f0b2d&#34;&gt;banner image&lt;/a&gt; is a photo of his home at Scots Bay&amp;hellip; reinterpreted by a machine influenced by the work of &lt;a href=&#34;http://hollycarr.weebly.com/&#34;&gt;Holly Carr&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>“Creative Technician”&amp;hellip;what the heck is that?
+I see my role, primarily, as that of a possibilitist. I listen closely to your ideas, what you hope to create, the problem you are working and then share with you the possibilities technology may offer. My years of immersion in Maker culture, joyfully exploring new and unusual uses for the wonders of emerging and age-old tech, provide me with a deep pool of possible solutions to your creative problems.</description>
     </item>
     
     <item>
@@ -348,10 +78,8 @@
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/organization/jodrey-school-of-computer-science-at-acadia-university/</guid>
-      <description>&lt;p&gt;The Jodrey School of Computer Science prepares students for today&amp;rsquo;s ever changing world of technology in a unique, fully mobile computing environment. Students develop a thorough understanding of computer systems software, modern software design methods and computer systems software.&lt;/p&gt;
-
-&lt;p&gt;Students in all degree programs complete a self-directed project during the course of their studies. This provides students with the opportunity to work closely with professors and to apply knowledge acquired through experiment and real-life application. Many students work on projects that end up in the public domain as open-source applications, free for everyone to download. Some students complete research work that becomes an integral part of their supervisor&amp;rsquo;s research, leading to publications in conferences and journals.&lt;/p&gt;
-</description>
+      <description>The Jodrey School of Computer Science prepares students for today&amp;rsquo;s ever changing world of technology in a unique, fully mobile computing environment. Students develop a thorough understanding of computer systems software, modern software design methods and computer systems software.
+Students in all degree programs complete a self-directed project during the course of their studies. This provides students with the opportunity to work closely with professors and to apply knowledge acquired through experiment and real-life application.</description>
     </item>
     
     <item>
@@ -360,8 +88,7 @@
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/person/max-caplan/</guid>
-      <description>&lt;p&gt;Once upon a time, he was born. What happened after this is the interesting part. Relatively speaking. After his long and tedious early childhood, Max found himself being introduced to the fascinating world of technology. One of his earliest experiences was with the beginner programming environment known as Scratch. After a couple of years of making awesome scratch projects, Max moved on to explore more that tech had to offer. Through his School he found himself on a Lego Robotics team for a couple years. Max found himself enthralled in the world of programming in these days, he loved to mess about with javascript and HTML in particular. As time went on, as it does, Max delved deeper and deeper into this fascinating world of computers and code. Of course he picked up other hobbies and interests along he way, like his passion for art in its many forms, and his love for competitive rock climbing. Which brings us to where he is these days.&lt;/p&gt;
-</description>
+      <description>Once upon a time, he was born. What happened after this is the interesting part. Relatively speaking. After his long and tedious early childhood, Max found himself being introduced to the fascinating world of technology. One of his earliest experiences was with the beginner programming environment known as Scratch. After a couple of years of making awesome scratch projects, Max moved on to explore more that tech had to offer. Through his School he found himself on a Lego Robotics team for a couple years.</description>
     </item>
     
   </channel>

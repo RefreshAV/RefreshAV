@@ -2,11 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Max Caplan on Refresh Annapolis Valley</title>
-    <link>https://refreshannapolisvalley.org/people/max-caplan/index.xml</link>
+    <link>https://refreshannapolisvalley.org/people/max-caplan/</link>
     <description>Recent content in Max Caplan on Refresh Annapolis Valley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <atom:link href="https://refreshannapolisvalley.org/people/max-caplan/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Dec 2017 13:00:00 -0300</lastBuildDate>
+    
+	<atom:link href="https://refreshannapolisvalley.org/people/max-caplan/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>f5://imagination</title>
@@ -14,144 +17,9 @@
       <pubDate>Sun, 17 Dec 2017 13:00:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/f5/imagination/</guid>
-      <description>&lt;p&gt;f5://imagination is a pop up exhibit focused on digital creativity.  This one day temporary exhibit is seeking submissions from digital artists, makers, scratchers, computer scientists, engineers and pretendgineer, hardware hackers, lego robotics warriors, indy game developers, new media innovators, VR and AR pioneers&amp;hellip;  digital builders of all shapes, sizes, and credentials.&lt;/p&gt;
-
-&lt;p&gt;We are accepting submissions in the following categories:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Computer generated art&lt;/li&gt;
-&lt;li&gt;Digital games&lt;/li&gt;
-&lt;li&gt;Interactive story&lt;/li&gt;
-&lt;li&gt;Digital gadgets and gizmos&lt;/li&gt;
-&lt;li&gt;VR / AR environments&lt;/li&gt;
-&lt;li&gt;Animation&lt;/li&gt;
-&lt;li&gt;AI investigations&lt;/li&gt;
-&lt;li&gt;Miscellaneous computer experiments&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;f5://imagination serves as a platform for digital artistic experimentation. It promotes exploration in all forms of new media art, providing the public with an opportunity to experience your innovative work. f5://imagination is committed to making this extraordinary form, at the intersection of art and technology, available to everyone.&lt;/p&gt;
-
-&lt;p&gt;Submissions are being accepted until midnight December 13.  To submit, fill out the below form.&lt;/p&gt;
-
-&lt;div style=&#34;margin:0px;padding:0px;overflow:hidden&#34;&gt;
-    &lt;iframe src=&#34;https://docs.google.com/forms/d/e/1FAIpQLSco_QD5Lo5vCD_FDwCZT5BlUX78t9QbdeSWv4h4QYIyQ_Sy1g/viewform?embedded=true&#34; frameborder=&#34;0&#34; style=&#34;overflow:hidden;height:100vh;width:100%; border: 1px solid hsla(0,0%,4%,.25)&#34;&gt;Loading...&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.min.js&#34; integrity=&#34;sha256-bXPU+HvtR3tP1IYHZVEFHzEZ9p5zkY8GLPnOnJXW67k=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
-&lt;script
-   type=&#34;text/javascript&#34;
-   src=&#34;https://rawgit.com/IDMNYU/p5.js-speech/master/lib/p5.speech.js&#34;
-&gt;&lt;/script&gt;
-
-&lt;script&gt;
-
-var isInit = 0;
-var lines =  3;
-
-var lineProps = [];
-var lx = [];
-var ly = [];
-
-var myVoice = new p5.Speech();
-var welcome = [];
-
-function getIP(json) {
-    welcome = [
-        &#39;Hello &#39; + json.ip + &#39;. Annapolis Valley festival of computer based art. refresh imagination.  A digital art exhibit&#39;,
-        &#39;Hello &#39; + json.ip + &#39;. Come explore digital imagination with us.  refresh imagination.  A digital art exhibit&#39;,
-        &#39;How do you express your creativity digitally? &#39; + json.ip + &#39;?  refresh imagination.  A digital art exhibit&#39;
-    ];
-    
-    isInit++;
-}
-
-function setup() {
-  var header = document.querySelector(&#39;main article header&#39;);
-
-  canvas = createCanvas(header.offsetWidth, header.offsetHeight);
-  canvas.parent(header);
-  
-  lines = Math.floor(random(3, 10));
-  
-  for (var li = 0; li &lt; lines; li++) {
-    lx[li] = [];
-    ly[li] = [];
-    lineProps[li] = {
-        num: Math.floor(random(10, 500)),
-        range: Math.floor(random(5, 20))
-    };
-  
-    var w = random(0, width);
-    var h = random(0, height);
-  
-    for ( var i = 0; i &lt; lineProps[li].num; i++ ) {
-      lx[li][i] = w;
-      ly[li][i] = h;
-    }
-  }
-  
-  frameRate(30);
-  isInit++;
-}
-
-function draw() {
-  background(&#39;#0a0a0a&#39;);
-
-  // Shift all elements 1 place to the left
-  for ( var li = 0; li &lt; lines; li++) {
-      for ( var i = 1; i &lt; lineProps[li].num; i++ ) {
-        lx[li][i - 1] = lx[li][i];
-        ly[li][i - 1] = ly[li][i];
-      }
-      
-      // Put a new value at the end of the array
-      lx[li][lineProps[li].num - 1] += random(-lineProps[li].range, lineProps[li].range);
-      ly[li][lineProps[li].num - 1] += random(-lineProps[li].range, lineProps[li].range);
-      
-      // Constrain all points to the screen
-      lx[li][lineProps[li].num - 1] = constrain(lx[li][lineProps[li].num - 1], 0, width);
-      ly[li][lineProps[li].num - 1] = constrain(ly[li][lineProps[li].num - 1], 0, height);
-
-  }
-
-  // Draw a line connecting the points
-  for ( var li = 0; li &lt; lines; li++) {
-    for ( var j = 1; j &lt; lineProps[li].num; j++ ) {
-        var val = j / lineProps[li].num * 204.0 + 51;
-        stroke(val);
-        line(lx[li][j - 1], ly[li][j - 1], lx[li][j], ly[li][j]);
-    }
-  }
-
-}
-
-var intervalId = setInterval(function(){
-
-    if (isInit &gt; 1) {
-        clearInterval(intervalId);
-        talk();
-    }
-    
-}, 2000);
-
-
-function talk() {
-    var voices = [];
-    
-    for (var i = 0; i &lt; myVoice.voices.length; i++) {
-        if (myVoice.voices[i].lang.substr(0,2) == &#39;en&#39;) {
-            voices.push(i);
-        }
-    }
-
-    myVoice.setVoice(random(voices));
-    myVoice.setRate(0.7);
-    myVoice.speak(random(welcome));
-}
-&lt;/script&gt;
-
-&lt;script src=&#34;https://api.ipify.org?format=jsonp&amp;callback=getIP&#34;&gt;&lt;/script&gt;
-</description>
+      <description>f5://imagination is a pop up exhibit focused on digital creativity. This one day temporary exhibit is seeking submissions from digital artists, makers, scratchers, computer scientists, engineers and pretendgineer, hardware hackers, lego robotics warriors, indy game developers, new media innovators, VR and AR pioneers&amp;hellip; digital builders of all shapes, sizes, and credentials.
+We are accepting submissions in the following categories:
+ Computer generated art Digital games Interactive story Digital gadgets and gizmos VR / AR environments Animation AI investigations Miscellaneous computer experiments  f5://imagination serves as a platform for digital artistic experimentation.</description>
     </item>
     
     <item>
@@ -160,14 +28,9 @@ function talk() {
       <pubDate>Sat, 17 Jun 2017 12:30:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/against-flat-screens-learn-3d-design/</guid>
-      <description>&lt;p&gt;In this Hoist teen design talk, Max Caplan will introduce us to 3D design using Blender.  Blender is a professional 3D computer graphics software used for creating animated films, visual effects, art, 3D printed models, interactive 3D applications and video games.  Max will walk us through installing, using, and designing your first Blender project: an awesome robot.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Pizza + workshop + building&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Bring your own laptop. A small number of laptops will be available to borrow.&lt;/p&gt;
-
-&lt;p&gt;First time Hoisters need to get a parent or guardian to &lt;a href=&#34;https://form.jotform.ca/71164477795267&#34;&gt;fill out the consent form&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>In this Hoist teen design talk, Max Caplan will introduce us to 3D design using Blender. Blender is a professional 3D computer graphics software used for creating animated films, visual effects, art, 3D printed models, interactive 3D applications and video games. Max will walk us through installing, using, and designing your first Blender project: an awesome robot.
+Pizza + workshop + building
+Bring your own laptop. A small number of laptops will be available to borrow.</description>
     </item>
     
     <item>
@@ -176,23 +39,9 @@ function talk() {
       <pubDate>Tue, 21 Feb 2017 19:00:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/maker-meetup/</guid>
-      <description>&lt;p&gt;Calling all &lt;strong&gt;makers&lt;/strong&gt;, &lt;strong&gt;inventors&lt;/strong&gt;, &lt;strong&gt;artists&lt;/strong&gt;, &lt;strong&gt;entrepreneurs&lt;/strong&gt;, &lt;strong&gt;tinkerers&lt;/strong&gt;, and the like. Join Refresh Annapolis Valley and Annapolis Valley STEAMspace for what we hope will be a regular meetup for the Valley maker community to gather, share ideas, and build community.&lt;/p&gt;
-
-&lt;p&gt;Projects galore to explore!&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://refreshannapolisvalley.org/person/ian-mckay&#34;&gt;Ian McKay&lt;/a&gt;
- will be demoing a magic cauldron, CNC stuff and a possible new product.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://refreshannapolisvalley.org/person/max-caplan&#34;&gt;Max Caplan&lt;/a&gt;
- will show off a homebrew handheld gaming console.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;And you&amp;hellip;?&lt;/p&gt;
-
-&lt;p&gt;If you want to bring a project in to show off and get feedback on, please do.&lt;/p&gt;
-
-&lt;p&gt;Food, Makers, Cool Projects, Good Chats.&lt;/p&gt;
-</description>
+      <description>Calling all makers, inventors, artists, entrepreneurs, tinkerers, and the like. Join Refresh Annapolis Valley and Annapolis Valley STEAMspace for what we hope will be a regular meetup for the Valley maker community to gather, share ideas, and build community.
+Projects galore to explore!
+ Ian McKay will be demoing a magic cauldron, CNC stuff and a possible new product. Max Caplan will show off a homebrew handheld gaming console.  And you&amp;hellip;?</description>
     </item>
     
     <item>
@@ -201,112 +50,7 @@ function talk() {
       <pubDate>Sun, 11 Sep 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/project/creative-computing/</guid>
-      <description>
-
-&lt;p&gt;Creative Computing is a course developed by an international network of educators passionate about exposing kids to the computer sciences.  Broken up into 7 units, this course uses the popular Scratch programming environment to aid young people (aged 8 to 13) in learning the basics of software development.  Scratch is used over the world by students to easily create animations and games while acting as a stepping stone to the more advanced world of computer science.&lt;/p&gt;
-
-&lt;p&gt;What can kids do with Scratch, and why is teaching kids how to code important?  Mitchel Resnick, co-creator of Scratch, explains in this TED Talk.&lt;/p&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/Ok6LbV6bqaE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-
-&lt;h2 id=&#34;course-objectives&#34;&gt;Course Objectives&lt;/h2&gt;
-
-&lt;img class=&#34;thumbnail&#34; src=&#34;https://refreshannapolisvalley.org/images/project/creative-computing/objectives.jpg&#34; alt=&#34;Objectives&#34; align=&#34;right&#34;&gt;
-
-
-&lt;p&gt;First and foremost, we aim to provide opportunities for young learners to become exposed to the computer sciences and inter-related disciplines (other science and technology fields as well as entrepreneurship).  Our goal is to provide a learning environment that goes beyond what students are taught in public schools about the computer sciences.  We will explore software as both a creative and entrepreneurial act.&lt;/p&gt;
-
-&lt;h2 id=&#34;who-are-we&#34;&gt;Who Are We?&lt;/h2&gt;
-
-&lt;img class=&#34;thumbnail&#34; src=&#34;https://refreshannapolisvalley.org/images/project/creative-computing/who-are-we.jpg&#34; alt=&#34;Mike and Kids&#34; align=&#34;left&#34;&gt;
-
-
-&lt;p&gt;Mike Caplan is a web application developer with over 16 years experience working in non-profit, university, retail, agricultural, and dental industries.  Mike also runs Refresh Annapolis Valley, a new media professional association to help grow the Valley’s digital technology industry.  Max (15), Solomon (11) and Mike (really old) have been working with Scratch for over 5 years as a tool to help promote the computer sciences within the Valley with young people.&lt;/p&gt;
-
-&lt;img class=&#34;thumbnail&#34; src=&#34;https://refreshannapolisvalley.org/images/project/creative-computing/hm.jpg&#34; alt=&#34;Mrugakshee Palwe and Hayly Anne Thackeray&#34; align=&#34;right&#34;&gt;
-
-
-&lt;p&gt;Mrugakshee Palwe and Hayly Anne Thackeray are Co-President of the Acadia Computer Science Society. Both are students at the Acadia University Jodrey School of Computer Science in their third year of the Bachelor of Computer Science program and active members in Women In Science and Engineering Acadia. Mrugakshee and Hayly have run programs working with girls and boys on several topics within the computer sciences.&lt;/p&gt;
-
-&lt;img class=&#34;thumbnail&#34; src=&#34;https://refreshannapolisvalley.org/images/project/creative-computing/Mohammed_Shameer_Iqbal.png&#34; alt=&#34;Shameer Iqbal&#34; align=&#34;left&#34;&gt;
-
-
-&lt;p&gt;After completing his Masters in Computer Science at Acadia University, Shameer Iqbal began working with Singolar.  Singolar is a Wolfville based technology startup that uses advanced intelligence to help companies improve client interactions.  Shameer&amp;rsquo;s areas of computer science interest includes Machine Learning, Data Mining and Data Visualization.&lt;/p&gt;
-
-&lt;p&gt;We believe that offering an extracurricular course on Scratch for kids 8 to 13 will help this generation develop a fundamental literacy around the computer sciences.&lt;/p&gt;
-
-&lt;h2 id=&#34;format&#34;&gt;Format&lt;/h2&gt;
-
-&lt;img class=&#34;thumbnail&#34; src=&#34;https://refreshannapolisvalley.org/images/project/creative-computing/format.jpg&#34; alt=&#34;Format&#34; align=&#34;right&#34;&gt;
-
-
-&lt;p&gt;Creative Computing will run weekly with two different classes. Each class will run for 2 hours and 15 minutes for a total of 19 classes.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Mondays 6 PM to 8:15 PM starting January 9th, 2017.  Snow days will bump the class to the Thursday (weather permitting).  The final Monday class will take place on June 12th.&lt;/li&gt;
-&lt;li&gt;Sundays 1 PM to 3:15 PM starting January 15th, 2017.  Snow days will bump the class to the Friday (weather permitting).  The final Sunday class will take place on June 18th.
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;A weekend &amp;ldquo;#ScratchFest&amp;rdquo; will cap off the course June 24 and 25.&lt;/p&gt;
-
-&lt;p&gt;The class will follow a six unit curriculum.  Units are broken down into several exercises that range from 15 to 60 minutes a piece.   The class mentors will share teaching and mentoring responsibilities.  We will aim to have a 5 students to 1 mentor ratio.&lt;/p&gt;
-
-&lt;p&gt;During #ScartchFest, participants will brainstorm an idea, develop a project, and showcase a final prototype using an iterative plan-make-reflect cycle.  It will provide an excellent opportunity for participants to invent their own relevant projects to work on, which can be developed as independent projects or in collaborative teams, and demonstrate their knowledge in Scratch within a collaborative, creative, flexible, and playful environment.&lt;/p&gt;
-
-&lt;h2 id=&#34;guest-speakers&#34;&gt;Guest Speakers&lt;/h2&gt;
-
-&lt;img class=&#34;thumbnail&#34; src=&#34;https://refreshannapolisvalley.org/images/project/creative-computing/guests.jpg&#34; alt=&#34;Guest Speakers&#34; align=&#34;left&#34;&gt;
-
-
-&lt;p&gt;We have designed the class to have upwards to 12 guest speaker slots of 20 minutes to 30 minutes each.  With the guest speakers we aim to illustrate how the classwork can translate to industry application.  We also would like to introduce other topics in and around the computer sciences to give the student a wider sense of the world beyond our Scratch development environment.&lt;/p&gt;
-
-&lt;h2 id=&#34;class-size&#34;&gt;Class Size&lt;/h2&gt;
-
-&lt;img class=&#34;thumbnail&#34; src=&#34;https://refreshannapolisvalley.org/images/project/creative-computing/size.jpg&#34; alt=&#34;Class Size&#34; align=&#34;right&#34;&gt;
-
-
-&lt;p&gt;The course class size will be capped at 20 learners.  The age range of the students sought will be between 8 and 13, but not limited to.  Where historically such classes tend to be predominantly male, we will limit student spots for boys to 50% in order to promote diverse gender participation.&lt;/p&gt;
-
-&lt;h2 id=&#34;class-location&#34;&gt;Class Location&lt;/h2&gt;
-
-&lt;img class=&#34;thumbnail&#34; src=&#34;https://refreshannapolisvalley.org/images/organization/acadia-entrepreneurship-centre/icon.png&#34; alt=&#34;Class Location&#34; align=&#34;left&#34;&gt;
-
-
-&lt;p&gt;The class will be hosted by the Acadia Entrepreneurship Centre Rural Innovation Centre at Acadia University.  The Rural Innovation Centre supports entrepreneurs and businesses in the Annapolis Valley and provides an incubator program for start up companies. This location gives us both an opportunity to introduce young learners to the Acadia campus, and alows us to draw from works of entrepreneurship taking place at this specific campus location.&lt;/p&gt;
-
-&lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;
-
-&lt;img class=&#34;thumbnail&#34; src=&#34;https://refreshannapolisvalley.org/images/project/creative-computing/requirements.jpg&#34; alt=&#34;Requirements&#34; align=&#34;right&#34;&gt;
-
-
-&lt;p&gt;The total cost for the course is $190 ($10 per class) per student.  We realize that this fee will not scale to meet everyone&amp;rsquo;s budget.  We will provide a number of as needed reduced tuition rates at $114 and as low as $0.&lt;/p&gt;
-
-&lt;p&gt;Students will also need to bring a laptop to each class.  The laptop needs to be able to run a modern web browser such as Google Chrome.  A mouse is also highly recommended.  We will supply course material as well as hardware prototyping boards.&lt;/p&gt;
-
-&lt;p&gt;If you don&amp;rsquo;t have a laptop available for your child to use, we will work to source one.&lt;/p&gt;
-
-&lt;p&gt;Parents will be asked to provide class snacks on a rotating as needed basis.&lt;/p&gt;
-
-&lt;h2 id=&#34;registration&#34;&gt;Registration&lt;/h2&gt;
-
-&lt;p&gt;Or &lt;a href=&#34;https://goo.gl/forms/9DrKqRJZEh4muw7y1&#34;&gt;open the registration form directly&lt;/a&gt;.&lt;/p&gt;
-
-&lt;iframe src=&#34;https://docs.google.com/forms/d/e/1FAIpQLSfEoGx38o70hTKTTKoG51d02L-EYeI3s7q4PD3Ic_PMWEAQ7g/viewform?embedded=true&#34; width=&#34;100%&#34; height=&#34;100%&#34; style=&#34;height: 95vh&#34; frameborder=&#34;0&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34;&gt;Loading...&lt;/iframe&gt;
-
-&lt;h2 id=&#34;special-thanks&#34;&gt;Special Thanks&lt;/h2&gt;
-
-&lt;p&gt;Big tip of the hat to the &lt;a href=&#34;https://refreshannapolisvalley.org/organization/acadia-entrepreneurship-centre&#34;&gt;
-    
-        Acadia Entrepreneurship Centre
-    
-&lt;/a&gt;
- for hosting our class.  Also to &lt;a href=&#34;http://campaignforkids.com/&#34;&gt;Campaign for Kids&lt;/a&gt; for helping us to break down financial barriers and make this class available to all kids.&lt;/p&gt;
-</description>
+      <description>Creative Computing is a course developed by an international network of educators passionate about exposing kids to the computer sciences. Broken up into 7 units, this course uses the popular Scratch programming environment to aid young people (aged 8 to 13) in learning the basics of software development. Scratch is used over the world by students to easily create animations and games while acting as a stepping stone to the more advanced world of computer science.</description>
     </item>
     
   </channel>

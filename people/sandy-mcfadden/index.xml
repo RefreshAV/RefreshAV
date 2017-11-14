@@ -2,11 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sandy Mcfadden on Refresh Annapolis Valley</title>
-    <link>https://refreshannapolisvalley.org/people/sandy-mcfadden/index.xml</link>
+    <link>https://refreshannapolisvalley.org/people/sandy-mcfadden/</link>
     <description>Recent content in Sandy Mcfadden on Refresh Annapolis Valley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <atom:link href="https://refreshannapolisvalley.org/people/sandy-mcfadden/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Aug 2016 19:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://refreshannapolisvalley.org/people/sandy-mcfadden/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Refresh Annapolis Valley</title>
@@ -18,9 +21,7 @@
 
 &lt;p&gt;&lt;strong&gt;Recursive meta loop&lt;/strong&gt;.  Stack overflow.  Core now being dumped&amp;hellip;&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;small&gt;&lt;a href=&#34;https://www.flickr.com/photos/80845533@N00/1376527668&#34;&gt;Chocobot&lt;/a&gt; icon remixed with your bad dreams.&lt;/small&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -29,10 +30,8 @@
       <pubDate>Tue, 08 Mar 2016 19:00:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/introduction-to-wordpress/</guid>
-      <description>&lt;p&gt;WordPress is a free content management system used by more than 23.3% of the top 10 million websites. In this talk, Sandy McFadden and Raina Noel will show us what is it, what it can do for you, and how you can start using it to get your message online.&lt;/p&gt;
-
-&lt;p&gt;You&amp;rsquo;ll learn how to install WordPress and get it setup using Posts, Pages, Widgets, and Menus. Raina and Sandy will also show us how you can extend Wordpress functionality and change the way your site looks with Plugins and Themes.&lt;/p&gt;
-</description>
+      <description>WordPress is a free content management system used by more than 23.3% of the top 10 million websites. In this talk, Sandy McFadden and Raina Noel will show us what is it, what it can do for you, and how you can start using it to get your message online.
+You&amp;rsquo;ll learn how to install WordPress and get it setup using Posts, Pages, Widgets, and Menus. Raina and Sandy will also show us how you can extend Wordpress functionality and change the way your site looks with Plugins and Themes.</description>
     </item>
     
   </channel>

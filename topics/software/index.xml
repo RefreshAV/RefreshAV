@@ -2,11 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Software on Refresh Annapolis Valley</title>
-    <link>https://refreshannapolisvalley.org/topics/software/index.xml</link>
+    <link>https://refreshannapolisvalley.org/topics/software/</link>
     <description>Recent content in Software on Refresh Annapolis Valley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <atom:link href="https://refreshannapolisvalley.org/topics/software/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Aug 2016 19:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://refreshannapolisvalley.org/topics/software/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Charlie Greene</title>
@@ -14,15 +17,8 @@
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/person/charlie-greene/</guid>
-      <description>&lt;p&gt;Charlie is a senior software developer at The REDspace. He is alumni from &lt;a href=&#34;https://refreshannapolisvalley.org/organization/colibri-software&#34;&gt;
-    
-        Colibri Software
-    
-&lt;/a&gt;
- where he worked for two years, ever since graduating from Acadia University with a Honors degree in Computer Science with Co-Op option.&lt;/p&gt;
-
-&lt;p&gt;Charlie&amp;rsquo;s profile picture was created by a robot inspired by the work of Ruby the painting elephant.  True story.&lt;/p&gt;
-</description>
+      <description>Charlie is a senior software developer at The REDspace. He is alumni from Colibri Software  where he worked for two years, ever since graduating from Acadia University with a Honors degree in Computer Science with Co-Op option.
+Charlie&amp;rsquo;s profile picture was created by a robot inspired by the work of Ruby the painting elephant. True story.</description>
     </item>
     
     <item>
@@ -31,10 +27,8 @@
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/person/chris-jordan/</guid>
-      <description>&lt;p&gt;Chris is a software developer with 16+ years experience with Henry Schein.  Not to be pigeonholed, he&amp;rsquo;s got his hand in all sorts of things: Top tier support for an installation base spanning 2000+ customers, Brand development, Application planning and development, Database design, Documentation, Testing, Training, Training material development: web, print and video, Customer support, Installer creation, Phone system programming.&lt;/p&gt;
-
-&lt;p&gt;Chris&amp;rsquo; profile pic is a mashup of a picture of his swiped from Facebook and R2D2.&lt;/p&gt;
-</description>
+      <description>Chris is a software developer with 16+ years experience with Henry Schein. Not to be pigeonholed, he&amp;rsquo;s got his hand in all sorts of things: Top tier support for an installation base spanning 2000+ customers, Brand development, Application planning and development, Database design, Documentation, Testing, Training, Training material development: web, print and video, Customer support, Installer creation, Phone system programming.
+Chris&amp;rsquo; profile pic is a mashup of a picture of his swiped from Facebook and R2D2.</description>
     </item>
     
     <item>
@@ -43,25 +37,8 @@
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/organization/harvesthand/</guid>
-      <description>&lt;p&gt;HarvestHand is a community platform dedicated to strengthening regional food systems. We&amp;rsquo;re passionate about supporting farms with CSA&amp;rsquo;s to become more profitable using HarvestHand CSA Software, helping communities eat better through the HarvestHand Community, creating good jobs in rural communities, and building new media solutions that make sharing the harvest easier.&lt;/p&gt;
-
-&lt;p&gt;Our vision is to create new media solutions that strengthen regional food systems&amp;rsquo; ability to succeed in value oriented approaches to production, distribution, consumption and community.&lt;/p&gt;
-
-&lt;p&gt;Our Mandate is to:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Improve the profitability of Community Shared Agriculture (CSA) farms through the ease and functionality of HarvestHand CSA Software Platform&lt;/li&gt;
-&lt;li&gt;Create localized and fairly paid employment opportunities in rural communities&lt;/li&gt;
-&lt;li&gt;Make it easy for citizens to locate, join and remain a member of a CSA farm&lt;/li&gt;
-&lt;li&gt;Create a space for exploration of ideas, identification of problems and creation of solutions related to local food systems&lt;/li&gt;
-&lt;li&gt;Build out best of regional food tooling&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&#34;flex-video&#34;&gt;
-    &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/qNxWThFGa5M&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-</description>
+      <description>HarvestHand is a community platform dedicated to strengthening regional food systems. We&amp;rsquo;re passionate about supporting farms with CSA&amp;rsquo;s to become more profitable using HarvestHand CSA Software, helping communities eat better through the HarvestHand Community, creating good jobs in rural communities, and building new media solutions that make sharing the harvest easier.
+Our vision is to create new media solutions that strengthen regional food systems&amp;rsquo; ability to succeed in value oriented approaches to production, distribution, consumption and community.</description>
     </item>
     
     <item>
@@ -70,16 +47,11 @@
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/person/justin-bezanson/</guid>
-      <description>&lt;p&gt;Since 2000 I have continued to expand my knowledge and skills and worked hard to be the best developer I can be.&lt;/p&gt;
-
-&lt;p&gt;I enjoy meeting challenges and working hard to find creative and user friendly solutions.&lt;/p&gt;
-
-&lt;p&gt;My goal is to continually improve my development process, delivering higher quality and efficiency.&lt;/p&gt;
-
-&lt;p&gt;Specialties: PHP, ASP.NET MVC, HTML, CSS, JavaScript, jQuery, CodeIgniter, Zend Framework, AJAX, Windows, Linux, MySQL, SQL Server, WordPress, ASP.NET&lt;/p&gt;
-
-&lt;p&gt;Justin, pictured here, &lt;em&gt;is&lt;/em&gt; The Thing from the Fantastic Four.&lt;/p&gt;
-</description>
+      <description>Since 2000 I have continued to expand my knowledge and skills and worked hard to be the best developer I can be.
+I enjoy meeting challenges and working hard to find creative and user friendly solutions.
+My goal is to continually improve my development process, delivering higher quality and efficiency.
+Specialties: PHP, ASP.NET MVC, HTML, CSS, JavaScript, jQuery, CodeIgniter, Zend Framework, AJAX, Windows, Linux, MySQL, SQL Server, WordPress, ASP.NET
+Justin, pictured here, is The Thing from the Fantastic Four.</description>
     </item>
     
     <item>
@@ -88,12 +60,8 @@
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/person/keith-diehl/</guid>
-      <description>&lt;p&gt;Keith got his first glimpse of HTML with NCSA&amp;rsquo;s Mosaic browser in 1994.  A few “View Sources” later and he was hooked.&lt;/p&gt;
-
-&lt;p&gt;Soon after, he got his first web job as Webmaster for the Arizona Daily Wildcat.  Over the years, Keith has worked for several newspapers and Fortune 500 companies including Coca Cola and Aflac insurance.  He has been the Webmaster for North America&amp;rsquo;s premiere training provider CED Solutions for over 15 years.&lt;/p&gt;
-
-&lt;p&gt;Keith has been fortunate to be able to combine the connectivity of the web with his love of travel.   During his travels, he met a lovely Canadian who convinced him to move to Canada and get married.  He lives in Nova Scotia with his wife and young son.&lt;/p&gt;
-</description>
+      <description>Keith got his first glimpse of HTML with NCSA&amp;rsquo;s Mosaic browser in 1994. A few “View Sources” later and he was hooked.
+Soon after, he got his first web job as Webmaster for the Arizona Daily Wildcat. Over the years, Keith has worked for several newspapers and Fortune 500 companies including Coca Cola and Aflac insurance. He has been the Webmaster for North America&amp;rsquo;s premiere training provider CED Solutions for over 15 years.</description>
     </item>
     
     <item>
@@ -102,22 +70,8 @@
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/organization/labnet-dental-lab-systems/</guid>
-      <description>&lt;p&gt;Labnet Dental Lab Systems offers the Dental Lab industry&amp;rsquo;s most comprehensive and powerful management systems with solutions suited for labs of all sizes and budgets. Whether your lab is a thriving multi-site corporation or a one-technician miracle lab, we have a perfect fit for you.&lt;/p&gt;
-
-&lt;p&gt;As a Henry Schein company, you can depend on Labnet Dental Lab Systems for stability and providing your dentists with the latest technological advancements. When you are operating within tight deadlines, the last thing you should worry about is your software. Stability in your software means consistency and piece of mind in your lab.&lt;/p&gt;
-
-&lt;p&gt;Henry Schein’s commitment to software in dentistry is unparalleled. No other company is in the unique position of developing software for both dentists and laboratories. The internet link between the labs and dentists shows the foresight one expects from industry leaders Labnet Dental Lab Systems and Dentrix.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://labnet.net/products/labnet/index.html&#34;&gt;Labnet&lt;/a&gt;: The most powerful lab management software ever&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://labnet.net/products/supplynet/index.html&#34;&gt;Supplynet&lt;/a&gt;: The leading inventory management application in our industry&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.labnext.net/&#34;&gt;Labnext&lt;/a&gt;: Web based lab management software designed specifically for digital dentistry&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.ddxdental.com/&#34;&gt;DDX&lt;/a&gt;: Share pertinent information with your accounts at your convenience&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Labnet Dental Lab Systems offers the Dental Lab industry&amp;rsquo;s most comprehensive and powerful management systems with solutions suited for labs of all sizes and budgets. Whether your lab is a thriving multi-site corporation or a one-technician miracle lab, we have a perfect fit for you.
+As a Henry Schein company, you can depend on Labnet Dental Lab Systems for stability and providing your dentists with the latest technological advancements. When you are operating within tight deadlines, the last thing you should worry about is your software.</description>
     </item>
     
     <item>
@@ -126,14 +80,8 @@
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/person/matt-hall/</guid>
-      <description>&lt;p&gt;I make stuff happen at Agile*, an independent geoscience idea factory in Canada.&lt;/p&gt;
-
-&lt;p&gt;We build awesome knowledge engines for organizations (mostly wikis), and we hone our skills in subsurface science&amp;hellip; We have most recently been working on geothermal reservoir description. I&amp;rsquo;ve worked the Montney tight gas of Alberta and BC, frontier exploration in the Canadian Beaufort Sea, the Athabasca oil sands, the Norwegian North Sea. I also worked in software for several years, as an advocate of integrated volume visualization and interpretation and viz room pilot.&lt;/p&gt;
-
-&lt;p&gt;Since 2001 I&amp;rsquo;ve been a registered professional Geologist and professional Geophysicist in Alberta. I review technical papers for SEG&amp;rsquo;s journal Geophysics. I sometimes teach university courses. With my Agile colleague, I write a blog at agilegeoscience.com.&lt;/p&gt;
-
-&lt;p&gt;Specialties: Seismic interpretation and analysis, sedimentology, sequence stratigraphy, geoscience software, integrated reservoir description, knowledge sharing, writing&lt;/p&gt;
-</description>
+      <description>I make stuff happen at Agile*, an independent geoscience idea factory in Canada.
+We build awesome knowledge engines for organizations (mostly wikis), and we hone our skills in subsurface science&amp;hellip; We have most recently been working on geothermal reservoir description. I&amp;rsquo;ve worked the Montney tight gas of Alberta and BC, frontier exploration in the Canadian Beaufort Sea, the Athabasca oil sands, the Norwegian North Sea. I also worked in software for several years, as an advocate of integrated volume visualization and interpretation and viz room pilot.</description>
     </item>
     
     <item>
@@ -142,25 +90,8 @@
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/person/michael-caplan/</guid>
-      <description>&lt;p&gt;Mike has been active as a web application developer and web designer for 16 years, working in the non-profit, university, retail, agricultural, and dental industries. He is a founding partner of &lt;a href=&#34;https://refreshannapolisvalley.org/organization/harvesthand&#34;&gt;
-    
-        HarvestHand
-    
-&lt;/a&gt;
-, a platform that services Community Shared Agriculture farms. Mike founded &lt;a href=&#34;https://refreshannapolisvalley.org/organization/refresh-annapolis-valley&#34;&gt;
-    
-        Refresh Annapolis Valley
-    
-&lt;/a&gt;
-, a new media professional association to help grow the Valley&amp;rsquo;s technology industry.&lt;/p&gt;
-
-&lt;p&gt;Mike is the Software Development Manager for the &lt;a href=&#34;https://refreshannapolisvalley.org/organization/labnet-dental-lab-systems&#34;&gt;
-    
-        Labnet Dental Lab Systems
-    
-&lt;/a&gt;
- division of Henry Schein - a Fortune 300 company with a small footprint here in Wolfville.&lt;/p&gt;
-</description>
+      <description>Mike has been active as a web application developer and web designer for 16 years, working in the non-profit, university, retail, agricultural, and dental industries. He is a founding partner of HarvestHand  , a platform that services Community Shared Agriculture farms. Mike founded Refresh Annapolis Valley  , a new media professional association to help grow the Valley&amp;rsquo;s technology industry.
+Mike is the Software Development Manager for the Labnet Dental Lab Systems  division of Henry Schein - a Fortune 300 company with a small footprint here in Wolfville.</description>
     </item>
     
     <item>
@@ -169,8 +100,7 @@
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/person/pierre-clouthier/</guid>
-      <description>&lt;p&gt;Co-founder, President, Progeny Genealogy Inc., specialising in computer graphics software for genealogy.&lt;/p&gt;
-</description>
+      <description>Co-founder, President, Progeny Genealogy Inc., specialising in computer graphics software for genealogy.</description>
     </item>
     
     <item>
@@ -179,8 +109,7 @@
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/organization/progeny-genealogy/</guid>
-      <description>&lt;p&gt;Progeny Genealogy is the leading developer of family tree software and other useful, easy-to-use genealogy research resources, including &lt;a href=&#34;http://progenygenealogy.com/Products/FamilyTreeCharts.aspx&#34;&gt;Charting Companion&lt;/a&gt;™, &lt;a href=&#34;http://progenygenealogy.com/Products/TimelineCharts.aspx&#34;&gt;Genelines&lt;/a&gt;™ and &lt;a href=&#34;http://progenygenealogy.com/Products/FamilyMaps.aspx&#34;&gt;Map My Family Tree&lt;/a&gt;™. More than pretty charts, our genealogy software programs are also powerful research tools.&lt;/p&gt;
-</description>
+      <description>Progeny Genealogy is the leading developer of family tree software and other useful, easy-to-use genealogy research resources, including Charting Companion™, Genelines™ and Map My Family Tree™. More than pretty charts, our genealogy software programs are also powerful research tools.</description>
     </item>
     
     <item>
@@ -189,66 +118,18 @@
       <pubDate>Fri, 21 Feb 2014 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/project/f5-food/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Measure and mix together:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;1 cup of farmers&lt;/p&gt;
-
-&lt;p&gt;½ pound regional food distributors&lt;/p&gt;
-
-&lt;p&gt;2 tbsp chefs&lt;/p&gt;
-
-&lt;p&gt;1 cup food policy experts&lt;/p&gt;
-
-&lt;p&gt;1 dash of deep concern about making our regional bounty more accessible&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Stir in:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;2 tbsp software developers&lt;/p&gt;
-
-&lt;p&gt;½ cup interactive designers&lt;/p&gt;
-
-&lt;p&gt;4 tbsp marketers&lt;/p&gt;
-
-&lt;p&gt;1 pound new media entrepreneurs&lt;/p&gt;
-
-&lt;p&gt;Stir new media ingredients into agricultural mixture. Mix thoroughly with a group of mentors. Broil for 48 hours. Serve hot to a group of judges.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The weekend of January 17th, over 75 people found themselves involved in such a 48 hour experiment to rethink food production, distribution, and consumption.  &lt;a href=&#34;http://food.refreshannapolisvalley.org/&#34;&gt;F5://Food&lt;/a&gt; (pronounced Refresh Food) was the first event of its kind in Canada, hosted at Acadia University in the Annapolis Valley of Nova Scotia.  With new media technology (think mobile and web based applications) as a canvas for developing innovative products and services, the community of participants worked on incubating 5 projects.  These projects tackled a range problems including everything from apple breeding to food preparation.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;With an emerging set of technologies circling the Internet (web enabled sensors, real time data, the power of the smartphone, social media platforms, and the maturation of the Internet in general), the past several years has seen remarkable new applications of these technologies to the many problems found in the food arena.  Food “hackers” looking to collaborate with other like minded innovators have been building infrastructure to support early stage engagement on food technology startups.  This includes food oriented hackathons and startup weekend like events such as &lt;a href=&#34;http://hackmeatsv.foodtechconnect.com/&#34;&gt;Hack Meat&lt;/a&gt;, &lt;a href=&#34;http://foodhackathon.co/&#34;&gt;The Future of Food Hackathon&lt;/a&gt;, F5://Food, and the upcoming &lt;a href=&#34;http://www.up.co/communities/canada/truro/&#34;&gt;Truro Startup Weekend: Agri-Food&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;F5://Food spun out of a technology networking group called Refresh Annapolis Valley.  With this technology group sitting in the agricultural heartland of Nova Scotia, we believe we have a unique opportunity to develop a major part in the information technology that powers the agriculture of tomorrow.  F5://Food was our first initiative to start a conversation with stakeholders in agri-food and technology to explore new experimental collaborations.&lt;/p&gt;
-
-&lt;p&gt;To achieve such an ambitious goal, we see F5://Food and Refresh Annapolis Valley as one component of many programs that sustain agri-food entrepreneurism.  Guided by the belief that it takes wide community participation to nurture a vibrant and healthy economy, our emerging agri-food startup community includes other important programs and organizations such as the &lt;a href=&#34;https://annapolisvalleychamber.ca/committees/committee-4&#34;&gt;Annapolis Valley Chamber of Commerce’s Agriculture Innovation Accelerator Award&lt;/a&gt;, &lt;a href=&#34;http://farmworks.ca/home/&#34;&gt;Farmworks Investment Co-operative&lt;/a&gt;, &lt;a href=&#34;https://innovacorp.ca/&#34;&gt;Innovacorp&lt;/a&gt;, &lt;a href=&#34;http://www.acadiaentrepreneurshipcentre.com/&#34;&gt;Acadia Entrepreneurship Centre&lt;/a&gt;, &lt;a href=&#34;http://centreforsmallfarms.ca/&#34;&gt;Just Us! Centre For Small Farms&lt;/a&gt;, &lt;a href=&#34;http://www.perennia.ca/&#34;&gt;Perennia&lt;/a&gt;, and others.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;The opening evening of F5://Food saw 17 people pitch their ideas for elaboration over the weekend.  By process of consolidation and voting, the group of 35 weekend warriors settled on 5 projects.  Armed with a group of mentors and mini workshops, each group was faced with the task of building out the technology and business vision for their projects.  A group of judges and general onlookers were then asked to determine which of the final 5 minute group pitches best defined what could become a successful new product or service.&lt;/p&gt;
-
-&lt;p&gt;The People’s Choice Award was a three way tie between: &lt;strong&gt;tReecreate&lt;/strong&gt;, an online apple breeding network; &lt;strong&gt;Mash&lt;/strong&gt;, a cooking app that helps people choose a menu based on the time, ingredients and equipment they have on hand; and &lt;strong&gt;Grassroutes&lt;/strong&gt;, a food distribution service (Rideshare for farmers).  &lt;strong&gt;AgriGate&lt;/strong&gt;, an agri-food open data platform, came one point away from creating a four way tie.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;FarmG8 to Table&lt;/strong&gt;, a mobile app that helps locate local produce and farm experiences according to location and available products was the winner receiving a $1,000 prize and $1,000 in business development consulting services provided by FarmWorks Investment Co-Op.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;With just over a month having elapsed since F5://Food, it is very exciting the see that several of the groups that formed at the event are still working together to materialize their vision.  In this regard we can confidently say F5://Food was a resounding success.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;PS - Special shout out goes to the F5://Food sponsoring organizations for making the event possible: &lt;a href=&#34;http://www.acadiaentrepreneurshipcentre.com/&#34;&gt;Acadia Entrepreneurship Centre&lt;/a&gt;, &lt;a href=&#34;http://www2.acadiau.ca/&#34;&gt;Acadia University&lt;/a&gt;, Morton Horticultural Associates, Shift! Mobile, &lt;a href=&#34;https://www.colibri-software.com/&#34;&gt;Colibri Software&lt;/a&gt;, &lt;a href=&#34;http://www.harvesthand.com/&#34;&gt;HarvestHand&lt;/a&gt;, &lt;a href=&#34;https://innovacorp.ca/&#34;&gt;Innovacorp&lt;/a&gt;, &lt;a href=&#34;http://www.justuscoffee.com/&#34;&gt;Just Us! Coffee Roasters Co-op&lt;/a&gt;, &lt;a href=&#34;http://novascotia.ca/business/&#34;&gt;Nova Scotia Department of Economic and Rural Development and Tourism&lt;/a&gt;, &lt;a href=&#34;http://www.county.kings.ns.ca/&#34;&gt;Municipality of the County of Kings&lt;/a&gt;, Front &amp;amp; Central Restaurant, &lt;a href=&#34;http://farmworks.ca/home/&#34;&gt;Farmworks Investment Co-operative&lt;/a&gt;, &lt;a href=&#34;https://youreffortlessbusiness.wordpress.com/&#34;&gt;Your Effortless Business&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;This article originally appeared in the April 2014 issue of &lt;a href=&#34;http://www.rurallife.ca/ruraldelivery/&#34;&gt;Rural Delivery&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/Ylh5pVcghvI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-</description>
+      <description>Measure and mix together:
+1 cup of farmers
+½ pound regional food distributors
+2 tbsp chefs
+1 cup food policy experts
+1 dash of deep concern about making our regional bounty more accessible
+Stir in:
+2 tbsp software developers
+½ cup interactive designers
+4 tbsp marketers
+1 pound new media entrepreneurs
+Stir new media ingredients into agricultural mixture. Mix thoroughly with a group of mentors. Broil for 48 hours. Serve hot to a group of judges.</description>
     </item>
     
   </channel>

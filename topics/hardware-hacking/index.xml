@@ -2,11 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hardware Hacking on Refresh Annapolis Valley</title>
-    <link>https://refreshannapolisvalley.org/topics/hardware-hacking/index.xml</link>
+    <link>https://refreshannapolisvalley.org/topics/hardware-hacking/</link>
     <description>Recent content in Hardware Hacking on Refresh Annapolis Valley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <atom:link href="https://refreshannapolisvalley.org/topics/hardware-hacking/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Dec 2017 13:00:00 -0300</lastBuildDate>
+    
+	<atom:link href="https://refreshannapolisvalley.org/topics/hardware-hacking/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>f5://imagination</title>
@@ -14,144 +17,9 @@
       <pubDate>Sun, 17 Dec 2017 13:00:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/f5/imagination/</guid>
-      <description>&lt;p&gt;f5://imagination is a pop up exhibit focused on digital creativity.  This one day temporary exhibit is seeking submissions from digital artists, makers, scratchers, computer scientists, engineers and pretendgineer, hardware hackers, lego robotics warriors, indy game developers, new media innovators, VR and AR pioneers&amp;hellip;  digital builders of all shapes, sizes, and credentials.&lt;/p&gt;
-
-&lt;p&gt;We are accepting submissions in the following categories:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Computer generated art&lt;/li&gt;
-&lt;li&gt;Digital games&lt;/li&gt;
-&lt;li&gt;Interactive story&lt;/li&gt;
-&lt;li&gt;Digital gadgets and gizmos&lt;/li&gt;
-&lt;li&gt;VR / AR environments&lt;/li&gt;
-&lt;li&gt;Animation&lt;/li&gt;
-&lt;li&gt;AI investigations&lt;/li&gt;
-&lt;li&gt;Miscellaneous computer experiments&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;f5://imagination serves as a platform for digital artistic experimentation. It promotes exploration in all forms of new media art, providing the public with an opportunity to experience your innovative work. f5://imagination is committed to making this extraordinary form, at the intersection of art and technology, available to everyone.&lt;/p&gt;
-
-&lt;p&gt;Submissions are being accepted until midnight December 13.  To submit, fill out the below form.&lt;/p&gt;
-
-&lt;div style=&#34;margin:0px;padding:0px;overflow:hidden&#34;&gt;
-    &lt;iframe src=&#34;https://docs.google.com/forms/d/e/1FAIpQLSco_QD5Lo5vCD_FDwCZT5BlUX78t9QbdeSWv4h4QYIyQ_Sy1g/viewform?embedded=true&#34; frameborder=&#34;0&#34; style=&#34;overflow:hidden;height:100vh;width:100%; border: 1px solid hsla(0,0%,4%,.25)&#34;&gt;Loading...&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.min.js&#34; integrity=&#34;sha256-bXPU+HvtR3tP1IYHZVEFHzEZ9p5zkY8GLPnOnJXW67k=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
-&lt;script
-   type=&#34;text/javascript&#34;
-   src=&#34;https://rawgit.com/IDMNYU/p5.js-speech/master/lib/p5.speech.js&#34;
-&gt;&lt;/script&gt;
-
-&lt;script&gt;
-
-var isInit = 0;
-var lines =  3;
-
-var lineProps = [];
-var lx = [];
-var ly = [];
-
-var myVoice = new p5.Speech();
-var welcome = [];
-
-function getIP(json) {
-    welcome = [
-        &#39;Hello &#39; + json.ip + &#39;. Annapolis Valley festival of computer based art. refresh imagination.  A digital art exhibit&#39;,
-        &#39;Hello &#39; + json.ip + &#39;. Come explore digital imagination with us.  refresh imagination.  A digital art exhibit&#39;,
-        &#39;How do you express your creativity digitally? &#39; + json.ip + &#39;?  refresh imagination.  A digital art exhibit&#39;
-    ];
-    
-    isInit++;
-}
-
-function setup() {
-  var header = document.querySelector(&#39;main article header&#39;);
-
-  canvas = createCanvas(header.offsetWidth, header.offsetHeight);
-  canvas.parent(header);
-  
-  lines = Math.floor(random(3, 10));
-  
-  for (var li = 0; li &lt; lines; li++) {
-    lx[li] = [];
-    ly[li] = [];
-    lineProps[li] = {
-        num: Math.floor(random(10, 500)),
-        range: Math.floor(random(5, 20))
-    };
-  
-    var w = random(0, width);
-    var h = random(0, height);
-  
-    for ( var i = 0; i &lt; lineProps[li].num; i++ ) {
-      lx[li][i] = w;
-      ly[li][i] = h;
-    }
-  }
-  
-  frameRate(30);
-  isInit++;
-}
-
-function draw() {
-  background(&#39;#0a0a0a&#39;);
-
-  // Shift all elements 1 place to the left
-  for ( var li = 0; li &lt; lines; li++) {
-      for ( var i = 1; i &lt; lineProps[li].num; i++ ) {
-        lx[li][i - 1] = lx[li][i];
-        ly[li][i - 1] = ly[li][i];
-      }
-      
-      // Put a new value at the end of the array
-      lx[li][lineProps[li].num - 1] += random(-lineProps[li].range, lineProps[li].range);
-      ly[li][lineProps[li].num - 1] += random(-lineProps[li].range, lineProps[li].range);
-      
-      // Constrain all points to the screen
-      lx[li][lineProps[li].num - 1] = constrain(lx[li][lineProps[li].num - 1], 0, width);
-      ly[li][lineProps[li].num - 1] = constrain(ly[li][lineProps[li].num - 1], 0, height);
-
-  }
-
-  // Draw a line connecting the points
-  for ( var li = 0; li &lt; lines; li++) {
-    for ( var j = 1; j &lt; lineProps[li].num; j++ ) {
-        var val = j / lineProps[li].num * 204.0 + 51;
-        stroke(val);
-        line(lx[li][j - 1], ly[li][j - 1], lx[li][j], ly[li][j]);
-    }
-  }
-
-}
-
-var intervalId = setInterval(function(){
-
-    if (isInit &gt; 1) {
-        clearInterval(intervalId);
-        talk();
-    }
-    
-}, 2000);
-
-
-function talk() {
-    var voices = [];
-    
-    for (var i = 0; i &lt; myVoice.voices.length; i++) {
-        if (myVoice.voices[i].lang.substr(0,2) == &#39;en&#39;) {
-            voices.push(i);
-        }
-    }
-
-    myVoice.setVoice(random(voices));
-    myVoice.setRate(0.7);
-    myVoice.speak(random(welcome));
-}
-&lt;/script&gt;
-
-&lt;script src=&#34;https://api.ipify.org?format=jsonp&amp;callback=getIP&#34;&gt;&lt;/script&gt;
-</description>
+      <description>f5://imagination is a pop up exhibit focused on digital creativity. This one day temporary exhibit is seeking submissions from digital artists, makers, scratchers, computer scientists, engineers and pretendgineer, hardware hackers, lego robotics warriors, indy game developers, new media innovators, VR and AR pioneers&amp;hellip; digital builders of all shapes, sizes, and credentials.
+We are accepting submissions in the following categories:
+ Computer generated art Digital games Interactive story Digital gadgets and gizmos VR / AR environments Animation AI investigations Miscellaneous computer experiments  f5://imagination serves as a platform for digital artistic experimentation.</description>
     </item>
     
     <item>
@@ -160,23 +28,9 @@ function talk() {
       <pubDate>Tue, 21 Feb 2017 19:00:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/maker-meetup/</guid>
-      <description>&lt;p&gt;Calling all &lt;strong&gt;makers&lt;/strong&gt;, &lt;strong&gt;inventors&lt;/strong&gt;, &lt;strong&gt;artists&lt;/strong&gt;, &lt;strong&gt;entrepreneurs&lt;/strong&gt;, &lt;strong&gt;tinkerers&lt;/strong&gt;, and the like. Join Refresh Annapolis Valley and Annapolis Valley STEAMspace for what we hope will be a regular meetup for the Valley maker community to gather, share ideas, and build community.&lt;/p&gt;
-
-&lt;p&gt;Projects galore to explore!&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://refreshannapolisvalley.org/person/ian-mckay&#34;&gt;Ian McKay&lt;/a&gt;
- will be demoing a magic cauldron, CNC stuff and a possible new product.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://refreshannapolisvalley.org/person/max-caplan&#34;&gt;Max Caplan&lt;/a&gt;
- will show off a homebrew handheld gaming console.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;And you&amp;hellip;?&lt;/p&gt;
-
-&lt;p&gt;If you want to bring a project in to show off and get feedback on, please do.&lt;/p&gt;
-
-&lt;p&gt;Food, Makers, Cool Projects, Good Chats.&lt;/p&gt;
-</description>
+      <description>Calling all makers, inventors, artists, entrepreneurs, tinkerers, and the like. Join Refresh Annapolis Valley and Annapolis Valley STEAMspace for what we hope will be a regular meetup for the Valley maker community to gather, share ideas, and build community.
+Projects galore to explore!
+ Ian McKay will be demoing a magic cauldron, CNC stuff and a possible new product. Max Caplan will show off a homebrew handheld gaming console.  And you&amp;hellip;?</description>
     </item>
     
     <item>
@@ -185,12 +39,8 @@ function talk() {
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/person/ian-mckay/</guid>
-      <description>&lt;p&gt;“Creative Technician”&amp;hellip;what the heck is that?&lt;/p&gt;
-
-&lt;p&gt;I see my role, primarily, as that of a possibilitist. I listen closely to your ideas, what you hope to create, the problem you are working and then share with you the possibilities technology may offer. My years of immersion in Maker culture, joyfully exploring new and unusual uses for the wonders of emerging and age-old tech, provide me with a deep pool of possible solutions to your creative problems. While I am happy to help suggest solutions and inform you of the possibilities and challenges, I always keep in mind that the piece is YOUR work and will strive to help YOUR vision come to fruition. In those cases where a more collaborative model is what you are seeking, I would love to work with you to make our ideas a reality.&lt;/p&gt;
-
-&lt;p&gt;Ian&amp;rsquo;s &lt;a href=&#34;http://deepdreamgenerator.com/ddream/56b79f0b2d&#34;&gt;banner image&lt;/a&gt; is a photo of his home at Scots Bay&amp;hellip; reinterpreted by a machine influenced by the work of &lt;a href=&#34;http://hollycarr.weebly.com/&#34;&gt;Holly Carr&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>“Creative Technician”&amp;hellip;what the heck is that?
+I see my role, primarily, as that of a possibilitist. I listen closely to your ideas, what you hope to create, the problem you are working and then share with you the possibilities technology may offer. My years of immersion in Maker culture, joyfully exploring new and unusual uses for the wonders of emerging and age-old tech, provide me with a deep pool of possible solutions to your creative problems.</description>
     </item>
     
     <item>
@@ -199,8 +49,7 @@ function talk() {
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/person/max-caplan/</guid>
-      <description>&lt;p&gt;Once upon a time, he was born. What happened after this is the interesting part. Relatively speaking. After his long and tedious early childhood, Max found himself being introduced to the fascinating world of technology. One of his earliest experiences was with the beginner programming environment known as Scratch. After a couple of years of making awesome scratch projects, Max moved on to explore more that tech had to offer. Through his School he found himself on a Lego Robotics team for a couple years. Max found himself enthralled in the world of programming in these days, he loved to mess about with javascript and HTML in particular. As time went on, as it does, Max delved deeper and deeper into this fascinating world of computers and code. Of course he picked up other hobbies and interests along he way, like his passion for art in its many forms, and his love for competitive rock climbing. Which brings us to where he is these days.&lt;/p&gt;
-</description>
+      <description>Once upon a time, he was born. What happened after this is the interesting part. Relatively speaking. After his long and tedious early childhood, Max found himself being introduced to the fascinating world of technology. One of his earliest experiences was with the beginner programming environment known as Scratch. After a couple of years of making awesome scratch projects, Max moved on to explore more that tech had to offer. Through his School he found himself on a Lego Robotics team for a couple years.</description>
     </item>
     
   </channel>

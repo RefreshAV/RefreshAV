@@ -2,11 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>3d on Refresh Annapolis Valley</title>
-    <link>https://refreshannapolisvalley.org/topics/3d/index.xml</link>
+    <link>https://refreshannapolisvalley.org/topics/3d/</link>
     <description>Recent content in 3d on Refresh Annapolis Valley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <atom:link href="https://refreshannapolisvalley.org/topics/3d/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Sep 2017 12:30:00 -0300</lastBuildDate>
+    
+	<atom:link href="https://refreshannapolisvalley.org/topics/3d/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>3D Printing: From Concept to the Palm of Your Hand</title>
@@ -14,14 +17,9 @@
       <pubDate>Sat, 16 Sep 2017 12:30:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/3d-printing/</guid>
-      <description>&lt;p&gt;Welcome to the new world of of 3D printing, where you can produce 3D objects almost as easily as you can dream of them.  Emoji figurines, jewellery, nick nacks, to the more practical, in this hands on workshop you will learn how to design a 3D project.  We will cap off the event by printing your original work.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Pizza + workshop + building&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Bring your own laptop. A small number of laptops will be available to borrow.&lt;/p&gt;
-
-&lt;p&gt;First time Hoisters need to get a parent or guardian to &lt;a href=&#34;https://form.jotform.ca/71164477795267&#34;&gt;fill out the consent form&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>Welcome to the new world of of 3D printing, where you can produce 3D objects almost as easily as you can dream of them. Emoji figurines, jewellery, nick nacks, to the more practical, in this hands on workshop you will learn how to design a 3D project. We will cap off the event by printing your original work.
+Pizza + workshop + building
+Bring your own laptop. A small number of laptops will be available to borrow.</description>
     </item>
     
     <item>
@@ -30,14 +28,9 @@
       <pubDate>Sat, 17 Jun 2017 12:30:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/against-flat-screens-learn-3d-design/</guid>
-      <description>&lt;p&gt;In this Hoist teen design talk, Max Caplan will introduce us to 3D design using Blender.  Blender is a professional 3D computer graphics software used for creating animated films, visual effects, art, 3D printed models, interactive 3D applications and video games.  Max will walk us through installing, using, and designing your first Blender project: an awesome robot.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Pizza + workshop + building&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Bring your own laptop. A small number of laptops will be available to borrow.&lt;/p&gt;
-
-&lt;p&gt;First time Hoisters need to get a parent or guardian to &lt;a href=&#34;https://form.jotform.ca/71164477795267&#34;&gt;fill out the consent form&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>In this Hoist teen design talk, Max Caplan will introduce us to 3D design using Blender. Blender is a professional 3D computer graphics software used for creating animated films, visual effects, art, 3D printed models, interactive 3D applications and video games. Max will walk us through installing, using, and designing your first Blender project: an awesome robot.
+Pizza + workshop + building
+Bring your own laptop. A small number of laptops will be available to borrow.</description>
     </item>
     
     <item>
@@ -46,8 +39,7 @@
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/person/adam-conner/</guid>
-      <description>&lt;p&gt;Adam is a teacher at Northeast Kings Education Centre in Canning, NS. He teaches math, technology, and computer programming.  Adam been experimenting with the world of Making and 3D Printing for the past 18 months. Working with students at NKEC, he has been helping them create, print, and selling products designed and 3D printed.&lt;/p&gt;
-</description>
+      <description>Adam is a teacher at Northeast Kings Education Centre in Canning, NS. He teaches math, technology, and computer programming. Adam been experimenting with the world of Making and 3D Printing for the past 18 months. Working with students at NKEC, he has been helping them create, print, and selling products designed and 3D printed.</description>
     </item>
     
   </channel>

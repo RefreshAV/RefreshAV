@@ -2,11 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Elizabeth Garrett on Refresh Annapolis Valley</title>
-    <link>https://refreshannapolisvalley.org/people/elizabeth-garrett/index.xml</link>
+    <link>https://refreshannapolisvalley.org/people/elizabeth-garrett/</link>
     <description>Recent content in Elizabeth Garrett on Refresh Annapolis Valley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <atom:link href="https://refreshannapolisvalley.org/people/elizabeth-garrett/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Aug 2016 19:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://refreshannapolisvalley.org/people/elizabeth-garrett/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Refresh Annapolis Valley</title>
@@ -18,9 +21,7 @@
 
 &lt;p&gt;&lt;strong&gt;Recursive meta loop&lt;/strong&gt;.  Stack overflow.  Core now being dumped&amp;hellip;&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;small&gt;&lt;a href=&#34;https://www.flickr.com/photos/80845533@N00/1376527668&#34;&gt;Chocobot&lt;/a&gt; icon remixed with your bad dreams.&lt;/small&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -29,12 +30,8 @@
       <pubDate>Tue, 12 Apr 2016 19:00:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/redefining-work-coworking/</guid>
-      <description>&lt;p&gt;There is lots of buzz around coworking spaces as a new way for independent and SME creative professionals to engage work. Coworking is about shared office space for professionals, but it is also about a style of work that suggests there are greater opportunities working in a diverse community setting. Coworking spaces themself are diverse in structure, ranging from the community powered, real-estate centric, to highbred business incubators.&lt;/p&gt;
-
-&lt;p&gt;In rural Nova Scotia, numerous coworking spaces are springing up. The HUB South Shore in Mahone Bay, L-Ink&amp;rsquo;d in Annapolis Royal, CO3 in Bridgewater, The Hub Yarmouth, The Hub Annapolis Valley, the Rural Innovation Centre at Acadia University. Wow!&lt;/p&gt;
-
-&lt;p&gt;Join us for a virtual tour of these coworking spaces. Learn about their unique take on coworking, and how they envision redefining how we do work.&lt;/p&gt;
-</description>
+      <description>There is lots of buzz around coworking spaces as a new way for independent and SME creative professionals to engage work. Coworking is about shared office space for professionals, but it is also about a style of work that suggests there are greater opportunities working in a diverse community setting. Coworking spaces themself are diverse in structure, ranging from the community powered, real-estate centric, to highbred business incubators.
+In rural Nova Scotia, numerous coworking spaces are springing up.</description>
     </item>
     
   </channel>

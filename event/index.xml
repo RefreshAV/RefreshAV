@@ -2,12 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Events on Refresh Annapolis Valley</title>
-    <link>https://refreshannapolisvalley.org/event/index.xml</link>
+    <link>https://refreshannapolisvalley.org/event/</link>
     <description>Recent content in Events on Refresh Annapolis Valley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
     <lastBuildDate>Sun, 17 Dec 2017 13:00:00 -0300</lastBuildDate>
-    <atom:link href="https://refreshannapolisvalley.org/event/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://refreshannapolisvalley.org/event/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>f5://imagination</title>
@@ -15,144 +17,9 @@
       <pubDate>Sun, 17 Dec 2017 13:00:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/f5/imagination/</guid>
-      <description>&lt;p&gt;f5://imagination is a pop up exhibit focused on digital creativity.  This one day temporary exhibit is seeking submissions from digital artists, makers, scratchers, computer scientists, engineers and pretendgineer, hardware hackers, lego robotics warriors, indy game developers, new media innovators, VR and AR pioneers&amp;hellip;  digital builders of all shapes, sizes, and credentials.&lt;/p&gt;
-
-&lt;p&gt;We are accepting submissions in the following categories:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Computer generated art&lt;/li&gt;
-&lt;li&gt;Digital games&lt;/li&gt;
-&lt;li&gt;Interactive story&lt;/li&gt;
-&lt;li&gt;Digital gadgets and gizmos&lt;/li&gt;
-&lt;li&gt;VR / AR environments&lt;/li&gt;
-&lt;li&gt;Animation&lt;/li&gt;
-&lt;li&gt;AI investigations&lt;/li&gt;
-&lt;li&gt;Miscellaneous computer experiments&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;f5://imagination serves as a platform for digital artistic experimentation. It promotes exploration in all forms of new media art, providing the public with an opportunity to experience your innovative work. f5://imagination is committed to making this extraordinary form, at the intersection of art and technology, available to everyone.&lt;/p&gt;
-
-&lt;p&gt;Submissions are being accepted until midnight December 13.  To submit, fill out the below form.&lt;/p&gt;
-
-&lt;div style=&#34;margin:0px;padding:0px;overflow:hidden&#34;&gt;
-    &lt;iframe src=&#34;https://docs.google.com/forms/d/e/1FAIpQLSco_QD5Lo5vCD_FDwCZT5BlUX78t9QbdeSWv4h4QYIyQ_Sy1g/viewform?embedded=true&#34; frameborder=&#34;0&#34; style=&#34;overflow:hidden;height:100vh;width:100%; border: 1px solid hsla(0,0%,4%,.25)&#34;&gt;Loading...&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.min.js&#34; integrity=&#34;sha256-bXPU+HvtR3tP1IYHZVEFHzEZ9p5zkY8GLPnOnJXW67k=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
-&lt;script
-   type=&#34;text/javascript&#34;
-   src=&#34;https://rawgit.com/IDMNYU/p5.js-speech/master/lib/p5.speech.js&#34;
-&gt;&lt;/script&gt;
-
-&lt;script&gt;
-
-var isInit = 0;
-var lines =  3;
-
-var lineProps = [];
-var lx = [];
-var ly = [];
-
-var myVoice = new p5.Speech();
-var welcome = [];
-
-function getIP(json) {
-    welcome = [
-        &#39;Hello &#39; + json.ip + &#39;. Annapolis Valley festival of computer based art. refresh imagination.  A digital art exhibit&#39;,
-        &#39;Hello &#39; + json.ip + &#39;. Come explore digital imagination with us.  refresh imagination.  A digital art exhibit&#39;,
-        &#39;How do you express your creativity digitally? &#39; + json.ip + &#39;?  refresh imagination.  A digital art exhibit&#39;
-    ];
-    
-    isInit++;
-}
-
-function setup() {
-  var header = document.querySelector(&#39;main article header&#39;);
-
-  canvas = createCanvas(header.offsetWidth, header.offsetHeight);
-  canvas.parent(header);
-  
-  lines = Math.floor(random(3, 10));
-  
-  for (var li = 0; li &lt; lines; li++) {
-    lx[li] = [];
-    ly[li] = [];
-    lineProps[li] = {
-        num: Math.floor(random(10, 500)),
-        range: Math.floor(random(5, 20))
-    };
-  
-    var w = random(0, width);
-    var h = random(0, height);
-  
-    for ( var i = 0; i &lt; lineProps[li].num; i++ ) {
-      lx[li][i] = w;
-      ly[li][i] = h;
-    }
-  }
-  
-  frameRate(30);
-  isInit++;
-}
-
-function draw() {
-  background(&#39;#0a0a0a&#39;);
-
-  // Shift all elements 1 place to the left
-  for ( var li = 0; li &lt; lines; li++) {
-      for ( var i = 1; i &lt; lineProps[li].num; i++ ) {
-        lx[li][i - 1] = lx[li][i];
-        ly[li][i - 1] = ly[li][i];
-      }
-      
-      // Put a new value at the end of the array
-      lx[li][lineProps[li].num - 1] += random(-lineProps[li].range, lineProps[li].range);
-      ly[li][lineProps[li].num - 1] += random(-lineProps[li].range, lineProps[li].range);
-      
-      // Constrain all points to the screen
-      lx[li][lineProps[li].num - 1] = constrain(lx[li][lineProps[li].num - 1], 0, width);
-      ly[li][lineProps[li].num - 1] = constrain(ly[li][lineProps[li].num - 1], 0, height);
-
-  }
-
-  // Draw a line connecting the points
-  for ( var li = 0; li &lt; lines; li++) {
-    for ( var j = 1; j &lt; lineProps[li].num; j++ ) {
-        var val = j / lineProps[li].num * 204.0 + 51;
-        stroke(val);
-        line(lx[li][j - 1], ly[li][j - 1], lx[li][j], ly[li][j]);
-    }
-  }
-
-}
-
-var intervalId = setInterval(function(){
-
-    if (isInit &gt; 1) {
-        clearInterval(intervalId);
-        talk();
-    }
-    
-}, 2000);
-
-
-function talk() {
-    var voices = [];
-    
-    for (var i = 0; i &lt; myVoice.voices.length; i++) {
-        if (myVoice.voices[i].lang.substr(0,2) == &#39;en&#39;) {
-            voices.push(i);
-        }
-    }
-
-    myVoice.setVoice(random(voices));
-    myVoice.setRate(0.7);
-    myVoice.speak(random(welcome));
-}
-&lt;/script&gt;
-
-&lt;script src=&#34;https://api.ipify.org?format=jsonp&amp;callback=getIP&#34;&gt;&lt;/script&gt;
-</description>
+      <description>f5://imagination is a pop up exhibit focused on digital creativity. This one day temporary exhibit is seeking submissions from digital artists, makers, scratchers, computer scientists, engineers and pretendgineer, hardware hackers, lego robotics warriors, indy game developers, new media innovators, VR and AR pioneers&amp;hellip; digital builders of all shapes, sizes, and credentials.
+We are accepting submissions in the following categories:
+ Computer generated art Digital games Interactive story Digital gadgets and gizmos VR / AR environments Animation AI investigations Miscellaneous computer experiments  f5://imagination serves as a platform for digital artistic experimentation.</description>
     </item>
     
     <item>
@@ -161,39 +28,8 @@ function talk() {
       <pubDate>Tue, 21 Nov 2017 18:00:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/seed-hacking-entrepreneurship-in-the-annapolis-valley/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Seed&lt;/strong&gt; is a documentary that follows an international group of programmer entrepreneurs at Angelhack: one of the most competitive global hackathons and digital business ideation competitions. Three minutes to pitch. One shot to fund their proposals.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Seed&lt;/strong&gt; is also a gathering of our Annapolis Valley startup community.  The event will feature the diversity of associations, businesses, and individuals who comprise our digital tech startup community.  An assembly of our entrepreneurial family.  Come mingle and build your network.&lt;/p&gt;
-
-&lt;p&gt;Introductory keynote address by &lt;a href=&#34;https://refreshannapolisvalley.org/person/leanne-strathdee&#34;&gt;Leanne Strathdee&lt;/a&gt;
-,
-Manager of Innovation and Incubation for the &lt;a href=&#34;https://refreshannapolisvalley.org/organization/acadia-entrepreneurship-centre&#34;&gt;
-    
-        Acadia Entrepreneurship Centre
-    
-&lt;/a&gt;
-.&lt;/p&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/4qyuHfRHLkc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-
-&lt;p&gt;Directed by Andrew Wonder and produced by Station Film and Something Different, &lt;strong&gt;Seed&lt;/strong&gt; is a documentary feature film which dives head first into the thrilling and daunting world of Silicon Valley. The film tells the story of the new American Dream, where innovators from around the world come to Silicon Valley with the hope of turning their ideas into billion dollar valuations.&lt;/p&gt;
-
-&lt;p&gt;In a riveting behind-the-scenes look at the preparation behind an investor pitch, Seed follows an Uber driver from New York, three local high school kids, and five college students from Nairobi as they compete in a high profile hackathon for the seed money they need to turn their dreams into reality. The rollercoaster ride of sleepless nights and tough-love coaching culminates in a final presentation before a full audience of tech executives and tastemakers.&lt;/p&gt;
-
-&lt;p&gt;“Silicon Valley is a world where you only hear about big successes and IPOs, but never about the people who are fighting everyday to make their dreams a reality. I hope Seed can be an anthem for anyone who has gone down this path, successful or not, and show an honest look at what it takes to turn that app idea you had at dinner into a business that works,” Andrew Wonder says.&lt;/p&gt;
-
-&lt;p&gt;Andrew paints a vivid picture of the raw drive and passion that fuels each team. Their backstories come to life as the viewer watches each person experience both the lows from unexpected setbacks and highs when something finally goes right. Andrew captures these tensions, victories, and sacrifices through his organic observational approach; his keen eye draws out the humanity and spirit of each character’s unique story.&lt;/p&gt;
-
-&lt;p&gt;The film focuses on a hackathon competition hosted by AngelHack, a female-owned, female-majority company and the world’s largest and most diverse hacker community. “I’m grateful to AngelHack for the access they gave us and the teams for always being willing to share and let us in. It’s not easy to show how hard the path can be when all you want is for everyone else to see you as a success,” Andrew says of the partnership.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.valleyren.ca/wp-content/uploads/2016/05/vren_logo.png&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;This event is supported by the amazing folks at the &lt;strong&gt;Valley Regional Enterprise Network&lt;/strong&gt; via their Collective Impact Project.&lt;/p&gt;
-</description>
+      <description>Seed is a documentary that follows an international group of programmer entrepreneurs at AngelHack: one of the most competitive global hackathons and digital business ideation competitions. Three minutes to pitch. One shot to fund their proposals.
+Seed is also a gathering of our Annapolis Valley startup community. The event will feature the diversity of associations, businesses, and individuals who comprise our digital tech startup community. An assembly of our entrepreneurial family.</description>
     </item>
     
     <item>
@@ -202,21 +38,8 @@ Manager of Innovation and Incubation for the &lt;a href=&#34;https://refreshanna
       <pubDate>Sat, 18 Nov 2017 12:30:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/creative-entrepreneurship-turning-ideas-into-action/</guid>
-      <description>&lt;p&gt;Problems and solutions.  In between are the numerous ideas that eventually lead to innovative solutions and new business opportunities.  Join the  &lt;a href=&#34;https://refreshannapolisvalley.org/organization/acadia-entrepreneurship-centre&#34;&gt;
-    
-        Acadia Entrepreneurship Centre
-    
-&lt;/a&gt;
- for a talk all about ideas.  Where do they come from?  How do we nurture them?  How can we turn them into problem solving new business?&lt;/p&gt;
-
-&lt;p&gt;Build your mad ideation skills at this workshop, then take them to &lt;a href=&#34;http://www.startituplaunchbox.com/&#34;&gt;Start It Up&lt;/a&gt;: our business ideation competition with $10K in prizes on the line.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Pizza + workshop + building&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Bring your own laptop. A small number of laptops will be available to borrow.&lt;/p&gt;
-
-&lt;p&gt;First time Hoisters need to get a parent or guardian to &lt;a href=&#34;https://form.jotform.ca/71164477795267&#34;&gt;fill out the consent form&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>Problems and solutions. In between are the numerous ideas that eventually lead to innovative solutions and new business opportunities. Join the Acadia Entrepreneurship Centre  for a talk all about ideas. Where do they come from? How do we nurture them? How can we turn them into problem solving new business?
+Build your mad ideation skills at this workshop, then take them to Start It Up: our business ideation competition with $10K in prizes on the line.</description>
     </item>
     
     <item>
@@ -225,27 +48,8 @@ Manager of Innovation and Incubation for the &lt;a href=&#34;https://refreshanna
       <pubDate>Sat, 28 Oct 2017 13:30:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/founders-meetup/</guid>
-      <description>&lt;p&gt;For this Hoist meetup, we will be doing something a little different.  We are looking for a few budding teen entrepreneurs to start a business.  This is the pitch:&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Services supporting the business startup space in Rural Nova Scotia are diverse and not well represented as a whole.  Our business aims to unify the Western Nova business startup ecosystem by building a coherent communication platform.  By doing so, we will encourage entrepreneurship within our community.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;We are looking for teens with a range of interests to flesh out this initiative:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Designer&lt;/strong&gt;: Logos, web design, brand aesthetics. &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Software development&lt;/strong&gt;: HTML, JavaScript, server management.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Business development&lt;/strong&gt;: Idea generation, shape features, market fit, competitive landscape, research.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Marketing and sales&lt;/strong&gt;: Evangelism, blogging, advertising.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Content management&lt;/strong&gt;: Master wordsmith, create original content.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Accounting&lt;/strong&gt;: Budgeting, account receivables.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Don&amp;rsquo;t have mad skillz to share, no problem.  You just need passion.  We will learn as we go, bringing in subject matter experts to beef up our skill set.&lt;/p&gt;
-
-&lt;p&gt;Bring your own laptop. A small number of laptops will be available to borrow.&lt;/p&gt;
-
-&lt;p&gt;First time Hoisters need to get a parent or guardian to &lt;a href=&#34;https://form.jotform.ca/71164477795267&#34;&gt;fill out the consent form&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>For this Hoist meetup, we will be doing something a little different. We are looking for a few budding teen entrepreneurs to start a business. This is the pitch:
+Services supporting the business startup space in Rural Nova Scotia are diverse and not well represented as a whole. Our business aims to unify the Western Nova business startup ecosystem by building a coherent communication platform. By doing so, we will encourage entrepreneurship within our community.</description>
     </item>
     
     <item>
@@ -254,16 +58,8 @@ Manager of Innovation and Incubation for the &lt;a href=&#34;https://refreshanna
       <pubDate>Tue, 10 Oct 2017 19:00:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/smart-annapolis-valley/</guid>
-      <description>&lt;p&gt;The Smart Communities movement involves villages, towns and cities getting ubiquitously connected to the Internet, and using the connection to involve citizens in networked activities.  This movement argues that all the economic wealth created since WW2 has come from innovation - a networking activity that Smart Communities excel at.  Smart Communities have better economic growth, more sustainable life-styles, and better health care.&lt;/p&gt;
-
-&lt;p&gt;i-Valley, a non-for-profit group working to put fast broadband networks into our communities, is bringing the Smart Community movement to our rural and remote regions.  Come hear from &lt;a href=&#34;https://refreshannapolisvalley.org/person/barry-gander&#34;&gt;Barry Gander&lt;/a&gt;
-, co-founder of &lt;a href=&#34;https://refreshannapolisvalley.org/organization/i-valley&#34;&gt;
-    
-        i-Valley
-    
-&lt;/a&gt;
- talk about the Smart Community movement, and their work in the Annapolis Valley.&lt;/p&gt;
-</description>
+      <description>The Smart Communities movement involves villages, towns and cities getting ubiquitously connected to the Internet, and using the connection to involve citizens in networked activities. This movement argues that all the economic wealth created since WW2 has come from innovation - a networking activity that Smart Communities excel at. Smart Communities have better economic growth, more sustainable life-styles, and better health care.
+i-Valley, a non-for-profit group working to put fast broadband networks into our communities, is bringing the Smart Community movement to our rural and remote regions.</description>
     </item>
     
     <item>
@@ -272,33 +68,9 @@ Manager of Innovation and Incubation for the &lt;a href=&#34;https://refreshanna
       <pubDate>Sat, 23 Sep 2017 12:30:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/national-learn-to-code-day-intro-to-ai-and-machine-learning/</guid>
-      <description>&lt;p&gt;Join hundreds of Canadians coast to coast to coast taking their first steps learning about Computer Science. National Learn to Code Day was launched by Ladies Learning Code 5 years ago!&lt;/p&gt;
-
-&lt;p&gt;At this &amp;ldquo;Women Learning Code&amp;rdquo; event, we will learn about Artificial intelligence and machine learning. From Siri on your iPhone to Google Map suggestions, to recommendations for purchases during your Amazon check-out, AI is all around us.&lt;/p&gt;
-
-&lt;p&gt;AI and machine learning at its core is about data - and ways to make meaning of data. In this hands on workshop, we’ll learn how to put data to use for us in our everyday lives.&lt;/p&gt;
-
-&lt;p&gt;Never coded before? Have no prior experience with Computer science? No problem! This workshop is designed for absolute beginners!&lt;/p&gt;
-
-&lt;p&gt;During the workshop, you&amp;rsquo;ll learn:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;The history of artificial intelligence and machine learning&lt;/li&gt;
-&lt;li&gt;Strategies for collection, preparation, manipulation and analysis of data&lt;/li&gt;
-&lt;li&gt;How to build your very own machine learning model to evaluate data that’s interesting to you&lt;/li&gt;
-&lt;li&gt;Available resources to continue learning at home&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;What you must bring:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;A potluck item&lt;/li&gt;
-&lt;li&gt;A laptop, and power cord. (Don&amp;rsquo;t have a laptop? We will have a few available for borrowing)&lt;/li&gt;
-&lt;li&gt;6 hours of your time!  This is a deep learning workshop!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Don&amp;rsquo;t forget to get your ticket for the event. Space is limited! Dudes welcome!&lt;/p&gt;
-</description>
+      <description>Join hundreds of Canadians coast to coast to coast taking their first steps learning about Computer Science. National Learn to Code Day was launched by Ladies Learning Code 5 years ago!
+At this &amp;ldquo;Women Learning Code&amp;rdquo; event, we will learn about Artificial intelligence and machine learning. From Siri on your iPhone to Google Map suggestions, to recommendations for purchases during your Amazon check-out, AI is all around us.
+AI and machine learning at its core is about data - and ways to make meaning of data.</description>
     </item>
     
     <item>
@@ -307,14 +79,9 @@ Manager of Innovation and Incubation for the &lt;a href=&#34;https://refreshanna
       <pubDate>Sat, 16 Sep 2017 12:30:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/3d-printing/</guid>
-      <description>&lt;p&gt;Welcome to the new world of of 3D printing, where you can produce 3D objects almost as easily as you can dream of them.  Emoji figurines, jewellery, nick nacks, to the more practical, in this hands on workshop you will learn how to design a 3D project.  We will cap off the event by printing your original work.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Pizza + workshop + building&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Bring your own laptop. A small number of laptops will be available to borrow.&lt;/p&gt;
-
-&lt;p&gt;First time Hoisters need to get a parent or guardian to &lt;a href=&#34;https://form.jotform.ca/71164477795267&#34;&gt;fill out the consent form&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>Welcome to the new world of of 3D printing, where you can produce 3D objects almost as easily as you can dream of them. Emoji figurines, jewellery, nick nacks, to the more practical, in this hands on workshop you will learn how to design a 3D project. We will cap off the event by printing your original work.
+Pizza + workshop + building
+Bring your own laptop. A small number of laptops will be available to borrow.</description>
     </item>
     
     <item>
@@ -323,8 +90,7 @@ Manager of Innovation and Incubation for the &lt;a href=&#34;https://refreshanna
       <pubDate>Tue, 12 Sep 2017 19:00:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/diy-usability/</guid>
-      <description>&lt;p&gt;Usability testing uncovers problem areas with your website. But not many do it, or do too little because of perceived complexity and cost. When you have limited time and budget, build your own usability lab and get results. A low-cost usability lab will be demonstrated using readily available hardware and software and results from testing our Acadia University library website will be shared.&lt;/p&gt;
-</description>
+      <description>Usability testing uncovers problem areas with your website. But not many do it, or do too little because of perceived complexity and cost. When you have limited time and budget, build your own usability lab and get results. A low-cost usability lab will be demonstrated using readily available hardware and software and results from testing our Acadia University library website will be shared.</description>
     </item>
     
     <item>
@@ -333,127 +99,8 @@ Manager of Innovation and Incubation for the &lt;a href=&#34;https://refreshanna
       <pubDate>Sat, 24 Jun 2017 12:00:00 -0400</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/scratchfest/</guid>
-      <description>
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/rpkvmw65RLI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-
-&lt;h1 id=&#34;calling-all-scratchers&#34;&gt;Calling all Scratchers&lt;/h1&gt;
-
-&lt;p&gt;&lt;em&gt;#ScratchFest&lt;/em&gt; is a weekend (June 24th and June 25th) Scratch-a-thon for kids interested in creating amazing original work with the Scratch programming environment.&lt;/p&gt;
-
-&lt;p&gt;During &lt;em&gt;#ScartchFest&lt;/em&gt;, kids will brainstorm an idea, develop their project, and showcase a final prototype.  This weekend warrior event provides an excellent opportunity for Scratch coders to invent their own projects and demonstrate their knowledge in Scratch within a collaborative, creative, and playful environment.&lt;/p&gt;
-
-&lt;p&gt;Scratchers will work on projects in 1 of 3 categories:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Interactive Artwork:&lt;/strong&gt;  Abstract, conceptual, or just plain weird, interactive artwork projects explore the combination of visuals and sound to create unique interactive presentations.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Interactive Stories:&lt;/strong&gt;  With Scratch interactive story projects, you will take your audience through an amazing world of your own creation.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Video Games:&lt;/strong&gt;  Action, strategy, roll playing, sports&amp;hellip;. build your own game for your players to compete at.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Working in teams of up to 2, or working solo, Scratchers aged 8 to 13 of various skill levels will earn points from the community to take home top dog prizes.&lt;/p&gt;
-
-&lt;h2 id=&#34;win-big&#34;&gt;Win Big!&lt;/h2&gt;
-
-&lt;p&gt;Over &lt;strong&gt;$500&lt;/strong&gt; in prizes will be awarded for the best in category projects.  Hint: the prizes are related to the three categories of projects.&lt;/p&gt;
-
-&lt;h2 id=&#34;register&#34;&gt;Register&lt;/h2&gt;
-
-&lt;p&gt;Pre-registration is required.&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&#34;expanded large button&#34; href=&#34;https://www.eventbrite.ca/e/scratchfest-tickets-34931270370&#34;&gt;&lt;i class=&#34;fa fa-rocket&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Get It Done! &lt;i class=&#34;fa fa-rocket&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;faq&#34;&gt;FAQ&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;What is Scratch?&lt;/strong&gt;  &lt;a href=&#34;https://scratch.mit.edu/&#34; target=&#34;_blank&#34;&gt;Scratch&lt;/a&gt; is used over the world by students to easily create animations and games while acting as a stepping stone to the more advanced world of computer science.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Do I need to know Scratch to participate?&lt;/strong&gt;  Having some basic prior knowledge of the Scratch programming environment is advantageous.  There will be some workshops at the event to help you out.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;How many days is &lt;em&gt;#ScratchFest&lt;/em&gt;?&lt;/strong&gt;  &lt;em&gt;#ScratchFest&lt;/em&gt; runs both Saturday June 24th, and Sunday June 25th.  The event each day runs from 12 to 4PM.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;What is the age range for participants?&lt;/strong&gt;  Scratchers at &lt;em&gt;#ScratchFest&lt;/em&gt; are aged 8 to 13.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Can I work on my project with a group?&lt;/strong&gt;  Groups of up to 2 people can be formed.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Can I work on a pre-existing project?&lt;/strong&gt;  Projects need to be created from &amp;ldquo;scratch&amp;rdquo; at the event.  You will have two days to begin, develop, tweak and complete your original project over the course of the weekend.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;How do I win?&lt;/strong&gt;  Participants will earn points from the community.  The projects with the highest points win.  Points will be awarded to individuals who help their neighbours with their tough Scratch programming problems.  The community will also award points to what they think are the best projects.  Finally, judges will award points to projects who best meet the judging criteria.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;When Does Judging Take Place?&lt;/strong&gt;  Project judging will happen &amp;ldquo;science fair style&amp;rdquo; starting at 2:30 PM on Sunday.  All participants, including parents, will be able to award points to each project.  Invite your friends and Grandma and Grandpa.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;What about food?&lt;/strong&gt;  This is a bring your own food event.  Please pack enough food to fuel yourself for the 4 hour workday.  Please do not bring food items that are common food allergies.  Also, please no citrus.  There are a few folks participating who are highly allergic to citrus.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Can parents hang out at the event?&lt;/strong&gt; Absolutely.  Pull up a chair, get comfy, and help cheer on all the kids.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;sponsors&#34;&gt;Sponsors&lt;/h2&gt;
-
-&lt;p&gt;Several amazing Valley business tossed support our way to pull off this event.  Hats off to our Valley IT community.&lt;/p&gt;
-
-&lt;div class=&#34;row&#34;&gt;
-  &lt;div class=&#34;large-4 columns&#34;&gt;
-    &lt;div class=&#34;card&#34;&gt;
-      &lt;img src=&#34;https://refreshannapolisvalley.org/images/event/scratchfest/acadia.png&#34;&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;large-4 columns&#34;&gt;
-      &lt;div class=&#34;card&#34;&gt;
-        &lt;img src=&#34;https://refreshannapolisvalley.org/images/event/scratchfest/colibri.png&#34;&gt;
-        &lt;div class=&#34;card-section&#34;&gt;
-          &lt;p&gt;Colibri Software&lt;/p&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;div class=&#34;large-4 columns&#34;&gt;
-     &lt;div class=&#34;card&#34;&gt;
-       &lt;img src=&#34;https://refreshannapolisvalley.org/images/event/scratchfest/progeny.png&#34;&gt;
-     &lt;/div&gt;
-   &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
-
-&lt;div class=&#34;row&#34;&gt;
-  &lt;div class=&#34;large-4 columns&#34;&gt;
-    &lt;div class=&#34;card&#34;&gt;
-      &lt;img src=&#34;https://refreshannapolisvalley.org/images/event/scratchfest/precisionhawk.png&#34;&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;large-4 columns&#34;&gt;
-    &lt;div class=&#34;card&#34;&gt;
-      &lt;img src=&#34;https://refreshannapolisvalley.org/images/event/scratchfest/henryschein.png&#34;&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;div class=&#34;large-4 columns&#34;&gt;
-    &lt;div class=&#34;card&#34;&gt;
-      &lt;img src=&#34;https://refreshannapolisvalley.org/images/event/scratchfest/singolar.png&#34;&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;div class=&#34;row&#34;&gt;
-  &lt;div class=&#34;large-4 columns&#34;&gt;
-    &lt;div class=&#34;card&#34;&gt;
-      &lt;img src=&#34;https://refreshannapolisvalley.org/images/event/scratchfest/frostbyte.png&#34;&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;large-4 columns&#34;&gt;
-      &lt;div class=&#34;card&#34;&gt;
-        &lt;img src=&#34;https://refreshannapolisvalley.org/images/event/scratchfest/automattic.png&#34;&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;div class=&#34;large-4 columns&#34;&gt;
-        &lt;div class=&#34;card&#34;&gt;
-          &lt;img src=&#34;https://refreshannapolisvalley.org/images/event/scratchfest/aec.png&#34;&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
-</description>
+      <description>Calling all Scratchers #ScratchFest is a weekend (June 24th and June 25th) Scratch-a-thon for kids interested in creating amazing original work with the Scratch programming environment.
+During #ScartchFest, kids will brainstorm an idea, develop their project, and showcase a final prototype. This weekend warrior event provides an excellent opportunity for Scratch coders to invent their own projects and demonstrate their knowledge in Scratch within a collaborative, creative, and playful environment.</description>
     </item>
     
     <item>
@@ -462,14 +109,9 @@ Manager of Innovation and Incubation for the &lt;a href=&#34;https://refreshanna
       <pubDate>Sat, 17 Jun 2017 12:30:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/against-flat-screens-learn-3d-design/</guid>
-      <description>&lt;p&gt;In this Hoist teen design talk, Max Caplan will introduce us to 3D design using Blender.  Blender is a professional 3D computer graphics software used for creating animated films, visual effects, art, 3D printed models, interactive 3D applications and video games.  Max will walk us through installing, using, and designing your first Blender project: an awesome robot.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Pizza + workshop + building&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Bring your own laptop. A small number of laptops will be available to borrow.&lt;/p&gt;
-
-&lt;p&gt;First time Hoisters need to get a parent or guardian to &lt;a href=&#34;https://form.jotform.ca/71164477795267&#34;&gt;fill out the consent form&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>In this Hoist teen design talk, Max Caplan will introduce us to 3D design using Blender. Blender is a professional 3D computer graphics software used for creating animated films, visual effects, art, 3D printed models, interactive 3D applications and video games. Max will walk us through installing, using, and designing your first Blender project: an awesome robot.
+Pizza + workshop + building
+Bring your own laptop. A small number of laptops will be available to borrow.</description>
     </item>
     
     <item>
@@ -478,10 +120,8 @@ Manager of Innovation and Incubation for the &lt;a href=&#34;https://refreshanna
       <pubDate>Tue, 13 Jun 2017 19:00:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/digitizing-your-mouth-2-decades-of-digital-dentistry-in-wolfville/</guid>
-      <description>&lt;p&gt;Henry Schein is a distributor and producer of health care products and services with a presence in 33 countries.  The company is a Fortune World’s Most Admired Company and is ranked number one in its industry for social responsibility.  Its Wolfville operation is at the forefront of digitizing dentistry with its wide range of home grown software solutions.&lt;/p&gt;
-
-&lt;p&gt;Come help the Henry Schein Woflville team christen its new office.  Product Manager Sandy Macdonald will talk about the state of digital dentistry and how our Wolfville team is working on pushing its edges.  Food and drinks will be served.  BYOB.  Video games will be played.  Get a 3D model of your mouth.&lt;/p&gt;
-</description>
+      <description>Henry Schein is a distributor and producer of health care products and services with a presence in 33 countries. The company is a Fortune World’s Most Admired Company and is ranked number one in its industry for social responsibility. Its Wolfville operation is at the forefront of digitizing dentistry with its wide range of home grown software solutions.
+Come help the Henry Schein Woflville team christen its new office. Product Manager Sandy Macdonald will talk about the state of digital dentistry and how our Wolfville team is working on pushing its edges.</description>
     </item>
     
     <item>
@@ -490,14 +130,9 @@ Manager of Innovation and Incubation for the &lt;a href=&#34;https://refreshanna
       <pubDate>Sat, 13 May 2017 12:30:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/bootstrapping-the-web/</guid>
-      <description>&lt;p&gt;For our first Hoist meetup, we&amp;rsquo;ll be learning how to use the Twitter Bootstrap code library to create beautiful front-end websites. Bootstrap is a combination of HTML, CSS, and JavaScript that allow you to write very little but get a whole lot.  We&amp;rsquo;ll start with the basics of HTML and CSS and then dive into using Bootstrap to jump-start your web project.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Pizza + workshop + building&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Bring your own laptop. A small number of laptops will be available to borrow.&lt;/p&gt;
-
-&lt;p&gt;First time Hoisters need to get a parent or guardian to &lt;a href=&#34;https://form.jotform.ca/71164477795267&#34;&gt;fill out the consent form&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>For our first Hoist meetup, we&amp;rsquo;ll be learning how to use the Twitter Bootstrap code library to create beautiful front-end websites. Bootstrap is a combination of HTML, CSS, and JavaScript that allow you to write very little but get a whole lot. We&amp;rsquo;ll start with the basics of HTML and CSS and then dive into using Bootstrap to jump-start your web project.
+Pizza + workshop + building
+Bring your own laptop.</description>
     </item>
     
     <item>
@@ -506,13 +141,8 @@ Manager of Innovation and Incubation for the &lt;a href=&#34;https://refreshanna
       <pubDate>Tue, 09 May 2017 19:00:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/the-startup-life-youth-gone-wild/</guid>
-      <description>&lt;p&gt;Aristides Milios is possessed.  In 2014 he co-founded Microcent Technologies. As CTO he focused on incubating hyper-local location technology for use in small-to-mid sized businesses.  In 2015, he co-founded Hoist Halifax: a monthly series of workshops for teens interested in design, entrepreneurship and tech.  That same year, he graduated from Propel ICT Accelerator Program.  In 2016 he graduated from High School.&lt;/p&gt;
-
-&lt;p&gt;In this fireside chat, come learn what drives Aristides towards the tech startup trenches, and how he is building a youth entrepreneurship culture in Nova Scotia.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://refreshannapolisvalley.org/person/wes-booth&#34;&gt;Wes Booth&lt;/a&gt;
-, Young Business Leaders Committee with the Annapolis Valley Chamber of Commerce, will be our tour guide for our fire-side chat.&lt;/p&gt;
-</description>
+      <description>Aristides Milios is possessed. In 2014 he co-founded Microcent Technologies. As CTO he focused on incubating hyper-local location technology for use in small-to-mid sized businesses. In 2015, he co-founded Hoist Halifax: a monthly series of workshops for teens interested in design, entrepreneurship and tech. That same year, he graduated from Propel ICT Accelerator Program. In 2016 he graduated from High School.
+In this fireside chat, come learn what drives Aristides towards the tech startup trenches, and how he is building a youth entrepreneurship culture in Nova Scotia.</description>
     </item>
     
     <item>
@@ -521,21 +151,8 @@ Manager of Innovation and Incubation for the &lt;a href=&#34;https://refreshanna
       <pubDate>Tue, 11 Apr 2017 19:00:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/project-management-sucks/</guid>
-      <description>&lt;p&gt;Project management seems to be one of those areas of necessary evil. Disconnected project managers who don&amp;rsquo;t really understand your work coupled with never ending meetings, charts, spreadsheets, forms, paperwork, complicated management software&amp;hellip;  Project management can feel like it is more of a barrier than a help to team productivity.&lt;/p&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;https://refreshannapolisvalley.org/images/event/project-management-sucks/dilbert.gif&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;In this talk, Mike Caplan, a reluctant Software Development Manager, will explore a lightweight tool for overseeing the project processes.  Based on a simple board, this technique helps visualize workflow, expose operational problems, and reduce wasted time from excessive multitasking.  Best of all, it is a team tool that helps decentralize project management to the group.&lt;/p&gt;
-
-&lt;p&gt;From creative project work, software development, or many knowledge based areas of work, this simple workflow visualization tool scales from small teams, to large groups, and is based off of simple rules that anyone can pick up at a short Refresh Annapolis Valley meetup.&lt;/p&gt;
-</description>
+      <description>Project management seems to be one of those areas of necessary evil. Disconnected project managers who don&amp;rsquo;t really understand your work coupled with never ending meetings, charts, spreadsheets, forms, paperwork, complicated management software&amp;hellip; Project management can feel like it is more of a barrier than a help to team productivity.
+ In this talk, Mike Caplan, a reluctant Software Development Manager, will explore a lightweight tool for overseeing the project processes.</description>
     </item>
     
     <item>
@@ -544,23 +161,169 @@ Manager of Innovation and Incubation for the &lt;a href=&#34;https://refreshanna
       <pubDate>Tue, 21 Feb 2017 19:00:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/maker-meetup/</guid>
-      <description>&lt;p&gt;Calling all &lt;strong&gt;makers&lt;/strong&gt;, &lt;strong&gt;inventors&lt;/strong&gt;, &lt;strong&gt;artists&lt;/strong&gt;, &lt;strong&gt;entrepreneurs&lt;/strong&gt;, &lt;strong&gt;tinkerers&lt;/strong&gt;, and the like. Join Refresh Annapolis Valley and Annapolis Valley STEAMspace for what we hope will be a regular meetup for the Valley maker community to gather, share ideas, and build community.&lt;/p&gt;
-
-&lt;p&gt;Projects galore to explore!&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://refreshannapolisvalley.org/person/ian-mckay&#34;&gt;Ian McKay&lt;/a&gt;
- will be demoing a magic cauldron, CNC stuff and a possible new product.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://refreshannapolisvalley.org/person/max-caplan&#34;&gt;Max Caplan&lt;/a&gt;
- will show off a homebrew handheld gaming console.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;And you&amp;hellip;?&lt;/p&gt;
-
-&lt;p&gt;If you want to bring a project in to show off and get feedback on, please do.&lt;/p&gt;
-
-&lt;p&gt;Food, Makers, Cool Projects, Good Chats.&lt;/p&gt;
-</description>
+      <description>Calling all makers, inventors, artists, entrepreneurs, tinkerers, and the like. Join Refresh Annapolis Valley and Annapolis Valley STEAMspace for what we hope will be a regular meetup for the Valley maker community to gather, share ideas, and build community.
+Projects galore to explore!
+ Ian McKay will be demoing a magic cauldron, CNC stuff and a possible new product. Max Caplan will show off a homebrew handheld gaming console.  And you&amp;hellip;?</description>
+    </item>
+    
+    <item>
+      <title>Forecasting: Using Machine Learning Techniques in Energy, Environment and Agriculture</title>
+      <link>https://refreshannapolisvalley.org/event/forecasting-using-machine-learning-techniques-in-energy-environment-and-agriculture/</link>
+      <pubDate>Tue, 10 Jan 2017 19:00:00 -0300</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/forecasting-using-machine-learning-techniques-in-energy-environment-and-agriculture/</guid>
+      <description>Dr Daniel Silver will review a series of projects undertaken by the Acadia Institute for Data Analytics  . These amazing projects can estimate crop yield from smart phone images, do solar energy forecasting, manage building energy, determine stream flow rate and aquifer recharge prediction, sales forecasting, and classifying objects in UAV agriculture field images.
+Many of these problems utilize high resolution observed and forecasted weather, high definition and multi-spectral digital images, and 5 minute through 60 minute data flow rates.</description>
+    </item>
+    
+    <item>
+      <title>The Startup Life: Feel The Frost Byte</title>
+      <link>https://refreshannapolisvalley.org/event/the-startup-life-feel-the-frost-byte/</link>
+      <pubDate>Tue, 13 Dec 2016 19:00:00 -0300</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/the-startup-life-feel-the-frost-byte/</guid>
+      <description>Business-hypothesis-driven experimentation. Iterative product releases. Validated learning. Pivot. Pivot. Pivot. Welcome to the tech startup world of John Frost .
+From the early days of Frostbyte Interactive, Aerhyve Aerial Technologies, and now PrecisionHawk, John&amp;rsquo;s pursuit of innovative products and services in the digital tech space runs years long. Join us for a fireside chat with John where we will explore the inner working of a person committed to the startup life.</description>
+    </item>
+    
+    <item>
+      <title>Understanding The World Through R</title>
+      <link>https://refreshannapolisvalley.org/event/understanding-the-world-through-r/</link>
+      <pubDate>Tue, 08 Nov 2016 19:00:00 -0300</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/understanding-the-world-through-r/</guid>
+      <description>The world is bubbling over with data. When analyzed, data can provide the inquiring mind with useful information that can suggest outcomes and support decision-making. Be it the data generated about business practices, human behaviours, the biological world; being able to understand what your data is telling you is incredibly empowering. &amp;ldquo;R&amp;rdquo; is a free, accessible, and powerful programming language that offers a suite of tools for data analysis.
+Our tour guide, Trevor Avery &amp;mdash; biostatistician, faculty member at Acadia University, and coordinator of R-bar  &amp;mdash; will provide us a primer on R.</description>
+    </item>
+    
+    <item>
+      <title>10 Ideas for Your Next Social Media Campaign</title>
+      <link>https://refreshannapolisvalley.org/event/10-ideas-for-your-next-social-media-campaign/</link>
+      <pubDate>Tue, 11 Oct 2016 19:00:00 -0300</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/10-ideas-for-your-next-social-media-campaign/</guid>
+      <description>Wes Booth will break down and share 10 tips he&amp;rsquo;s learned over his 10 year experience in the world of social media. Everything from emerging platforms and tools you can use to promote your business, to specific tips for boosting your marketing campaign success, and how to go above and beyond for your audience and customers. Wes won&amp;rsquo;t promise you life changing results because that&amp;rsquo;s not possible, but what he can do is prepare you to be in a position to have success and offer you practical things to take away and test out on your business.</description>
+    </item>
+    
+    <item>
+      <title>The Realtime Web: Intro To Node.js</title>
+      <link>https://refreshannapolisvalley.org/event/the-realtime-web-intro-to-node-js/</link>
+      <pubDate>Tue, 11 Oct 2016 19:00:00 -0300</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/the-realtime-web-intro-to-node-js/</guid>
+      <description>Node.js is a rapidly growing technology that has been making big waves in the world of web development. Node lets you easily build fast and scalable network applications perfect for the realtime web. In this workshop you’ll learn how to get started using Node, its background and history, and the problems it seeks to address. We’ll get our hands dirty building a realtime chat server to get a feel for the amazing power of Node.</description>
+    </item>
+    
+    <item>
+      <title>UX Fist Fighting - Designing For Usability</title>
+      <link>https://refreshannapolisvalley.org/event/ux-fist-fighting-designing-for-usability/</link>
+      <pubDate>Tue, 11 Oct 2016 19:00:00 -0300</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/ux-fist-fighting-designing-for-usability/</guid>
+      <description>10 years of picking fights and getting kicked out of a meetings - Mike Downs shares his personal quest to define &amp;ldquo;usability.&amp;rdquo; Mike will dive deep in to describing why usability is important for your websites and web applications. He will offer up pointers on how to think about your own projects with a user focused mind.
+Mike has over eighteen years of Internet marketing strategy and product management experience helping create, shape, and launch technology products on the Web.</description>
+    </item>
+    
+    <item>
+      <title>CODE: Debugging the Gender Gap</title>
+      <link>https://refreshannapolisvalley.org/event/code-debugging-the-gender-gap/</link>
+      <pubDate>Tue, 20 Sep 2016 18:30:00 -0300</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/code-debugging-the-gender-gap/</guid>
+      <description>CODE: Debugging The Gender Gap exposes the dearth of female and minority software engineers and explores the reasons for this gender gap and digital divide.
+Tech jobs are growing three times faster than our colleges are producing computer science graduates. By 2019 there will be 182,000 jobs in information and communications technology that will go unfilled by homegrown Canadian talent because not enough people will have the right skills.</description>
+    </item>
+    
+    <item>
+      <title>Ballmer Peak</title>
+      <link>https://refreshannapolisvalley.org/event/ballmer-peak/</link>
+      <pubDate>Tue, 12 Jul 2016 19:00:00 -0300</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/ballmer-peak/</guid>
+      <description>When surveying a bunch of #Refreshers what we should do for July:
+A) Take off and enjoy the sun (47.1%)
+B) Keep on trucking - regular Refresh meetup for July (35.3%)
+C) Other - drink beer (17.6%)
+&amp;hellip; so we drink beer!
+Join us for a crazy selection of craft beer, pizza and banter. Bring your laptop and we can put the Ballmer Peak to the test**. Come chat about the BIG plans for Refresh in September and beyond&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Inspiration. Imitation. Innovation: Transforming The Physical World With Open Source Hardware</title>
+      <link>https://refreshannapolisvalley.org/event/inspiration-imitation-innovation-transforming-the-physical-world-with-open-source-hardware/</link>
+      <pubDate>Tue, 14 Jun 2016 19:00:00 -0300</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/inspiration-imitation-innovation-transforming-the-physical-world-with-open-source-hardware/</guid>
+      <description>Powered by open source hardware and software, students, engineers, and garage tinkerers alike are hacking the physical world. Using inexpensive “mini computers” like the Arduino, these makers are building interactive devices that can sense and control other physical objects. In this presentation, we will look at opportunity the Open Source Hardware Movement has created for everyday people to hack our technological world. Ian McKay will introduce us to hacking the Arduino with a newbie how-to.</description>
+    </item>
+    
+    <item>
+      <title>IP Matters</title>
+      <link>https://refreshannapolisvalley.org/event/ip-matters/</link>
+      <pubDate>Tue, 10 May 2016 19:00:00 -0300</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/ip-matters/</guid>
+      <description>Take an engaging journey into the world of intellectual property (IP) and software. What IP do you have and how can you protect it? Is it better to use a trademark, copyright or a patent? How long does it take and what does it cost? This presentation will introduce you to the types of IP and why they matter.</description>
+    </item>
+    
+    <item>
+      <title>Redefining Work: Coworking</title>
+      <link>https://refreshannapolisvalley.org/event/redefining-work-coworking/</link>
+      <pubDate>Tue, 12 Apr 2016 19:00:00 -0300</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/redefining-work-coworking/</guid>
+      <description>There is lots of buzz around coworking spaces as a new way for independent and SME creative professionals to engage work. Coworking is about shared office space for professionals, but it is also about a style of work that suggests there are greater opportunities working in a diverse community setting. Coworking spaces themself are diverse in structure, ranging from the community powered, real-estate centric, to highbred business incubators.
+In rural Nova Scotia, numerous coworking spaces are springing up.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to WordPress</title>
+      <link>https://refreshannapolisvalley.org/event/introduction-to-wordpress/</link>
+      <pubDate>Tue, 08 Mar 2016 19:00:00 -0300</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/introduction-to-wordpress/</guid>
+      <description>WordPress is a free content management system used by more than 23.3% of the top 10 million websites. In this talk, Sandy McFadden and Raina Noel will show us what is it, what it can do for you, and how you can start using it to get your message online.
+You&amp;rsquo;ll learn how to install WordPress and get it setup using Posts, Pages, Widgets, and Menus. Raina and Sandy will also show us how you can extend Wordpress functionality and change the way your site looks with Plugins and Themes.</description>
+    </item>
+    
+    <item>
+      <title>STEAM Powered! Maker Space / FabLab @AcadiaU</title>
+      <link>https://refreshannapolisvalley.org/event/steam-powered-maker-space/</link>
+      <pubDate>Tue, 10 Nov 2015 19:00:00 -0300</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/steam-powered-maker-space/</guid>
+      <description>The recent and explosive growth in maker-culture combined with the emergence of 3D Printing in Fabrication Laboratories (or “FabLabs”) presents an opportunity for the province to prepare for the future by investing in economic and cultural change in rural Nova Scotia. Acting in concert with the Acadia Entrepreneurship Centre and the Centre for Rural Innovation, Acadia’s new STEAM Space is working toward the creation of a Maker Space/FabLab on the Acadia University campus.</description>
+    </item>
+    
+    <item>
+      <title>HTML5 and Semantic Markup</title>
+      <link>https://refreshannapolisvalley.org/event/html5-and-semantic-markup/</link>
+      <pubDate>Mon, 14 Jan 2013 19:00:00 -0300</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/html5-and-semantic-markup/</guid>
+      <description>Come join us for &amp;ldquo;HTML5 and Semantic Markup,&amp;rdquo; a discussion about HTML5, markup, and HTML5 websites that rock.
+Open Web Platform: HTML5 and Semantic Markup Mike Caplan will give a talk about HTML5&amp;rsquo;s new elements and attributes that allow us to define semantically meaningful HTML. Semantics you say? What is the meaning of this? Come find out.
+HTML5 Websites Show and Tell Dust off your favorite website that uses anything under the HTML5 sun – offline storage, connectivity, file access, semantics, audio/video, 3D/graphics, presentation, performance, big features, or small.</description>
+    </item>
+    
+    <item>
+      <title>Local Projects Roundup: Round Two</title>
+      <link>https://refreshannapolisvalley.org/event/local-projects-roundup-round-two/</link>
+      <pubDate>Mon, 10 Dec 2012 19:30:00 -0300</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/local-projects-roundup-round-two/</guid>
+      <description>Come join us for &amp;ldquo;Local Projects Roundup - Round Two,&amp;rdquo; a discussion about interesting local web projects, platforms, business, and techies.
+  Online Community Engagement with Laura Churchill Duke  Laura is the owner and operator of Valley Family Fun  which is a website for families living in the Annapolis Valley. It includes resources, ideas, information and a calendar of family-friendly events. Started in January 2012, it has grown to include a Facebook and Twitter site to form a web-based network of over 6000 followers.</description>
+    </item>
+    
+    <item>
+      <title>Local Projects Roundup: Round One</title>
+      <link>https://refreshannapolisvalley.org/event/local-projects-roundup-round-one/</link>
+      <pubDate>Mon, 12 Nov 2012 19:30:00 -0300</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/local-projects-roundup-round-one/</guid>
+      <description>Come join us for Local Projects Roundup - Round One, a discussion about interesting local web projects, and initiatives supporting startups.
+  HUB Kentville with Frances Schagen  Calling all forward-thinking entrepreneurs, start ups, creatives, artists, freelancers, coders and non-profits. HUB Kentville  is a membership-based coworking spaces where people share an address, resources, equipment and community.     HarvestHand with Michael Caplan  Community Supported Agriculture (CSA) is a member based model for food production and distribution that unites local communities with local farms.</description>
     </item>
     
   </channel>

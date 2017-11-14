@@ -2,11 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Women In Tech on Refresh Annapolis Valley</title>
-    <link>https://refreshannapolisvalley.org/topics/women-in-tech/index.xml</link>
+    <link>https://refreshannapolisvalley.org/topics/women-in-tech/</link>
     <description>Recent content in Women In Tech on Refresh Annapolis Valley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <atom:link href="https://refreshannapolisvalley.org/topics/women-in-tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Sep 2017 12:30:00 -0300</lastBuildDate>
+    
+	<atom:link href="https://refreshannapolisvalley.org/topics/women-in-tech/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>National Learn to Code Day: Intro to AI and Machine Learning</title>
@@ -14,33 +17,9 @@
       <pubDate>Sat, 23 Sep 2017 12:30:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/national-learn-to-code-day-intro-to-ai-and-machine-learning/</guid>
-      <description>&lt;p&gt;Join hundreds of Canadians coast to coast to coast taking their first steps learning about Computer Science. National Learn to Code Day was launched by Ladies Learning Code 5 years ago!&lt;/p&gt;
-
-&lt;p&gt;At this &amp;ldquo;Women Learning Code&amp;rdquo; event, we will learn about Artificial intelligence and machine learning. From Siri on your iPhone to Google Map suggestions, to recommendations for purchases during your Amazon check-out, AI is all around us.&lt;/p&gt;
-
-&lt;p&gt;AI and machine learning at its core is about data - and ways to make meaning of data. In this hands on workshop, we’ll learn how to put data to use for us in our everyday lives.&lt;/p&gt;
-
-&lt;p&gt;Never coded before? Have no prior experience with Computer science? No problem! This workshop is designed for absolute beginners!&lt;/p&gt;
-
-&lt;p&gt;During the workshop, you&amp;rsquo;ll learn:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;The history of artificial intelligence and machine learning&lt;/li&gt;
-&lt;li&gt;Strategies for collection, preparation, manipulation and analysis of data&lt;/li&gt;
-&lt;li&gt;How to build your very own machine learning model to evaluate data that’s interesting to you&lt;/li&gt;
-&lt;li&gt;Available resources to continue learning at home&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;What you must bring:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;A potluck item&lt;/li&gt;
-&lt;li&gt;A laptop, and power cord. (Don&amp;rsquo;t have a laptop? We will have a few available for borrowing)&lt;/li&gt;
-&lt;li&gt;6 hours of your time!  This is a deep learning workshop!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Don&amp;rsquo;t forget to get your ticket for the event. Space is limited! Dudes welcome!&lt;/p&gt;
-</description>
+      <description>Join hundreds of Canadians coast to coast to coast taking their first steps learning about Computer Science. National Learn to Code Day was launched by Ladies Learning Code 5 years ago!
+At this &amp;ldquo;Women Learning Code&amp;rdquo; event, we will learn about Artificial intelligence and machine learning. From Siri on your iPhone to Google Map suggestions, to recommendations for purchases during your Amazon check-out, AI is all around us.
+AI and machine learning at its core is about data - and ways to make meaning of data.</description>
     </item>
     
     <item>
@@ -49,73 +28,8 @@
       <pubDate>Tue, 20 Sep 2016 18:30:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/code-debugging-the-gender-gap/</guid>
-      <description>
-&lt;figure class=&#34;float-right&#34;&gt;
-    
-        &lt;img src=&#34;https://refreshannapolisvalley.org/images/event/code-debugging-the-gender-gap/poster.jpg&#34; alt=&#34;CODE: Debugging the Gender Gap&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;&lt;em&gt;CODE: Debugging The Gender Gap&lt;/em&gt; exposes the dearth of female and minority
-software engineers and explores the reasons for this gender gap and digital divide.&lt;/p&gt;
-
-&lt;p&gt;Tech jobs are growing three times faster than our colleges are producing computer science
-graduates. By 2019 there will be 182,000 jobs in information and communications technology
-that will go unfilled by homegrown Canadian talent because not enough people will have the right skills.&lt;/p&gt;
-
-&lt;p&gt;Through compelling interviews, artistic animation and clever flashpoints in popular culture,
-&lt;em&gt;CODE&lt;/em&gt; examines the reasons why more girls and people of color are not seeking out
-opportunities in computer science and explores how cultural mindsets, stereotypes,
-educational hurdles, and sexism all play roles in this national crisis. Expert voices from the
-worlds of tech, psychology, science, and education are intercut with personal stories of women
-who are engaged in the fight to challenge complacency in the tech industry and have their
-voices heard. &lt;em&gt;CODE&lt;/em&gt; aims to inspire change in mindsets, in the educational system, in startup
-culture and in the way women see themselves in the field of coding.&lt;/p&gt;
-
-&lt;p&gt;This screening will feature an introductory keynote address by &lt;a href=&#34;https://refreshannapolisvalley.org/person/ulrike-bahr-gedalia&#34;&gt;Ulrike Bahr-Gedalia&lt;/a&gt;
-,
-President and CEO of &lt;a href=&#34;https://refreshannapolisvalley.org/organization/digital-nova-scotia&#34;&gt;
-    
-        Digital Nova Scotia
-    
-&lt;/a&gt;
-, to provide Canadian context to the film.
-&lt;em&gt;CODE&lt;/em&gt; will also be followed by an interactive panel discussion.&lt;/p&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//player.vimeo.com/video/123004482&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-
-&lt;p&gt;Computer code forms the foundation of modern society. Cell phones, apps, navigation systems,
-medical equipment, banking, movie animation… are all driven by code. The more diverse a
-team of coders is, the broader their perspective of society’s needs, which can ultimately result
-in products that serve a greater breadth of humanity.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;CODE&lt;/em&gt; takes a hard look at the pipeline question in technology: why aren’t there more women
-and minority graduates in computer science? What is stopping them from getting to the
-threshold? &lt;em&gt;CODE&lt;/em&gt; follows the various challenges faced by a new generation of women
-programmers and the ingenious ways they are using their skills, drive, intellect and vision to
-disrupt the traditional, male-dominated tech world.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;CODE&lt;/em&gt; looks to the past, delving into the history of computing to highlight women like Ada
-Lovelace and Grace Hopper who set the stage for today’s technology. &lt;em&gt;CODE&lt;/em&gt; acknowledges that
-women have been an important part of computing since the genesis of computers, but have
-since been written out of this history.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;CODE&lt;/em&gt; is not afraid to ask the hard questions and does so with intelligence and a sense of
-humor, examining our culture from high (the views of former Harvard President Larry Summers
-on innate ability) to low (an app called &amp;ldquo;Titstare&amp;rdquo; presented to a room of tech heavyweights).&lt;/p&gt;
-
-&lt;p&gt;A blend of personal stories, expert voices, innovative animation, historic discoveries, and
-moments from popular culture are complemented with a cutting edge musical score and
-bolstered by a strong sense of purpose. &lt;em&gt;CODE&lt;/em&gt; reflects, at its heart, the interconnectedness of
-the stories, the web, and by proxy, the shared vision of a new, more democratic community
-made possible by the inclusion of more women in code.&lt;/p&gt;
-</description>
+      <description>CODE: Debugging The Gender Gap exposes the dearth of female and minority software engineers and explores the reasons for this gender gap and digital divide.
+Tech jobs are growing three times faster than our colleges are producing computer science graduates. By 2019 there will be 182,000 jobs in information and communications technology that will go unfilled by homegrown Canadian talent because not enough people will have the right skills.</description>
     </item>
     
     <item>
@@ -124,10 +38,7 @@ made possible by the inclusion of more women in code.&lt;/p&gt;
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/organization/women-in-science-and-engineering-at-acadia-university/</guid>
-      <description>&lt;p&gt;WISE (Women in Science and Engineering) at Acadia is a group of female faculty members from the &lt;a href=&#34;http://science.acadiau.ca/&#34;&gt;Faculty of Pure and Applied Science&lt;/a&gt; and &lt;a href=&#34;http://kinesiology.acadiau.ca/&#34;&gt;Kinesiology&lt;/a&gt; who gather together to address the unique issues that women in academia face. The group has supported learning opportunities and award applications for Acadia women faculty members. After a &lt;a href=&#34;http://bit.ly/WISEacadia&#34;&gt;gathering held in October 2014&lt;/a&gt; additional WISE priorities have been identified related to mentoring, science camps for young women, and a course offering for undergraduates in Women and Science.&lt;/p&gt;
-
-&lt;p&gt;WISE has been supported in these endeavours by members of the Women&amp;rsquo;s and Gender Studies program. The mission of WGS is to foster a vibrant, dynamic campus community that critically engages with issues of gender, sexuality, race, class and ability. Working together with science students and faculty, WGS strives to remedy inequities and draw attention to opportunities facing women in the sciences.&lt;/p&gt;
-</description>
+      <description>WISE (Women in Science and Engineering) at Acadia is a group of female faculty members from the Faculty of Pure and Applied Science and Kinesiology who gather together to address the unique issues that women in academia face. The group has supported learning opportunities and award applications for Acadia women faculty members. After a gathering held in October 2014 additional WISE priorities have been identified related to mentoring, science camps for young women, and a course offering for undergraduates in Women and Science.</description>
     </item>
     
     <item>
@@ -136,15 +47,7 @@ made possible by the inclusion of more women in code.&lt;/p&gt;
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/organization/women-and-gender-studies-at-acadia-university/</guid>
-      <description>&lt;p&gt;In 1973, Acadia University became one of the first universities in Canada to offer a course in Women&amp;rsquo;s Studies. The course, entitled Women in the Modern World, was the cornerstone of a program which in three decades has developed a multi-disciplinary approach to teaching and research in gender-related issues. Faculty members from the Arts, Pure and Applied Sciences, Education, Kinesiology, and Theatre contribute to the program on a rotational basis.&lt;/p&gt;
-
-&lt;p&gt;Women&amp;rsquo;s and Gender Studies emphasizes the importance of gender as a category of critical analysis in areas such as scholarly activity, education, social relationships, cultural expression, and politics. Students are encouraged to examine established theoretical frameworks, institutions, ideologies, history, identity, science, language and culture while exploring feminist alternatives.
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/lTeX22gxzTc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-&lt;/p&gt;
-</description>
+      <description>In 1973, Acadia University became one of the first universities in Canada to offer a course in Women&amp;rsquo;s Studies. The course, entitled Women in the Modern World, was the cornerstone of a program which in three decades has developed a multi-disciplinary approach to teaching and research in gender-related issues. Faculty members from the Arts, Pure and Applied Sciences, Education, Kinesiology, and Theatre contribute to the program on a rotational basis.</description>
     </item>
     
   </channel>

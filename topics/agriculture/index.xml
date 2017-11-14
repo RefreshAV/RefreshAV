@@ -2,11 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Agriculture on Refresh Annapolis Valley</title>
-    <link>https://refreshannapolisvalley.org/topics/agriculture/index.xml</link>
+    <link>https://refreshannapolisvalley.org/topics/agriculture/</link>
     <description>Recent content in Agriculture on Refresh Annapolis Valley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <atom:link href="https://refreshannapolisvalley.org/topics/agriculture/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Jan 2017 19:00:00 -0300</lastBuildDate>
+    
+	<atom:link href="https://refreshannapolisvalley.org/topics/agriculture/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Forecasting: Using Machine Learning Techniques in Energy, Environment and Agriculture</title>
@@ -14,16 +17,8 @@
       <pubDate>Tue, 10 Jan 2017 19:00:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/forecasting-using-machine-learning-techniques-in-energy-environment-and-agriculture/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://refreshannapolisvalley.org/person/dr-daniel-silver&#34;&gt;Dr Daniel Silver&lt;/a&gt;
- will review a series of projects undertaken by the &lt;a href=&#34;https://refreshannapolisvalley.org/organization/acadia-institute-for-data-analytics&#34;&gt;
-    
-        Acadia Institute for Data Analytics
-    
-&lt;/a&gt;
-.  These amazing projects can estimate crop yield from smart phone images, do solar energy forecasting, manage building energy, determine stream flow rate and aquifer recharge prediction, sales forecasting, and classifying objects in UAV agriculture field images.&lt;/p&gt;
-
-&lt;p&gt;Many of these problems utilize high resolution observed and forecasted weather, high definition and multi-spectral digital images, and 5 minute through 60 minute data flow rates.  These projects use a variety of machine learning methods.  Come learn about standard neural networks, random forests, more advanced deep and recurrent neural networks, as well as transfer learning.&lt;/p&gt;
-</description>
+      <description>Dr Daniel Silver will review a series of projects undertaken by the Acadia Institute for Data Analytics  . These amazing projects can estimate crop yield from smart phone images, do solar energy forecasting, manage building energy, determine stream flow rate and aquifer recharge prediction, sales forecasting, and classifying objects in UAV agriculture field images.
+Many of these problems utilize high resolution observed and forecasted weather, high definition and multi-spectral digital images, and 5 minute through 60 minute data flow rates.</description>
     </item>
     
     <item>
@@ -32,16 +27,8 @@
       <pubDate>Tue, 13 Dec 2016 19:00:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/the-startup-life-feel-the-frost-byte/</guid>
-      <description>&lt;p&gt;Business-hypothesis-driven experimentation.  Iterative product releases. Validated learning.  Pivot. Pivot. Pivot.  Welcome to the tech startup world of &lt;a href=&#34;https://refreshannapolisvalley.org/person/john-frost&#34;&gt;John Frost&lt;/a&gt;
-.&lt;/p&gt;
-
-&lt;p&gt;From the early days of Frostbyte Interactive, Aerhyve Aerial Technologies, and now PrecisionHawk, John&amp;rsquo;s pursuit of innovative products and services in the digital tech space runs years long.  Join us for a fireside chat with John where we will explore the inner working of a person committed to the startup life.  We will examine his failures, study lessons learned from the startup trenches, and most importantly celebrate his successes.&lt;/p&gt;
-
-&lt;p&gt;John&amp;rsquo;s story is one also of the Annapolis Valley startup community.  As a tenant of the Rural Innovation Centre at Acadia University from day one, we will also explore how we are fairing in incubating innovative within our community.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://refreshannapolisvalley.org/person/emily-konrath&#34;&gt;Emily Konrath&lt;/a&gt;
-, Economic Development Officer, with the Valley Regional Enterprise Network will be our tour guide at our meetup.&lt;/p&gt;
-</description>
+      <description>Business-hypothesis-driven experimentation. Iterative product releases. Validated learning. Pivot. Pivot. Pivot. Welcome to the tech startup world of John Frost .
+From the early days of Frostbyte Interactive, Aerhyve Aerial Technologies, and now PrecisionHawk, John&amp;rsquo;s pursuit of innovative products and services in the digital tech space runs years long. Join us for a fireside chat with John where we will explore the inner working of a person committed to the startup life.</description>
     </item>
     
     <item>
@@ -50,25 +37,8 @@
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/organization/harvesthand/</guid>
-      <description>&lt;p&gt;HarvestHand is a community platform dedicated to strengthening regional food systems. We&amp;rsquo;re passionate about supporting farms with CSA&amp;rsquo;s to become more profitable using HarvestHand CSA Software, helping communities eat better through the HarvestHand Community, creating good jobs in rural communities, and building new media solutions that make sharing the harvest easier.&lt;/p&gt;
-
-&lt;p&gt;Our vision is to create new media solutions that strengthen regional food systems&amp;rsquo; ability to succeed in value oriented approaches to production, distribution, consumption and community.&lt;/p&gt;
-
-&lt;p&gt;Our Mandate is to:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Improve the profitability of Community Shared Agriculture (CSA) farms through the ease and functionality of HarvestHand CSA Software Platform&lt;/li&gt;
-&lt;li&gt;Create localized and fairly paid employment opportunities in rural communities&lt;/li&gt;
-&lt;li&gt;Make it easy for citizens to locate, join and remain a member of a CSA farm&lt;/li&gt;
-&lt;li&gt;Create a space for exploration of ideas, identification of problems and creation of solutions related to local food systems&lt;/li&gt;
-&lt;li&gt;Build out best of regional food tooling&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&#34;flex-video&#34;&gt;
-    &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/qNxWThFGa5M&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-</description>
+      <description>HarvestHand is a community platform dedicated to strengthening regional food systems. We&amp;rsquo;re passionate about supporting farms with CSA&amp;rsquo;s to become more profitable using HarvestHand CSA Software, helping communities eat better through the HarvestHand Community, creating good jobs in rural communities, and building new media solutions that make sharing the harvest easier.
+Our vision is to create new media solutions that strengthen regional food systems&amp;rsquo; ability to succeed in value oriented approaches to production, distribution, consumption and community.</description>
     </item>
     
     <item>
@@ -77,8 +47,7 @@
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/person/john-frost/</guid>
-      <description>&lt;p&gt;John Frost is a Senior Manager, Satellite Products, at PrecisionHawk.  John worked extensively in geophysical research and exploration before returning to university to complete studies in International Relations/Intercultural Studies. With broad national and international project exposure, he is a cross-cultural specialist in technology adaptation. Through the Aerhyve brand, the company focused on the analysis of UAV data with Machine Learning, providing actionable intelligence for agricultural and industrial applications. An entrepreneur and technophile, John is always pursuing opportunities which make a local-global impact.&lt;/p&gt;
-</description>
+      <description>John Frost is a Senior Manager, Satellite Products, at PrecisionHawk. John worked extensively in geophysical research and exploration before returning to university to complete studies in International Relations/Intercultural Studies. With broad national and international project exposure, he is a cross-cultural specialist in technology adaptation. Through the Aerhyve brand, the company focused on the analysis of UAV data with Machine Learning, providing actionable intelligence for agricultural and industrial applications. An entrepreneur and technophile, John is always pursuing opportunities which make a local-global impact.</description>
     </item>
     
     <item>
@@ -87,8 +56,7 @@
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
       
       <guid>https://refreshannapolisvalley.org/organization/precisionhawk/</guid>
-      <description>&lt;p&gt;PrecisionHawk is the leading provider of aerial data and safety platforms for drones. The Lancaster  is PrecisionHawk’s fixed-wing, autonomous drone built to collect the highest quality terrestrial data using a host of integrated sensors including visual, thermal, LiDAR, multispectral and hyperspectral. PrecisionHawk houses three divisions that support its mission: DataMapper aerial mapping and analysis software, TerraServer satellite imagery and LATAS (Low Altitude Traffic and Airspace Safety).&lt;/p&gt;
-</description>
+      <description>PrecisionHawk is the leading provider of aerial data and safety platforms for drones. The Lancaster is PrecisionHawk’s fixed-wing, autonomous drone built to collect the highest quality terrestrial data using a host of integrated sensors including visual, thermal, LiDAR, multispectral and hyperspectral. PrecisionHawk houses three divisions that support its mission: DataMapper aerial mapping and analysis software, TerraServer satellite imagery and LATAS (Low Altitude Traffic and Airspace Safety).</description>
     </item>
     
   </channel>

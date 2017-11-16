@@ -373,6 +373,11 @@
   </url>
   
   <url>
+    <loc>https://refreshannapolisvalley.org/person/noah-tomkins/</loc>
+    <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://refreshannapolisvalley.org/organization/nscc/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
   </url>
@@ -429,6 +434,11 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/person/sandy-mcfadden/</loc>
+    <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/person/sara-baxter/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
   </url>
   
@@ -863,6 +873,12 @@
   </url>
   
   <url>
+    <loc>https://refreshannapolisvalley.org/organizations/enacts-acadia/</loc>
+    <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://refreshannapolisvalley.org/organizations/enactus-acadia/</loc>
     <lastmod>2017-11-21T18:00:00-03:00</lastmod>
     <priority>0</priority>
@@ -1169,6 +1185,12 @@
   </url>
   
   <url>
+    <loc>https://refreshannapolisvalley.org/people/noah-tomkins/</loc>
+    <lastmod>2017-11-18T12:30:00-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://refreshannapolisvalley.org/topics/node.js/</loc>
     <lastmod>2016-10-11T19:00:00-03:00</lastmod>
     <priority>0</priority>
@@ -1314,6 +1336,12 @@
   <url>
     <loc>https://refreshannapolisvalley.org/people/sandy-mcfadden/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/people/sara-baxter/</loc>
+    <lastmod>2017-11-18T12:30:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://refreshannapolisvalley.org/event/digitized-reality/</loc>
+    <lastmod>2017-12-16T12:30:00-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://refreshannapolisvalley.org/event/seed-hacking-entrepreneurship-in-the-annapolis-valley/</loc>
     <lastmod>2017-11-21T18:00:00-03:00</lastmod>
   </url>
@@ -304,6 +309,11 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/person/justin-bezanson/</loc>
+    <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/person/keegan-francis/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
   </url>
   
@@ -699,6 +709,12 @@
   </url>
   
   <url>
+    <loc>https://refreshannapolisvalley.org/topics/blockchain/</loc>
+    <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://refreshannapolisvalley.org/topics/branding/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -1061,6 +1077,12 @@
   <url>
     <loc>https://refreshannapolisvalley.org/people/justin-bezanson/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/people/keegan-francis/</loc>
+    <lastmod>2017-12-16T12:30:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1479,6 +1501,12 @@
   <url>
     <loc>https://refreshannapolisvalley.org/people/vincent-grovestein/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/topics/vr/</loc>
+    <lastmod>2017-12-16T12:30:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   

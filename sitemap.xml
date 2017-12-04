@@ -594,12 +594,6 @@
   </url>
   
   <url>
-    <loc>https://refreshannapolisvalley.org/organizations/acadia/</loc>
-    <lastmod>2016-08-10T19:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://refreshannapolisvalley.org/organizations/acadia-computer-science-society/</loc>
     <lastmod>2017-11-21T18:00:00-03:00</lastmod>
     <priority>0</priority>
@@ -1273,7 +1267,7 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/organizations/</loc>
-    <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+    <lastmod>2017-11-21T18:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1558,8 +1552,14 @@
   </url>
   
   <url>
+    <loc>https://refreshannapolisvalley.org/organizations/women-in-science-and-engineering-at-acadia-university/</loc>
+    <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://refreshannapolisvalley.org/topics/women-in-tech/</loc>
-    <lastmod>2017-09-23T12:30:00-03:00</lastmod>
+    <lastmod>2017-12-17T13:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   

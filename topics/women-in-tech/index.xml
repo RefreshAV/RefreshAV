@@ -6,10 +6,20 @@
     <description>Recent content in Women In Tech on Refresh Annapolis Valley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <lastBuildDate>Sat, 23 Sep 2017 12:30:00 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 17 Dec 2017 13:00:00 -0300</lastBuildDate>
     
 	<atom:link href="https://refreshannapolisvalley.org/topics/women-in-tech/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>f5://imagination</title>
+      <link>https://refreshannapolisvalley.org/event/f5/imagination/</link>
+      <pubDate>Sun, 17 Dec 2017 13:00:00 -0300</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/f5/imagination/</guid>
+      <description>f5://imagination is a pop up exhibit focused on digital creativity. This one day temporary exhibit features work from digital artists, makers, scratchers, computer scientists, engineers and pretendgineer, hardware hackers, lego robotics warriors, indy game developers, new media innovators, VR and AR pioneers&amp;hellip; digital builders of all shapes, sizes, and credentials.
+Schedule  10 AM to 12:30 PM Screening &amp; discussion of Hidden Figures: The story of a team of female African-American mathematicians who served a vital role in NASA during the early years of the U.</description>
+    </item>
     
     <item>
       <title>National Learn to Code Day: Intro to AI and Machine Learning</title>
@@ -30,6 +40,16 @@ AI and machine learning at its core is about data - and ways to make meaning of 
       <guid>https://refreshannapolisvalley.org/event/code-debugging-the-gender-gap/</guid>
       <description>CODE: Debugging The Gender Gap exposes the dearth of female and minority software engineers and explores the reasons for this gender gap and digital divide.
 Tech jobs are growing three times faster than our colleges are producing computer science graduates. By 2019 there will be 182,000 jobs in information and communications technology that will go unfilled by homegrown Canadian talent because not enough people will have the right skills.</description>
+    </item>
+    
+    <item>
+      <title>Dr Randy Newman</title>
+      <link>https://refreshannapolisvalley.org/person/dr-randy-newman/</link>
+      <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/person/dr-randy-newman/</guid>
+      <description>Dr. Newman is a Cognitive Neuroscientist whose primary research interest is in understanding the brain mechanisms responsible for reading and speech processes using event-related potentials and eye tracking techniques. Current research is examining the impact of a word&amp;rsquo;s spelling on how quickly we recognize spoken words.
+A secondary area of interest is in understanding factors responsible for the gender gap that persists in some areas of science, notably computer science and engineering.</description>
     </item>
     
     <item>

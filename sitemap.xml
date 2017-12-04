@@ -248,6 +248,11 @@
   </url>
   
   <url>
+    <loc>https://refreshannapolisvalley.org/person/dr-randy-newman/</loc>
+    <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://refreshannapolisvalley.org/person/elizabeth-garrett/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
   </url>
@@ -589,6 +594,12 @@
   </url>
   
   <url>
+    <loc>https://refreshannapolisvalley.org/organizations/acadia/</loc>
+    <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://refreshannapolisvalley.org/organizations/acadia-computer-science-society/</loc>
     <lastmod>2017-11-21T18:00:00-03:00</lastmod>
     <priority>0</priority>
@@ -867,6 +878,12 @@
   <url>
     <loc>https://refreshannapolisvalley.org/people/dr-daniel-silver/</loc>
     <lastmod>2017-01-10T19:00:00-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/people/dr-randy-newman/</loc>
+    <lastmod>2017-12-17T13:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1256,7 +1273,7 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/organizations/</loc>
-    <lastmod>2017-11-21T18:00:00-03:00</lastmod>
+    <lastmod>2016-08-10T19:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

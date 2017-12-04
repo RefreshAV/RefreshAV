@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Acadia on Refresh Annapolis Valley</title>
+    <link>https://refreshannapolisvalley.org/organizations/acadia/</link>
+    <description>Recent content in Acadia on Refresh Annapolis Valley</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-ca</language>
+    <lastBuildDate>Wed, 10 Aug 2016 19:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://refreshannapolisvalley.org/organizations/acadia/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dr Randy Newman</title>
+      <link>https://refreshannapolisvalley.org/person/dr-randy-newman/</link>
+      <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/person/dr-randy-newman/</guid>
+      <description>Dr. Newman is a Cognitive Neuroscientist whose primary research interest is in understanding the brain mechanisms responsible for reading and speech processes using event-related potentials and eye tracking techniques. Current research is examining the impact of a word&amp;rsquo;s spelling on how quickly we recognize spoken words.
+A secondary area of interest is in understanding factors responsible for the gender gap that persists in some areas of science, notably computer science and engineering.</description>
+    </item>
+    
+  </channel>
+</rss>

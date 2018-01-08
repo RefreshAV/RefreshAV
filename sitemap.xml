@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://refreshannapolisvalley.org/event/getting-started-with-golang/</loc>
+    <lastmod>2018-01-16T18:30:00-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://refreshannapolisvalley.org/event/f5/imagination/</loc>
     <lastmod>2017-12-17T10:00:00-03:00</lastmod>
   </url>
@@ -493,6 +498,11 @@
   </url>
   
   <url>
+    <loc>https://refreshannapolisvalley.org/person/tim-cooper/</loc>
+    <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://refreshannapolisvalley.org/person/trevor-avery/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
   </url>
@@ -595,7 +605,7 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/organizations/acadia-computer-science-society/</loc>
-    <lastmod>2017-11-21T18:00:00-03:00</lastmod>
+    <lastmod>2018-01-16T18:30:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -919,7 +929,7 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/event/</loc>
-    <lastmod>2017-12-17T10:00:00-03:00</lastmod>
+    <lastmod>2018-01-16T18:30:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -980,6 +990,12 @@
   <url>
     <loc>https://refreshannapolisvalley.org/topics/gis/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/topics/golang/</loc>
+    <lastmod>2018-01-16T18:30:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1057,7 +1073,7 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/organizations/jodrey-school-of-computer-science/</loc>
-    <lastmod>2017-11-21T18:00:00-03:00</lastmod>
+    <lastmod>2018-01-16T18:30:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1267,7 +1283,7 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/organizations/</loc>
-    <lastmod>2017-11-21T18:00:00-03:00</lastmod>
+    <lastmod>2018-01-16T18:30:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1356,13 +1372,13 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/</loc>
-    <lastmod>2017-12-17T10:00:00-03:00</lastmod>
+    <lastmod>2018-01-16T18:30:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://refreshannapolisvalley.org/organizations/refresh-annapolis-valley/</loc>
-    <lastmod>2017-12-17T10:00:00-03:00</lastmod>
+    <lastmod>2018-01-16T18:30:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1458,6 +1474,12 @@
   <url>
     <loc>https://refreshannapolisvalley.org/organizations/the-hub-yarmouth/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/people/tim-cooper/</loc>
+    <lastmod>2018-01-16T18:30:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   

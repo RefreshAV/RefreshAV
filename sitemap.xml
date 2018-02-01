@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://refreshannapolisvalley.org/event/state-of-computer-science-education/</loc>
+    <lastmod>2018-02-13T19:00:00-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://refreshannapolisvalley.org/event/getting-started-with-go/</loc>
     <lastmod>2018-01-16T18:30:00-03:00</lastmod>
   </url>
@@ -671,7 +676,7 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/organizations/annapolis-valley-regional-school-board/</loc>
-    <lastmod>2017-11-21T18:00:00-03:00</lastmod>
+    <lastmod>2018-02-13T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -732,6 +737,12 @@
   <url>
     <loc>https://refreshannapolisvalley.org/topics/branding/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/organizations/brilliant-labs/</loc>
+    <lastmod>2018-02-13T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -881,19 +892,31 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/people/dr-daniel-silver/</loc>
-    <lastmod>2017-01-10T19:00:00-03:00</lastmod>
+    <lastmod>2018-02-13T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://refreshannapolisvalley.org/people/dr-randy-newman/</loc>
-    <lastmod>2017-12-17T10:00:00-03:00</lastmod>
+    <lastmod>2018-02-13T19:00:00-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/people/dr.-darcy-benoit/</loc>
+    <lastmod>2018-02-13T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://refreshannapolisvalley.org/people/duncan-ebata/</loc>
     <lastmod>2014-02-21T19:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/topics/education/</loc>
+    <lastmod>2018-02-13T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -929,7 +952,7 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/event/</loc>
-    <lastmod>2018-01-16T18:30:00-03:00</lastmod>
+    <lastmod>2018-02-13T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -978,6 +1001,12 @@
   <url>
     <loc>https://refreshannapolisvalley.org/topics/genealogy/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/people/genevieve-allen-hearn/</loc>
+    <lastmod>2018-02-13T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1068,6 +1097,12 @@
   <url>
     <loc>https://refreshannapolisvalley.org/people/jeff-wentzell/</loc>
     <lastmod>2014-02-21T19:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/organizations/jodery-school-of-computer-science-at-acadia-university/</loc>
+    <lastmod>2018-02-13T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1174,6 +1209,12 @@
   </url>
   
   <url>
+    <loc>https://refreshannapolisvalley.org/people/mark-richards/</loc>
+    <lastmod>2018-02-13T19:00:00-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://refreshannapolisvalley.org/topics/marketing/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -1211,7 +1252,7 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/people/michael-caplan/</loc>
-    <lastmod>2017-12-17T10:00:00-03:00</lastmod>
+    <lastmod>2018-02-13T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1230,6 +1271,12 @@
   <url>
     <loc>https://refreshannapolisvalley.org/topics/networking/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/people/nick-baskwill/</loc>
+    <lastmod>2018-02-13T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1372,13 +1419,13 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/</loc>
-    <lastmod>2018-01-16T18:30:00-03:00</lastmod>
+    <lastmod>2018-02-13T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://refreshannapolisvalley.org/organizations/refresh-annapolis-valley/</loc>
-    <lastmod>2017-12-17T10:00:00-03:00</lastmod>
+    <lastmod>2018-02-13T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1395,6 +1442,12 @@
   </url>
   
   <url>
+    <loc>https://refreshannapolisvalley.org/people/sarah-ryan/</loc>
+    <lastmod>2018-02-13T19:00:00-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://refreshannapolisvalley.org/organizations/scotiacom/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -1402,7 +1455,7 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/people/scott-olszowiec/</loc>
-    <lastmod>2017-09-12T19:00:00-03:00</lastmod>
+    <lastmod>2018-02-13T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1462,6 +1515,12 @@
   <url>
     <loc>https://refreshannapolisvalley.org/people/terry-weatherbee/</loc>
     <lastmod>2015-11-10T19:00:00-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/organizations/the-grapevine/</loc>
+    <lastmod>2018-02-13T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1570,6 +1629,12 @@
   <url>
     <loc>https://refreshannapolisvalley.org/people/wes-booth/</loc>
     <lastmod>2016-10-11T19:00:00-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/organizations/women-in-science-and-engeering-at-acadia-university/</loc>
+    <lastmod>2018-02-13T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   

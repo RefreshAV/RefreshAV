@@ -258,6 +258,11 @@
   </url>
   
   <url>
+    <loc>https://refreshannapolisvalley.org/person/dr-darcy-benoit/</loc>
+    <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://refreshannapolisvalley.org/person/dr-randy-newman/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
   </url>
@@ -876,6 +881,12 @@
   </url>
   
   <url>
+    <loc>https://refreshannapolisvalley.org/topics/databases/</loc>
+    <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://refreshannapolisvalley.org/people/david-duke/</loc>
     <lastmod>2015-11-10T19:00:00-03:00</lastmod>
     <priority>0</priority>
@@ -912,13 +923,13 @@
   </url>
   
   <url>
-    <loc>https://refreshannapolisvalley.org/people/dr-randy-newman/</loc>
+    <loc>https://refreshannapolisvalley.org/people/dr-darcy-benoit/</loc>
     <lastmod>2018-02-13T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://refreshannapolisvalley.org/people/dr.-darcy-benoit/</loc>
+    <loc>https://refreshannapolisvalley.org/people/dr-randy-newman/</loc>
     <lastmod>2018-02-13T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>

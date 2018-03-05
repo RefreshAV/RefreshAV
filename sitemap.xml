@@ -3,6 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://refreshannapolisvalley.org/event/refreshing-marketing/</loc>
+    <lastmod>2018-03-20T19:00:00-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/person/ashley-greene/</loc>
+    <lastmod>2018-02-20T19:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/person/duncan-ebata/</loc>
+    <lastmod>2018-02-20T19:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/person/evan-hill/</loc>
+    <lastmod>2018-02-20T19:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://refreshannapolisvalley.org/event/state-of-computer-science-education/</loc>
     <lastmod>2018-02-13T19:00:00-03:00</lastmod>
   </url>
@@ -736,6 +756,12 @@
   </url>
   
   <url>
+    <loc>https://refreshannapolisvalley.org/people/ashley-greene/</loc>
+    <lastmod>2018-03-20T19:00:00-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://refreshannapolisvalley.org/organizations/automattic/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -941,7 +967,7 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/people/duncan-ebata/</loc>
-    <lastmod>2014-02-21T19:00:00+00:00</lastmod>
+    <lastmod>2018-03-20T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -982,8 +1008,14 @@
   </url>
   
   <url>
+    <loc>https://refreshannapolisvalley.org/people/evan-hill/</loc>
+    <lastmod>2018-03-20T19:00:00-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://refreshannapolisvalley.org/event/</loc>
-    <lastmod>2018-02-13T19:00:00-03:00</lastmod>
+    <lastmod>2018-03-20T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1247,7 +1279,7 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/topics/marketing/</loc>
-    <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+    <lastmod>2018-03-20T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1385,7 +1417,7 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/person/</loc>
-    <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+    <lastmod>2018-02-20T19:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1450,7 +1482,7 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/</loc>
-    <lastmod>2018-02-13T19:00:00-03:00</lastmod>
+    <lastmod>2018-03-20T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   

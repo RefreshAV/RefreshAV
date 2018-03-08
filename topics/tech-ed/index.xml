@@ -6,10 +6,19 @@
     <description>Recent content in Tech Ed on Refresh Annapolis Valley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <lastBuildDate>Sat, 24 Jun 2017 12:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 05 Apr 2018 18:00:00 -0400</lastBuildDate>
     
 	<atom:link href="https://refreshannapolisvalley.org/topics/tech-ed/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Creative Computing Course 2018</title>
+      <link>https://refreshannapolisvalley.org/event/cc/course-2018/</link>
+      <pubDate>Thu, 05 Apr 2018 18:00:00 -0400</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/cc/course-2018/</guid>
+      <description>Creative Computing is a course developed by an international network of educators passionate about exposing kids to the computer sciences. Broken up into 7 units, this course uses the popular Scratch programming environment to aid young people (aged 8 to 13) in learning the basics of software development. Scratch is used over the world by students to easily create interactive artwork, interactive stories, and video games while acting as a stepping stone to the more advanced world of computer science.</description>
+    </item>
     
     <item>
       <title>#ScratchFest</title>
@@ -19,6 +28,15 @@
       <guid>https://refreshannapolisvalley.org/event/scratchfest/</guid>
       <description>Calling all Scratchers #ScratchFest is a weekend (June 24th and June 25th) Scratch-a-thon for kids interested in creating amazing original work with the Scratch programming environment.
 During #ScartchFest, kids will brainstorm an idea, develop their project, and showcase a final prototype. This weekend warrior event provides an excellent opportunity for Scratch coders to invent their own projects and demonstrate their knowledge in Scratch within a collaborative, creative, and playful environment.</description>
+    </item>
+    
+    <item>
+      <title>Creative Computing Course 2017</title>
+      <link>https://refreshannapolisvalley.org/event/cc/course-2017/</link>
+      <pubDate>Mon, 09 Jan 2017 18:00:00 -0400</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/cc/course-2017/</guid>
+      <description>Creative Computing is a course developed by an international network of educators passionate about exposing kids to the computer sciences. Broken up into 7 units, this course uses the popular Scratch programming environment to aid young people (aged 8 to 13) in learning the basics of software development. Scratch is used over the world by students to easily create animations and games while acting as a stepping stone to the more advanced world of computer science.</description>
     </item>
     
     <item>

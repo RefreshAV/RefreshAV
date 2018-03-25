@@ -6,10 +6,19 @@
     <description>Recent content on Refresh Annapolis Valley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <lastBuildDate>Thu, 05 Apr 2018 18:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 10 Apr 2018 19:00:00 -0300</lastBuildDate>
     
 	<atom:link href="https://refreshannapolisvalley.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Where Did All The Women Go?  Retaining Women in Computer Science</title>
+      <link>https://refreshannapolisvalley.org/event/where-did-all-the-women-go-retaining-women-in-computer-science/</link>
+      <pubDate>Tue, 10 Apr 2018 19:00:00 -0300</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/where-did-all-the-women-go-retaining-women-in-computer-science/</guid>
+      <description>Over the last 30 years, the number of women entering Computer Science university programs has dropped from 50% to around 10%. Once in the program, women have a higher drop out rate than men. And women graduating with Computer Science degrees often leave the field and pursue alternate careers. Dr Randy Newman and Cindy Trudel have been actively researching this phenomenon over that last few years. In this Refresh Annapolis Valley talk, Randy and Cindy will discuss the problem, the programs that Acadia has in place, and the needs for the future.</description>
+    </item>
     
     <item>
       <title>Creative Computing Course 2018</title>
@@ -544,6 +553,15 @@ Charlie&amp;rsquo;s profile picture was created by a robot inspired by the work 
       <guid>https://refreshannapolisvalley.org/person/chris-jordan/</guid>
       <description>Chris is a software developer with 16+ years experience with Henry Schein. Not to be pigeonholed, he&amp;rsquo;s got his hand in all sorts of things: Top tier support for an installation base spanning 2000+ customers, Brand development, Application planning and development, Database design, Documentation, Testing, Training, Training material development: web, print and video, Customer support, Installer creation, Phone system programming.
 Chris&amp;rsquo; profile pic is a mashup of a picture of his swiped from Facebook and R2D2.</description>
+    </item>
+    
+    <item>
+      <title>Cindy Trudel</title>
+      <link>https://refreshannapolisvalley.org/person/cindy-trudel/</link>
+      <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/person/cindy-trudel/</guid>
+      <description>Cindy Trudel is an Instructor in Acadia University&amp;rsquo;s Departments of Computer Science, Business and Mathematics. Her primary research interest is in developing retention programs for students who have self-selected Computer Science as an area of study.</description>
     </item>
     
     <item>

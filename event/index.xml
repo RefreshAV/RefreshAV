@@ -6,10 +6,20 @@
     <description>Recent content in Events on Refresh Annapolis Valley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <lastBuildDate>Tue, 10 Apr 2018 19:00:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 23 Jun 2018 12:00:00 -0400</lastBuildDate>
     
 	<atom:link href="https://refreshannapolisvalley.org/event/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>#ScratchFest</title>
+      <link>https://refreshannapolisvalley.org/event/scratchfest-2018/</link>
+      <pubDate>Sat, 23 Jun 2018 12:00:00 -0400</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/scratchfest-2018/</guid>
+      <description>Calling all Digital Builders #ScratchFest is a weekend (June 23th and June 24th) Build-a-thon for kids and teens interested in creating amazing original work with digital technologies, such as the Scratch programming environment, Processing, Virtual Reality, and more.
+During #ScartchFest, participants will brainstorm an idea, develop their project, and showcase a final prototype. This weekend warrior event provides an excellent opportunity for coders to invent their own projects and demonstrate their knowledge within a collaborative, creative, and playful environment.</description>
+    </item>
     
     <item>
       <title>Where Did All The Women Go?  Retaining Women in Computer Science</title>
@@ -17,7 +27,7 @@
       <pubDate>Tue, 10 Apr 2018 19:00:00 -0300</pubDate>
       
       <guid>https://refreshannapolisvalley.org/event/where-did-all-the-women-go-retaining-women-in-computer-science/</guid>
-      <description>Over the last 30 years, the number of women entering Computer Science university programs has dropped from 50% to around 10%. Once in the program, women have a higher drop out rate than men. And women graduating with Computer Science degrees often leave the field and pursue alternate careers. Dr Randy Newman and Cindy Trudel have been actively researching this phenomenon over that last few years. In this Refresh Annapolis Valley talk, Randy and Cindy will discuss the problem, the programs that Acadia has in place, and the needs for the future.</description>
+      <description>Over the last 30 years, the number of women entering Computer Science university programs has dropped from 50% to around 10%. Once in the program, women have a higher drop out rate than men. And women graduating with Computer Science degrees often leave the field and pursue alternate careers. Dr Randy Newman and Cindy Trudel have been actively researching this phenomenon over the last few years. In this Refresh Annapolis Valley talk, Randy and Cindy will discuss the problem, the programs that Acadia has in place, and the needs for the future.</description>
     </item>
     
     <item>
@@ -159,10 +169,10 @@ Bring your own laptop. A small number of laptops will be available to borrow.</d
     
     <item>
       <title>#ScratchFest</title>
-      <link>https://refreshannapolisvalley.org/event/scratchfest/</link>
+      <link>https://refreshannapolisvalley.org/event/scratchfest-2017/</link>
       <pubDate>Sat, 24 Jun 2017 12:00:00 -0400</pubDate>
       
-      <guid>https://refreshannapolisvalley.org/event/scratchfest/</guid>
+      <guid>https://refreshannapolisvalley.org/event/scratchfest-2017/</guid>
       <description>Calling all Scratchers #ScratchFest is a weekend (June 24th and June 25th) Scratch-a-thon for kids interested in creating amazing original work with the Scratch programming environment.
 During #ScartchFest, kids will brainstorm an idea, develop their project, and showcase a final prototype. This weekend warrior event provides an excellent opportunity for Scratch coders to invent their own projects and demonstrate their knowledge in Scratch within a collaborative, creative, and playful environment.</description>
     </item>

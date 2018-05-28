@@ -6,10 +6,19 @@
     <description>Recent content on Refresh Annapolis Valley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <lastBuildDate>Sat, 23 Jun 2018 12:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 30 Jul 2018 08:30:00 -0400</lastBuildDate>
     
 	<atom:link href="https://refreshannapolisvalley.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Creative Computing Camp 2018</title>
+      <link>https://refreshannapolisvalley.org/event/cc/camp-2018/</link>
+      <pubDate>Mon, 30 Jul 2018 08:30:00 -0400</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/cc/camp-2018/</guid>
+      <description>Creative Computing Camp is a week long adventure into the world of Computer Science. Using the popular Scratch programming environment to master the basics of software development, we will build interactive artwork and stories, video games, and software that interacts with the physical world. Through our exploration of the creativity of software development, we will learn about where ideas come from, and how to turn ideas into action. Campers will also connect with Computer Scientists in our community who are changing the world one algorithm at a time.</description>
+    </item>
     
     <item>
       <title>#ScratchFest</title>
@@ -327,7 +336,7 @@ In this fireside chat, come learn what drives Aristides towards the tech startup
       
       <guid>https://refreshannapolisvalley.org/event/project-management-sucks/</guid>
       <description>Project management seems to be one of those areas of necessary evil. Disconnected project managers who don&amp;rsquo;t really understand your work coupled with never ending meetings, charts, spreadsheets, forms, paperwork, complicated management software&amp;hellip; Project management can feel like it is more of a barrier than a help to team productivity.
- In this talk, Mike Caplan, a reluctant Software Development Manager, will explore a lightweight tool for overseeing the project processes.</description>
+  In this talk, Mike Caplan, a reluctant Software Development Manager, will explore a lightweight tool for overseeing the project processes.</description>
     </item>
     
     <item>

@@ -55,7 +55,7 @@ During #ScartchFest, participants will brainstorm an idea, develop their project
 
 <meta itemprop="datePublished" content="2018-03-01T19:00:00-03:00" />
 <meta itemprop="dateModified" content="2018-06-23T12:00:00-04:00" />
-<meta itemprop="wordCount" content="1088">
+<meta itemprop="wordCount" content="967">
 
   <meta itemprop="image" content="https://refreshannapolisvalley.org/images/event/scratchfest-2018/banner-medium.png">
 
@@ -387,124 +387,120 @@ During #ScartchFest, participants will brainstorm an idea, develop their project
     </div>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.min.js" integrity="sha256-GDuv15eqQpLqWvLkRnd+EvvsHLngEUnerY5BDSYfLuM=" crossorigin="anonymous"></script>
-<script
-   type="text/javascript"
-   src="https://rawgit.com/IDMNYU/p5.js-speech/master/lib/p5.speech.js"
-></script>
-
-<p><script>
-var b = []
-var myVoice = new p5.Speech();
-var isInit = 0;
-var welcome = [];</p>
-
-<p>function preload() {
-  font = loadFont(&lsquo;<a href="https://cdn.rawgit.com/google/fonts/699ce8c5/ofl/pressstart2p/PressStart2P-Regular.ttf'">https://cdn.rawgit.com/google/fonts/699ce8c5/ofl/pressstart2p/PressStart2P-Regular.ttf'</a>)
-}</p>
-
-<p>function getIP(json) {
-    welcome = [
-        &lsquo;Hello &rsquo; + json.ip + &lsquo;. Annapolis Valley computer build-a-thon. Scratch Fest.  A digital builders competition&rsquo;,
-        &lsquo;Hello &rsquo; + json.ip + &lsquo;. Come build with us.  Scratch Fest.  A digital builders competition&rsquo;,
-        &lsquo;How do you express your creativity digitally? &rsquo; + json.ip + &lsquo;?  Scratch Fest.  Come build with us&rsquo;
-    ];</p>
-
-<pre><code>isInit++;
-</code></pre>
-
-<p>}</p>
-
-<p>function setup() {
-  var header = document.querySelector(&lsquo;main article header&rsquo;);</p>
-
-<p>canvas = createCanvas(header.offsetWidth, header.offsetHeight);
-  canvas.parent(header);</p>
-
-<p>background(0)</p>
-
-<p>for (var i = 0; i &lt; 100; i++) {
-    b[i] = new T(random(width), random(height))
-  }</p>
-
-<p>isInit++;
-}</p>
-
-<p>function draw() {
-  for (var i = 0; i &lt; b.length; i++) {
-    b[i].update()
-    b[i].show()
-  }
-}</p>
-
-<p>function T(x, y) {
-  this.pos = createVector(x, y)
-  this.acc = p5.Vector.random2D()
-  this.angle = 0.01
-  this.s = 10</p>
-
-<p>this.update = function() {</p>
-
-<pre><code>this.pos.x += cos(this.angle);
-this.pos.y += sin(this.angle);
-this.angle += random(-0.2, 0.2);
-this.s += 0.1
-
-this.pos.add(this.acc)
-
-if (this.x &gt; width) this.x = 0
-if (this.x &lt; 0) this.x = width
-if (this.y &gt; height) y = 0
-if (this.y &lt; 0) y = height
-</code></pre>
-
-<p>}</p>
-
-<p>this.show = function() {
-    stroke(255)
-    fill(this.s % 255, 0, 0)
-        textFont(font);
-    textSize(this.s)
-    text(&ldquo;#ScratchFest&rdquo;, this.pos.x, this.pos.y)
-  }</p>
-
-<p>}</p>
-
-<p>var intervalId = setInterval(function(){</p>
-
-<pre><code>if (isInit &gt; 1) {
-    clearInterval(intervalId);
-    talk();
-}
-</code></pre>
-
-<p>}, 2000);</p>
-
-<p>function talk() {
-    var voices = [];</p>
-
-<pre><code>for (var i = 0; i &lt; myVoice.voices.length; i++) {
-    if (myVoice.voices[i].lang.substr(0,2) == 'en') {
-        voices.push(i);
-    }
-}
-
-myVoice.setVoice(random(voices));
-myVoice.setRate(0.7);
-myVoice.speak(random(welcome));
-</code></pre>
-
-<p>}</p>
-
-<p></script>
-<script src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
 <style>
 .card img {
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
-</style></p>
+</style>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.min.js" integrity="sha256-GDuv15eqQpLqWvLkRnd+EvvsHLngEUnerY5BDSYfLuM=" crossorigin="anonymous"></script>
+<script
+   type="text/javascript"
+   src="https://rawgit.com/IDMNYU/p5.js-speech/master/lib/p5.speech.js"
+></script>
+
+<script>
+var b = []
+var myVoice = new p5.Speech();
+var isInit = 0;
+var welcome = [];
+
+function preload() {
+  font = loadFont('https://cdn.rawgit.com/google/fonts/699ce8c5/ofl/pressstart2p/PressStart2P-Regular.ttf')
+}
+
+function getIP(json) {
+    welcome = [
+        'Hello ' + json.ip + '. Annapolis Valley computer build-a-thon. Scratch Fest.  A digital builders competition',
+        'Hello ' + json.ip + '. Come build with us.  Scratch Fest.  A digital builders competition',
+        'How do you express your creativity digitally? ' + json.ip + '?  Scratch Fest.  Come build with us'
+    ];
+    
+    isInit++;
+}
+
+function setup() {
+  var header = document.querySelector('main article header');
+  
+  canvas = createCanvas(header.offsetWidth, header.offsetHeight);
+  canvas.parent(header);
+
+  background(0)
+
+  for (var i = 0; i < 100; i++) {
+    b[i] = new T(random(width), random(height))
+  }
+  
+  isInit++;
+}
+
+function draw() {
+  for (var i = 0; i < b.length; i++) {
+    b[i].update()
+    b[i].show()
+  }
+}
+
+
+function T(x, y) {
+  this.pos = createVector(x, y)
+  this.acc = p5.Vector.random2D()
+  this.angle = 0.01
+  this.s = 10
+
+  this.update = function() {
+   
+    this.pos.x += cos(this.angle);
+    this.pos.y += sin(this.angle);
+    this.angle += random(-0.2, 0.2);
+    this.s += 0.1
+
+    this.pos.add(this.acc)
+
+    if (this.x > width) this.x = 0
+    if (this.x < 0) this.x = width
+    if (this.y > height) y = 0
+    if (this.y < 0) y = height
+  }
+
+  this.show = function() {
+    stroke(255)
+    fill(this.s % 255, 0, 0)
+        textFont(font);
+    textSize(this.s)
+    text("#ScratchFest", this.pos.x, this.pos.y)
+  }
+
+}
+
+var intervalId = setInterval(function(){
+
+    if (isInit > 1) {
+        clearInterval(intervalId);
+        talk();
+    }
+    
+}, 2000);
+
+
+function talk() {
+    var voices = [];
+    
+    for (var i = 0; i < myVoice.voices.length; i++) {
+        if (myVoice.voices[i].lang.substr(0,2) == 'en') {
+            voices.push(i);
+        }
+    }
+
+    myVoice.setVoice(random(voices));
+    myVoice.setRate(0.7);
+    myVoice.speak(random(welcome));
+}
+
+</script>
+<script src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
 
 
             

@@ -6,10 +6,20 @@
     <description>Recent content in Women in Tech on Refresh Annapolis Valley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <lastBuildDate>Tue, 10 Apr 2018 19:00:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 22 Sep 2018 12:00:00 -0300</lastBuildDate>
     
 	<atom:link href="https://refreshannapolisvalley.org/topics/women-in-tech/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>National Learn to Code Day: Build a Browser Extension!</title>
+      <link>https://refreshannapolisvalley.org/event/national-learn-to-code-day-browser-extensions/</link>
+      <pubDate>Sat, 22 Sep 2018 12:00:00 -0300</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/national-learn-to-code-day-browser-extensions/</guid>
+      <description>Join thousands of Canadians coast to coast to coast taking their first steps learning about Computer Science.
+At this &amp;ldquo;Women Learning Code&amp;rdquo; event, we will learn how to build web browser extensions with JavaScript. Browser extensions extend your web browser with additional features, modify web pages, and integrate your browser with the other services you use. Extensions can help customize our browsing experience or increase productivity by reducing repetitive tasks.</description>
+    </item>
     
     <item>
       <title>Where Did All The Women Go?  Retaining Women in Computer Science</title>

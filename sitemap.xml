@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://refreshannapolisvalley.org/event/succeeding-at-failing/</loc>
+    <lastmod>2018-10-16T19:00:00-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://refreshannapolisvalley.org/event/national-learn-to-code-day-browser-extensions/</loc>
     <lastmod>2018-09-22T12:00:00-03:00</lastmod>
   </url>
@@ -109,6 +114,11 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/person/evan-hill/</loc>
+    <lastmod>2018-02-20T19:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/person/katelyn-bourgoin/</loc>
     <lastmod>2018-02-20T19:00:00+00:00</lastmod>
   </url>
   
@@ -263,6 +273,11 @@
   </url>
   
   <url>
+    <loc>https://refreshannapolisvalley.org/organization/young-business-leaders/</loc>
+    <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://refreshannapolisvalley.org/organization/acadia-computer-science-society/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
   </url>
@@ -299,6 +314,11 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/person/andrew-button/</loc>
+    <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/organization/annapolis-valley-chamber-of-commerce/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
   </url>
   
@@ -761,7 +781,7 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/organizations/acadia-entrepreneurship-centre/</loc>
-    <lastmod>2017-11-21T18:00:00-03:00</lastmod>
+    <lastmod>2018-10-16T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -816,6 +836,12 @@
   <url>
     <loc>https://refreshannapolisvalley.org/people/andrew-button/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/organizations/annapolis-valley-chamber-of-commerce/</loc>
+    <lastmod>2018-10-16T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1055,7 +1081,7 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/organizations/digital-nova-scotia/</loc>
-    <lastmod>2017-11-21T18:00:00-03:00</lastmod>
+    <lastmod>2018-10-16T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1109,13 +1135,13 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/organizations/enactus-acadia/</loc>
-    <lastmod>2017-11-21T18:00:00-03:00</lastmod>
+    <lastmod>2018-10-16T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://refreshannapolisvalley.org/topics/entrepreneurship/</loc>
-    <lastmod>2017-11-21T18:00:00-03:00</lastmod>
+    <lastmod>2018-10-16T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1127,7 +1153,7 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/event/</loc>
-    <lastmod>2018-09-22T12:00:00-03:00</lastmod>
+    <lastmod>2018-10-16T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1314,6 +1340,12 @@
   <url>
     <loc>https://refreshannapolisvalley.org/people/justin-bezanson/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/people/katelyn-bourgoin/</loc>
+    <lastmod>2018-10-16T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1600,13 +1632,13 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/</loc>
-    <lastmod>2018-09-22T12:00:00-03:00</lastmod>
+    <lastmod>2018-10-16T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://refreshannapolisvalley.org/organizations/refresh-annapolis-valley/</loc>
-    <lastmod>2018-09-11T19:00:00-03:00</lastmod>
+    <lastmod>2018-10-16T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1834,6 +1866,12 @@
   <url>
     <loc>https://refreshannapolisvalley.org/topics/wordpress/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/organizations/young-business-leaders/</loc>
+    <lastmod>2018-10-16T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   

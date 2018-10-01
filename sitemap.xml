@@ -648,6 +648,11 @@
   </url>
   
   <url>
+    <loc>https://refreshannapolisvalley.org/organization/spark-west-network/</loc>
+    <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://refreshannapolisvalley.org/person/terry-wetherbee/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
   </url>
@@ -1693,6 +1698,12 @@
   <url>
     <loc>https://refreshannapolisvalley.org/topics/software/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/organizations/spark-west-network/</loc>
+    <lastmod>2018-10-16T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   

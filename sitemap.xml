@@ -1670,6 +1670,11 @@
   </url>
   
   <url>
+    <loc>https://refreshannapolisvalley.org/post/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://refreshannapolisvalley.org/organizations/precisionhawk/</loc>
     <lastmod>2016-12-13T19:00:00-03:00</lastmod>
     <priority>0</priority>
@@ -1732,6 +1737,10 @@
     <loc>https://refreshannapolisvalley.org/organizations/refresh-annapolis-valley/</loc>
     <lastmod>2018-12-08T12:30:00-03:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/post/refreshing-youth-recognized/</loc>
   </url>
   
   <url>

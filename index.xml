@@ -6,10 +6,20 @@
     <description>Recent content on Refresh Annapolis Valley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <lastBuildDate>Fri, 05 Apr 2019 16:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 06 Apr 2019 12:00:00 -0400</lastBuildDate>
     
 	<atom:link href="https://refreshannapolisvalley.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>#ScratchFest</title>
+      <link>https://refreshannapolisvalley.org/event/scratchfest-2019/</link>
+      <pubDate>Sat, 06 Apr 2019 12:00:00 -0400</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/scratchfest-2019/</guid>
+      <description>Calling all Digital Builders #ScratchFest is a weekend (April 6th and April 7th) Build-a-thon for kids and teens interested in creating amazing original work with digital technologies, such as the Scratch programming environment, Processing, Virtual Reality, and more.
+During #ScartchFest, participants will brainstorm an idea, develop their project, and showcase a final prototype. This weekend warrior event provides an excellent opportunity for coders to invent their own projects and demonstrate their knowledge within a collaborative, creative, and playful environment.</description>
+    </item>
     
     <item>
       <title>Retro Game Fest</title>

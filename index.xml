@@ -6,10 +6,30 @@
     <description>Recent content on Refresh Annapolis Valley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <lastBuildDate>Sat, 06 Apr 2019 12:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 04 May 2019 12:30:00 -0400</lastBuildDate>
     
 	<atom:link href="https://refreshannapolisvalley.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Programming Hardware with Python</title>
+      <link>https://refreshannapolisvalley.org/event/programming-hardware-with-python/</link>
+      <pubDate>Sat, 04 May 2019 12:30:00 -0400</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/programming-hardware-with-python/</guid>
+      <description>Have you ever wanted to know how to make code interact with the real world? In this introductory workshop to Python programming, you’ll learn the vital stepping stones to controlling hardware using the Circuit Playground microcontroller (microcomputer) with one of the most robust, versatile, and popular programming languages.
+What is a Circuit Playground? The Circuit Playground is a microcontroller, or a tiny computer. This computer can easily be programmed to interact with hardware that you connect to it.</description>
+    </item>
+    
+    <item>
+      <title>Alexander Petkov</title>
+      <link>https://refreshannapolisvalley.org/person/alexander-petkov/</link>
+      <pubDate>Sun, 21 Apr 2019 19:00:00 +0000</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/person/alexander-petkov/</guid>
+      <description>Alexander Petkov is a high school student who attends Horton High School and is one of the co-founders of Spark West Network, a non-profit organization that aims to pull together the diverse organizations, events, and opportunities present in the Annapolis Valley. He is also the Chief Marketing Officer for Refresh Annapolis Valley.
+Upon meeting Alex, many people describe him as robotic because they say he looks and acts very serious. This is far from the truth.</description>
+    </item>
     
     <item>
       <title>#ScratchFest</title>

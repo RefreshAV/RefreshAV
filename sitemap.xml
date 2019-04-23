@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://refreshannapolisvalley.org/event/programming-hardware-with-python/</loc>
+    <lastmod>2019-05-04T12:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/person/alexander-petkov/</loc>
+    <lastmod>2019-04-21T19:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://refreshannapolisvalley.org/event/scratchfest-2019/</loc>
     <lastmod>2019-04-06T12:00:00-04:00</lastmod>
   </url>
@@ -992,6 +1002,12 @@
   </url>
   
   <url>
+    <loc>https://refreshannapolisvalley.org/people/alexander-petkov/</loc>
+    <lastmod>2019-05-04T12:30:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://refreshannapolisvalley.org/people/andrew-button/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -1335,7 +1351,7 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/event/</loc>
-    <lastmod>2019-04-06T12:00:00-04:00</lastmod>
+    <lastmod>2019-05-04T12:30:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1431,7 +1447,7 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/topics/hardware-hacking/</loc>
-    <lastmod>2018-06-16T12:30:00-03:00</lastmod>
+    <lastmod>2019-05-04T12:30:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1677,7 +1693,7 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/people/max-caplan/</loc>
-    <lastmod>2018-12-11T19:00:00-03:00</lastmod>
+    <lastmod>2019-05-04T12:30:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1815,7 +1831,7 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/person/</loc>
-    <lastmod>2018-02-20T19:00:00+00:00</lastmod>
+    <lastmod>2019-04-21T19:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1892,7 +1908,7 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/</loc>
-    <lastmod>2019-04-06T12:00:00-04:00</lastmod>
+    <lastmod>2019-05-04T12:30:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1993,7 +2009,7 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/topics/tech-ed/</loc>
-    <lastmod>2019-04-06T12:00:00-04:00</lastmod>
+    <lastmod>2019-05-04T12:30:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   

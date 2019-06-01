@@ -13,6 +13,11 @@
   </url>
   
   <url>
+    <loc>https://refreshannapolisvalley.org/event/state-of-our-digital-nation/</loc>
+    <lastmod>2019-06-11T19:00:00-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://refreshannapolisvalley.org/event/innovating-on-the-internet/</loc>
     <lastmod>2019-05-14T19:00:00-03:00</lastmod>
   </url>
@@ -448,6 +453,11 @@
   </url>
   
   <url>
+    <loc>https://refreshannapolisvalley.org/organization/annapolis-cider-company/</loc>
+    <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://refreshannapolisvalley.org/organization/annapolis-valley-chamber-of-commerce/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
   </url>
@@ -839,6 +849,11 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/person/trevor-avery/</loc>
+    <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/person/tyler-farmer/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
   </url>
   
@@ -1288,7 +1303,7 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/organizations/digital-nova-scotia/</loc>
-    <lastmod>2018-10-16T19:00:00-03:00</lastmod>
+    <lastmod>2019-06-11T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1319,6 +1334,12 @@
   <url>
     <loc>https://refreshannapolisvalley.org/people/duncan-ebata/</loc>
     <lastmod>2018-03-20T19:00:00-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/topics/economy/</loc>
+    <lastmod>2019-06-11T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1354,7 +1375,7 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/topics/entrepreneurship/</loc>
-    <lastmod>2019-05-14T19:00:00-03:00</lastmod>
+    <lastmod>2019-06-11T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1935,7 +1956,7 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/organizations/refresh-annapolis-valley/</loc>
-    <lastmod>2019-05-14T19:00:00-03:00</lastmod>
+    <lastmod>2019-06-11T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2079,6 +2100,12 @@
   <url>
     <loc>https://refreshannapolisvalley.org/people/trevor-avery/</loc>
     <lastmod>2016-11-08T19:00:00-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/people/tyler-farmer/</loc>
+    <lastmod>2019-06-11T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   

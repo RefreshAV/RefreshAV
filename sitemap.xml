@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://refreshannapolisvalley.org/event/national-learn-to-code-day-intro-to-user-experience-design/</loc>
+    <lastmod>2019-09-21T10:00:00-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://refreshannapolisvalley.org/event/hoist/camp-2019/</loc>
     <lastmod>2019-08-12T08:30:00-04:00</lastmod>
   </url>
@@ -158,7 +163,7 @@
   </url>
   
   <url>
-    <loc>https://refreshannapolisvalley.org/event/using-dna-to-reverse-enginee--your-family-tree/</loc>
+    <loc>https://refreshannapolisvalley.org/event/using-dna-to-reverse-enginee-your-family-tree/</loc>
     <lastmod>2018-06-12T19:00:00-03:00</lastmod>
   </url>
   
@@ -638,7 +643,7 @@
   </url>
   
   <url>
-    <loc>https://refreshannapolisvalley.org/organization/kerr--nadeau/</loc>
+    <loc>https://refreshannapolisvalley.org/organization/kerr-nadeau/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
   </url>
   
@@ -743,7 +748,7 @@
   </url>
   
   <url>
-    <loc>https://refreshannapolisvalley.org/organization/office-of-industry--community-engagement---acadia-university/</loc>
+    <loc>https://refreshannapolisvalley.org/organization/office-of-industry-community-engagement-acadia-university/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
   </url>
   
@@ -1387,7 +1392,7 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/event/</loc>
-    <lastmod>2019-08-12T08:30:00-04:00</lastmod>
+    <lastmod>2019-09-21T10:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1626,7 +1631,7 @@
   </url>
   
   <url>
-    <loc>https://refreshannapolisvalley.org/organizations/kerr--nadeau/</loc>
+    <loc>https://refreshannapolisvalley.org/organizations/kerr-nadeau/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1830,7 +1835,7 @@
   </url>
   
   <url>
-    <loc>https://refreshannapolisvalley.org/organizations/office-of-industry--community-engagement---acadia-university/</loc>
+    <loc>https://refreshannapolisvalley.org/organizations/office-of-industry-community-engagement-acadia-university/</loc>
     <lastmod>2017-11-21T18:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1868,12 +1873,6 @@
   <url>
     <loc>https://refreshannapolisvalley.org/people/</loc>
     <lastmod>2014-02-21T19:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://refreshannapolisvalley.org/person/</loc>
-    <lastmod>2019-04-21T19:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1950,7 +1949,7 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/</loc>
-    <lastmod>2019-08-12T08:30:00-04:00</lastmod>
+    <lastmod>2019-09-21T10:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2010,7 +2009,7 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/topics/software/</loc>
-    <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+    <lastmod>2019-09-21T10:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2189,7 +2188,7 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/topics/women-in-tech/</loc>
-    <lastmod>2019-03-26T19:00:00-03:00</lastmod>
+    <lastmod>2019-09-21T10:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2202,6 +2201,12 @@
   <url>
     <loc>https://refreshannapolisvalley.org/organizations/young-business-leaders/</loc>
     <lastmod>2018-10-16T19:00:00-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/person/</loc>
+    <lastmod>2019-04-21T19:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

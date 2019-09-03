@@ -6,10 +6,21 @@
     <description>Recent content in Events on Refresh Annapolis Valley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <lastBuildDate>Mon, 12 Aug 2019 08:30:00 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 21 Sep 2019 10:00:00 -0300</lastBuildDate>
     
 	<atom:link href="https://refreshannapolisvalley.org/event/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>National Ladies Learning Code Day: Intro to User Experience (UX) Design</title>
+      <link>https://refreshannapolisvalley.org/event/national-learn-to-code-day-intro-to-user-experience-design/</link>
+      <pubDate>Sat, 21 Sep 2019 10:00:00 -0300</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/national-learn-to-code-day-intro-to-user-experience-design/</guid>
+      <description>Join thousands of Canadians coast to coast to coast taking their first steps learning about application development.
+With great design comes great responsibility. User experience (UX) design isn’t just about creating pretty or functioning websites - it’s about creative solutioning and trying to make people&amp;rsquo;s lives and experiences better.
+As application designers, we need to remember that we aren&amp;rsquo;t designing products for ourselves, but for other people. Being a UX designer allows you to work with and problem solve for a variety of different people, and empathy plays a huge part in this.</description>
+    </item>
     
     <item>
       <title>BUILD: Computer Science Camp for Girls</title>
@@ -268,10 +279,10 @@ Please register in advance so we know how much pizza to order.</description>
     
     <item>
       <title>Using DNA to Reverse-Engineer Your Family Tree</title>
-      <link>https://refreshannapolisvalley.org/event/using-dna-to-reverse-enginee--your-family-tree/</link>
+      <link>https://refreshannapolisvalley.org/event/using-dna-to-reverse-enginee-your-family-tree/</link>
       <pubDate>Tue, 12 Jun 2018 19:00:00 -0300</pubDate>
       
-      <guid>https://refreshannapolisvalley.org/event/using-dna-to-reverse-enginee--your-family-tree/</guid>
+      <guid>https://refreshannapolisvalley.org/event/using-dna-to-reverse-enginee-your-family-tree/</guid>
       <description>Recent advances in consumer genetics have enabled genealogists to solve mysteries in their family tree. Adoptees are finding their biological families by sharing the results of DNA tests with Websites that match millions of individuals.
 Progeny Genealogy&amp;rsquo;s Charting Companion software displays the relationship distance of family members, as a number in an easy to understand chart. CC can also empirically find an adoptee&amp;rsquo;s family with an algorithm that simulates placement and compares theoretical to laboratory DNA results.</description>
     </item>

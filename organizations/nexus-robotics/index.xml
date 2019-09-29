@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nexus Robotics on Refresh Annapolis Valley</title>
+    <link>https://refreshannapolisvalley.org/organizations/nexus-robotics/</link>
+    <description>Recent content in Nexus Robotics on Refresh Annapolis Valley</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-ca</language>
+    <lastBuildDate>Wed, 09 Oct 2019 19:00:00 -0300</lastBuildDate>
+    
+	<atom:link href="https://refreshannapolisvalley.org/organizations/nexus-robotics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Startup Life: Meet R2-Weed2</title>
+      <link>https://refreshannapolisvalley.org/event/the-startup-life-r2-weed2/</link>
+      <pubDate>Wed, 09 Oct 2019 19:00:00 -0300</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/the-startup-life-r2-weed2/</guid>
+      <description>Technology-driven agricultural experimentation. Iterative product testing. Validated machine learning. Pivot. Pivot. Pivot. Welcome to the ag-tech startup world of Teric Greenan and Nexus Robotics  .
+With Nexus Robotics  , Teric is applying Artificial Intelligence to building a reliable and cost-effective way to produce crops. Their autonomous robot R2-Weed2 is capable of cutting and spraying weeds, fertilizing crops, and collect data about growing conditions. Teric will talk about his team&amp;rsquo;s start up journey, and the amazing technological innovations they are applying to revolutionize agriculture as we know it.</description>
+    </item>
+    
+    <item>
+      <title>Teric Greenan</title>
+      <link>https://refreshannapolisvalley.org/person/teric-greenan/</link>
+      <pubDate>Sat, 10 Aug 2019 19:00:00 +0000</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/person/teric-greenan/</guid>
+      <description>Teric is the CEO of Nexus Robotics. At Nexus, Teric is working with a team of engineers to automate the weeding of common agricultural crops. Taric grows vegetables on a farm in Lunenburg County in addition to his work with Nexus.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,10 +6,20 @@
     <description>Recent content on Refresh Annapolis Valley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <lastBuildDate>Sat, 21 Sep 2019 10:00:00 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 09 Oct 2019 19:00:00 -0300</lastBuildDate>
     
 	<atom:link href="https://refreshannapolisvalley.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The Startup Life: Meet R2-Weed2</title>
+      <link>https://refreshannapolisvalley.org/event/the-startup-life-r2-weed2/</link>
+      <pubDate>Wed, 09 Oct 2019 19:00:00 -0300</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/the-startup-life-r2-weed2/</guid>
+      <description>Technology-driven agricultural experimentation. Iterative product testing. Validated machine learning. Pivot. Pivot. Pivot. Welcome to the ag-tech startup world of Teric Greenan and Nexus Robotics  .
+With Nexus Robotics  , Teric is applying Artificial Intelligence to building a reliable and cost-effective way to produce crops. Their autonomous robot R2-Weed2 is capable of cutting and spraying weeds, fertilizing crops, and collect data about growing conditions. Teric will talk about his team&amp;rsquo;s start up journey, and the amazing technological innovations they are applying to revolutionize agriculture as we know it.</description>
+    </item>
     
     <item>
       <title>National Ladies Learning Code Day: Intro to UX Design</title>
@@ -29,6 +39,15 @@ As application designers, we need to remember that we aren&amp;rsquo;t designing
       
       <guid>https://refreshannapolisvalley.org/event/hoist/camp-2019/</guid>
       <description>BUILD is a week long dive into the world of Computer Science for girls 11 to 14. We will explore the basics of software development while building interactive artwork and literature, video games, and software that interacts with the physical world. Through our exploration we will also journey through use of hardware, refine our ideation skills and turn our ideas into software. Campers will also connect with Computer Scientists in our community who are changing the world one algorithm at a time.</description>
+    </item>
+    
+    <item>
+      <title>Teric Greenan</title>
+      <link>https://refreshannapolisvalley.org/person/teric-greenan/</link>
+      <pubDate>Sat, 10 Aug 2019 19:00:00 +0000</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/person/teric-greenan/</guid>
+      <description>Teric is the CEO of Nexus Robotics. At Nexus, Teric is working with a team of engineers to automate the weeding of common agricultural crops. Taric grows vegetables on a farm in Lunenburg County in addition to his work with Nexus.</description>
     </item>
     
     <item>
@@ -1227,6 +1246,16 @@ I see my role, primarily, as that of a possibilitist. I listen closely to your i
     </item>
     
     <item>
+      <title>Jeremy Lutes</title>
+      <link>https://refreshannapolisvalley.org/person/jeremy-lutes/</link>
+      <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/person/jeremy-lutes/</guid>
+      <description>Jeremy Lutes is a Partner at Equilibrium Engineering. Jeremy has been successfully managing and operating businesses since 1998. Previous to Equilibrium, Jeremy was the Business Analyst for Internetworking Atlantic (IAI), a private Halifax based telecommunications company.
+From a volunteer perspective, Jeremy was previously on the Board of Directors of the Halifax Pop Explosion for twelve years, and the Music Nova Scotia Board of Directors for three years. These positions illustrate a long-standing passion for the arts.</description>
+    </item>
+    
+    <item>
       <title>Jodrey School of Computer Science</title>
       <link>https://refreshannapolisvalley.org/organization/jodrey-school-of-computer-science-at-acadia-university/</link>
       <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
@@ -1447,6 +1476,15 @@ Mike is the Software Development Manager for the Labnet Dental Lab Systems  divi
       <guid>https://refreshannapolisvalley.org/person/mrugakshee-palwe/</guid>
       <description>My name is Mrugakshee Palwe. I started investing my time in understanding the blockchain technology in mid-2018.
  Graduated with a degree in computer science in spring 2018 Received a scholarship for Consensys academy’s 2018 Developer Bootcamp in October 2018. Certificate of Proficiency from Ethereum Blockchain Developer Bootcamp - Feb 2019 Forked and customized the Bitshares, Graphene, and Peerplays blockchains Co-founded Atlantic Blockchain Company Inc. in November 2018  </description>
+    </item>
+    
+    <item>
+      <title>Nexus Robotics</title>
+      <link>https://refreshannapolisvalley.org/organization/nexus-robotics/</link>
+      <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/organization/nexus-robotics/</guid>
+      <description>Nexus Robotics is a Nova Scotian technology startup, developing autonomous robotic solutions for Agriculture using machine learning. Nexus provides farmers with a reliable and cost-effective way to produce crops. The Nexus Robotics team created an autonomous machine called R2-Weed2, which uses a camera system to differentiate between weeds and crops. The machine will be capable of cutting and spraying weeds, as well as able to fertilize crops and collect data about the crop and growing conditions.</description>
     </item>
     
     <item>

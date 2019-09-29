@@ -6,10 +6,19 @@
     <description>Recent content in Computer Science on Refresh Annapolis Valley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <lastBuildDate>Sun, 11 Sep 2016 19:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Aug 2019 19:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://refreshannapolisvalley.org/topics/computer-science/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Teric Greenan</title>
+      <link>https://refreshannapolisvalley.org/person/teric-greenan/</link>
+      <pubDate>Sat, 10 Aug 2019 19:00:00 +0000</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/person/teric-greenan/</guid>
+      <description>Teric is the CEO of Nexus Robotics. At Nexus, Teric is working with a team of engineers to automate the weeding of common agricultural crops. Taric grows vegetables on a farm in Lunenburg County in addition to his work with Nexus.</description>
+    </item>
     
     <item>
       <title>Creative Computing</title>
@@ -84,6 +93,15 @@ Pictured above are 2 of the 6 women who where the first and primary programmers 
       <guid>https://refreshannapolisvalley.org/organization/jodrey-school-of-computer-science-at-acadia-university/</guid>
       <description>The Jodrey School of Computer Science prepares students for today&amp;rsquo;s ever changing world of technology in a unique, fully mobile computing environment. Students develop a thorough understanding of computer systems software, modern software design methods and computer systems software.
 Students in all degree programs complete a self-directed project during the course of their studies. This provides students with the opportunity to work closely with professors and to apply knowledge acquired through experiment and real-life application.</description>
+    </item>
+    
+    <item>
+      <title>Nexus Robotics</title>
+      <link>https://refreshannapolisvalley.org/organization/nexus-robotics/</link>
+      <pubDate>Wed, 10 Aug 2016 19:00:00 +0000</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/organization/nexus-robotics/</guid>
+      <description>Nexus Robotics is a Nova Scotian technology startup, developing autonomous robotic solutions for Agriculture using machine learning. Nexus provides farmers with a reliable and cost-effective way to produce crops. The Nexus Robotics team created an autonomous machine called R2-Weed2, which uses a camera system to differentiate between weeds and crops. The machine will be capable of cutting and spraying weeds, as well as able to fertilize crops and collect data about the crop and growing conditions.</description>
     </item>
     
   </channel>

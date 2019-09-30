@@ -6,10 +6,20 @@
     <description>Recent content in Alexander Petkov on Refresh Annapolis Valley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <lastBuildDate>Sat, 04 May 2019 12:30:00 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 20 Sep 2019 12:30:00 -0400</lastBuildDate>
     
 	<atom:link href="https://refreshannapolisvalley.org/people/alexander-petkov/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>micro:bit Mini Crane</title>
+      <link>https://refreshannapolisvalley.org/event/creating-mini-crane-with-the-microbit/</link>
+      <pubDate>Fri, 20 Sep 2019 12:30:00 -0400</pubDate>
+      
+      <guid>https://refreshannapolisvalley.org/event/creating-mini-crane-with-the-microbit/</guid>
+      <description>Are you interested in robotics or do you enjoy messing around with electronics? In this workshop, you&amp;rsquo;ll assemble both the hardware and software needed to create a miniature crane controlled by the micro:bit microcontroller.
+What is a micro:bit? The micro:bit is a small, compact computer based on a 43 mm × 52 mm circuit board. The board is easy to program and has several cool hardware features such as a processor, radio and Bluetooth antenna, 25 LED lights, two buttons, a compass, an accelerometer, and, the best feature, an edge connector used to power a wide variety of external hardware.</description>
+    </item>
     
     <item>
       <title>Programming Hardware with Python</title>

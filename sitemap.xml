@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://refreshannapolisvalley.org/event/the-startup-life-influencing-markets/</loc>
+    <lastmod>2019-10-11T19:00:00-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://refreshannapolisvalley.org/event/the-startup-life-r2-weed2/</loc>
     <lastmod>2019-10-09T19:00:00-03:00</lastmod>
   </url>
@@ -1151,6 +1156,12 @@
   </url>
   
   <url>
+    <loc>https://refreshannapolisvalley.org/people/avery-schrader/</loc>
+    <lastmod>2019-10-11T19:00:00-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://refreshannapolisvalley.org/people/barry-gander/</loc>
     <lastmod>2017-10-10T19:00:00-03:00</lastmod>
     <priority>0</priority>
@@ -1410,7 +1421,7 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/topics/entrepreneurship/</loc>
-    <lastmod>2019-10-09T19:00:00-03:00</lastmod>
+    <lastmod>2019-10-11T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1422,7 +1433,7 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/event/</loc>
-    <lastmod>2019-10-09T19:00:00-03:00</lastmod>
+    <lastmod>2019-10-11T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1752,7 +1763,7 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/topics/marketing/</loc>
-    <lastmod>2018-03-20T19:00:00-03:00</lastmod>
+    <lastmod>2019-10-11T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1819,6 +1830,12 @@
   <url>
     <loc>https://refreshannapolisvalley.org/topics/mobile/</loc>
     <lastmod>2016-08-10T19:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/organizations/modash/</loc>
+    <lastmod>2019-10-11T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2003,7 +2020,7 @@
   
   <url>
     <loc>https://refreshannapolisvalley.org/</loc>
-    <lastmod>2019-10-09T19:00:00-03:00</lastmod>
+    <lastmod>2019-10-11T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2070,6 +2087,12 @@
   <url>
     <loc>https://refreshannapolisvalley.org/organizations/spark-west-network/</loc>
     <lastmod>2018-10-16T19:00:00-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refreshannapolisvalley.org/topics/startup-ecosystem/</loc>
+    <lastmod>2019-10-11T19:00:00-03:00</lastmod>
     <priority>0</priority>
   </url>
   
